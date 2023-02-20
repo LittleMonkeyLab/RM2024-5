@@ -1,0 +1,267 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={DAPR1},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{DAPR1}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{2022/23}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, sharp corners, enhanced, breakable, interior hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+
+\hypertarget{course-materials}{%
+\section{Course materials}\label{course-materials}}
+
+\emph{Please note: materials are added incrementally as this course
+progresses through the year.}
+
+\hypertarget{semester-1}{%
+\subsection{Semester 1}\label{semester-1}}
+
+\begin{verbatim}
+-- Attaching packages --------------------------------------- tidyverse 1.3.2 --
+v ggplot2 3.4.1     v purrr   1.0.1
+v tibble  3.1.8     v dplyr   1.1.0
+v tidyr   1.3.0     v stringr 1.5.0
+v readr   2.1.4     v forcats 1.0.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+Attaching package: 'kableExtra'
+
+
+The following object is masked from 'package:dplyr':
+
+    group_rows
+\end{verbatim}
+
+\begin{table}
+\centering
+\begin{tabular}[t]{l|l|l|l|l}
+\hline
+Week & Topic & Lecture slides & Lab materials & Readings\\
+\hline
+Sem. 1: Welcome Week & Course introduction & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapr1\_welcome\_week.pdf) &  & \\
+\hline
+Sem. 1: Week 1 & Research Design \& Data & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapR1\_lec1\_ResearchDesign-Data.html\#1) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/1\_01\_design\_and\_data.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd1\_01.html)\\
+\hline
+Sem. 1: Week 2 & Describing Categorical Data & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapR1\_lec2\_DescribingCategoricalData.html\#1) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/1\_02\_categorical\_data.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd1\_02.html)\\
+\hline
+Sem. 1: Week 3 & Describing Continuous Data & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapR1\_lec3\_DescribingContData.html\#1) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/1\_03\_numeric\_data.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd1\_03.html)\\
+\hline
+Sem. 1: Week 4 & Describing Relationships & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapR1\_lec4\_DescribingRelationships.html\#1) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/1\_04\_relationships.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd1\_04.html)\\
+\hline
+Sem. 1: Week 5 & Functions & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapR1\_lec5\_Functions.html\#1) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/1\_05\_formative\_report\_a.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd1\_05.html)\\
+\hline
+Sem. 1: Week 6 & Formative feedback week (A) &  &  & \\
+\hline
+Sem. 1: Week 7 & Probability Theory & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapR1\_lec6\_IntroProbability.html\#1) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/1\_07\_prob\_theory.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd1\_07.html)\\
+\hline
+Sem. 1: Week 8 & Probability Rules & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapR1\_lec7\_ProbabilityRules.html\#1) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/1\_08\_prob\_rules.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd1\_08.html)\\
+\hline
+Sem. 1: Week 9 & Random Variables (Discrete) & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapR1\_lec8\_DiscreteProbabilityDist.html\#1) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/1\_09\_discrete\_dist.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd1\_09.html)\\
+\hline
+Sem. 1: Week 10 & Random Variables (Continuous) & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapR1\_lec9\_ContinuousProbabilityDist.html\#1) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/1\_10\_cont\_dist.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd1\_10.html)\\
+\hline
+Sem. 1: Week 11 & Sampling & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapR1\_lec10\_Samples-SamplingDist.html\#1) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/1\_11\_sampling.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd1\_11.html)\\
+\hline
+Sem. 1: Week 12 & Formative feedback week (B) &  &  & \\
+\hline
+\end{tabular}
+\end{table}
+
+\hypertarget{semester-2}{%
+\subsection{Semester 2}\label{semester-2}}
+
+\begin{table}
+\centering
+\begin{tabular}[t]{l|l|l|l|l}
+\hline
+Week & Topic & Lecture slides & Lab materials & Readings\\
+\hline
+Sem. 2: Week 1 & Confidence intervals & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapr1\_2\_01\_confint\_2223.pdf) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/2\_01\_confint.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd2\_01.html)\\
+\hline
+Sem. 2: Week 2 & Hypothesis testing: p-values & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapr1\_2\_02\_ht\_pvalues.pdf) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/2\_02\_ht\_pvalues.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd2\_02.html)\\
+\hline
+Sem. 2: Week 3 & Hypothesis testing: critical values & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapr1\_2\_03\_ht\_critvalues.pdf) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/2\_03\_ht\_critvalues.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd2\_03.html)\\
+\hline
+Sem. 2: Week 4 & Connecting Hypothesis testing and confidence intervals & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapr1\_2\_04\_htci.pdf) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/2\_04\_htci.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd2\_04.html)\\
+\hline
+Sem. 2: Week 5 & Errors, Power, Effect size, and Assumptions & [Slides](https://uoepsy.github.io/dapr1/2223/lectures/dapr1\_2\_05\_errorspower.pdf) & [Lab](https://uoepsy.github.io/dapr1/2223/labs/2\_05\_hterrorspower.html) & [Reading](https://uoepsy.github.io/dapr1/2223/labs/rd2\_05.html)\\
+\hline
+Sem. 2: Week FLW & Formative feedback week (C) &  &  & \\
+\hline
+\end{tabular}
+\end{table}
+
+\hypertarget{course-description}{%
+\section{Course description}\label{course-description}}
+
+Data Analysis for Psychology in R 1 (DAPR1) is a course
+
+
+
+\end{document}
