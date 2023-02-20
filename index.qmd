@@ -39,15 +39,15 @@ Psychology graduates are highly sought after by employers due to their ability t
 
 ## General Information
 
-Intended Learning Outcomes
-
-Create reproducible data analysis scripts and reports within the R statistical programming environment.
+Intended Learning OutcCreate reproducible data analysis scripts and reports within the R statistical programming environment.
 
 QAA Benchmarks
 
 Subject Knowledge and Understanding
 
-6.3.4 demonstrate detailed knowledge of several specialised areas and/or applications, some of which are at the cutting edge of research in the discipline 6.3.5 demonstrate a systematic knowledge of a range of research paradigms, research methods and measurement techniques, including statistics and probability, and be aware of their limitations.
+6.3.4 demonstrate detailed knowledge of several specialised areas and/or applications, some of which are at the cutting edge of research in the discipline
+
+6.3.5 demonstrate a systematic knowledge of a range of research paradigms, research methods and measurement techniques, including statistics and probability, and be aware of their limitations.
 
 Subject-specific skills
 
