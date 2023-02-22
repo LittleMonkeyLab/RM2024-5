@@ -1,12 +1,205 @@
 ---
-title: "RM2024-5"
+title: "Proposal for Psychology Department Research Methods 2024-5"
+# df-print: kable
+bibliography: "references 2.bib"
 ---
 
-## Quarto
+\raggedright
 
-Quarto enables you to weave together content and executable code into a
-finished document. To learn more about Quarto see <https://quarto.org>.
+# Overview
 
-```{r}
-1 + 1
-```
+Goldsmiths as a college bullshit -
+
+Goldsmiths as a department - differentiation, unique properties -
+Interdisciplinary and methodologically rigorous and creative. Industry
+links and all that jazz. [@buss2008]
+
+\--
+
+We embrace an Open Science approach in our efforts to cultivate your
+critical evaluation skills, enhance your understanding of the
+significance - and power - of research, and equip you with the necessary
+graduate-level skills to collect, handle, and interpret data using
+programming software for statistical model development, visualisation
+and analysis.
+
+Through lectures, interactive group discussions, online skills
+development modules, and practical lab sessions, we will ignite your
+enthusiasm for Psychology and Behavioural Science research and help you
+develop the fundamental skills, knowledge - and confidence - required to
+become a Psychology literate, disruptive scientist of the future. Tada!
+
+\-\--
+
+Communicate complex information effectively using appropriate written,
+oral, graphical and electronic means, taking into account diversity
+among individuals to whom the information is communicated.
+
+Explain the potential impact of psychological research and theory on a
+broad range of real world settings and situations (e.g., classrooms,
+industry, commerce, healthcare, as well as local and global
+communities).
+
+Problem-solve and reason scientifically. Specifically, graduates will be
+able to identify and pose research questions, consider alternative
+approaches to their solutions, and evaluate outcomes. [@annis2007]
+
+Be sensitive to contextual and interpersonal factors. Graduates will be
+familiar with the complexity of the factors that shape behaviour and
+social interaction which, in turn, will make them more aware of the
+bases of problems and interpersonal conflicts.
+
+or Be a self-critical learner, showing sensitivity to contextual and
+interpersonal factors. Graduates will be familiar with the complexity of
+the factors that shape behaviour and social interaction which, in turn,
+will make them more aware of the bases of problems and interpersonal
+conflicts.
+
+Show an understanding of various research paradigms, methods, and
+evaluation procedures, including statistical analysis, as well as their
+constraints.
+
+Design, carry out, evaluate and interpret scientifically rigorous and
+ethically sound studies both independently and collaboratively,
+utilizing quantitative and qualitative methods, statistical analysis and
+modern digital software.
+
+Psychological literacy is the ability to understand and apply
+psychological principles and theories to everyday life. This includes
+the ability to understand how psychological processes and phenomena
+influence our behavior, emotions, thoughts, and relationships. It also
+includes the capacity to use psychological knowledge to make informed
+decisions and to better understand, explain, and predict the behavior of
+self and others.
+
+Psychology graduates are highly sought after by employers due to their
+ability to formulate and communicate well-reasoned, evidence-based, and
+statistically defensible arguments based on their expertise in the study
+of human behavior and its causes. On top of this, psychology graduates
+possess the skills to work independently or collaboratively, as well as
+strong numerical capabilities, verbal and written communication skills,
+and an up-to-date knowledge of digital technologies applicable to a wide
+range of occupational fields.
+
+### Intended Learning Outcomes
+
+Intended Learning Outcomes
+
+Create reproducible data analysis scripts and reports within the R
+statistical programming environment.
+
+QAA Benchmarks
+
+Subject Knowledge and Understanding
+
+6.3.4 demonstrate detailed knowledge of several specialised areas and/or
+applications, some of which are at the cutting edge of research in the
+discipline 6.3.5 demonstrate a systematic knowledge of a range of
+research paradigms, research methods and measurement techniques,
+including statistics and probability, and be aware of their limitations.
+
+Subject-specific skills
+
+PS510XX - RM1 - Introduction to Research Methods and Data Skills
+
+PS520XX - RM2 - Research Methods in Practice and Data Skills
+
+PS530XX - RM3 - Research Project Incubator
+
+\*PS710XX - Practical Research Skills
+
+Lectures - Overview of key concepts/context and preview Lab practicals /
+Data Skills
+
+Labs - Practical or activity based (inc. Group Work)
+
+### Executive Summary by year
+
+Y1 - showcase and active participation/skill development
+
+Y2 - Practical drive towards self-motivated research
+
+Y3 - Competent research
+
+### Assessment Overview
+
+Social Constructivist
+
+PeerMark
+
+Podcast/Webpage/Blog
+
+Integrate own interest/guided by stream/lab
+
+#### Assessments by year
+
+### Technical Overview
+
+R will be used. Gold standard statistical programming language
+
+For literate programming (The concept of [**"literate
+programming"**](https://en.wikipedia.org/wiki/Literate_programming) was
+originally introduced by [Donald
+Knuth](http://www.literateprogramming.com/knuthweb.pdf) in 1984 )
+
+Formerly RStudio. The Interactive Development Enviornment for use of R.
+
+### Hours specification (e.g.) Years 1 & 2
+
+| Activity                     | Time | Note      |
+|------------------------------|------|-----------|
+| Lectures                     | 40   | 2hrs/week |
+| Labs                         | 40   | 2hrs/week |
+| Data Skills (Online)         | 40   | 2hrs/week |
+| Guided Reading/viewing       | 40   | 2hrs/week |
+| RPS                          | 20   | 1hr/week  |
+| Independent Study/Coursework | 120  | 6hr/week  |
+
+: Notional Hours
+
+## Programme Overview
+
+### Pre-Arrival onwards / Onboarding
+
+Showcase in Induction week - Staff labs and research projects for the
+year.
+
+Year One students self-test
+
+MSc Students - ditto and ability to shop around for supervision
+
+Year 2 develop their pods? Show Y1 and Foundations what they did last
+year
+
+Year 3/MSc students - Research Bootcamp and refreshers/skills workshops
+
+Support PhD students and staff
+
+### Shock and Awe - Shatter the A-Level preconceptions
+
+### Vertically Integrated Projects via 'Labs'
+
+### HeartData week (recruitment & forward prep)
+
+Potentially Reading Week Term 2? Or week before/after?
+
+Allows all levels of students to blitz data and to showcase their work
+for external stakeholders and to make a department-wide event.
+
+# STUFF
+
+## **Personal development skills**
+
+-   self-management
+
+-   team working
+
+-   problem solving
+
+-   application of information skills
+
+-   communication
+
+-   application of numeracy skills
+
+-   specialist skills

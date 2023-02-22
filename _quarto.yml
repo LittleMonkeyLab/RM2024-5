@@ -1,86 +1,126 @@
 project:
   title: "RM2024-5"
   type: book
-csl: apa7.csl
+# csl: apa7.csl
+links-as-notes: true
 
 book: 
   page-navigation: true
-  title: "NOAA quarto book" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-book" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-book"
+  title: "Draft Proposal - Goldsmiths Research Methods in Psychology"
+  subtitle: "Levels 3, 4, 5, 6 & 7 - 2024/5 entry"
+  site-url: "https://littlemonkeylab.github.io/" 
+  repo-url: "https://github.com/littlemonkeylab/RM2024-5"
   repo-actions: [edit, source, issue]
-  favicon: assets/favicon.ico
-  downloads: [pdf, docx]
+  favicon: images/LMLLOGO.png
+  downloads: [pdf]
   search: true
   author:
-    - name: Jane Doe
+    - name: Gordon Wright
       affiliations:
-        - name: NOAA Fisheres
-          department: Northwest Fisheries Science Center
-    - name: Eva Nováková
-      institute: test
+        - name: g.wright@gold.ac.uk
+        #   department: Psychology
+    - name: Caroline Rix
+      # institute: test
       affiliations:
-        - name: NOAA Fisheries
-          department: West Coast Regional Office
-          institute: test
-    - name: Matti Meikäläinen
-      affiliations:
-        - name: NOAA Fisheries
-          department: Southwest Fisheries Science Center
+        - name: c.rix@gold.ac.uk
+      #     department: Psychology
+    #       institute: test
+    # - name: Matti Meikäläinen
+    #   affiliations:
+    #     - name: NOAA Fisheries
+    #       department: Southwest Fisheries Science Center
   chapters:
     - index.qmd
-    - content/setup.qmd
-    - content/add-content.qmd
-    - content/customizing.qmd
-    - content/rendering.qmd
-    - content/rmarkdown.Rmd
-    - content/code.qmd
-    - content/adding-refs.qmd
-    - content/references.qmd
+    - part: "Pedagogy"
+      chapters:
+        - content/considerations.qmd
+    - part: "Operational Details"
+      chapters:
+        - content/pedagogy.qmd
+    - part: "Years"
+      chapters:
+        - content/foundation.qmd
+        - content/yr_foundation.qmd
+        - content/year1.qmd
+        - content/yr_year1.qmd
+        - content/year2.qmd
+        - content/yr_year2.qmd
+        - content/diss.qmd
+        - content/yr_diss.qmd
+        - content/year3.qmd
+        - content/yr_year3.qmd
+        - content/msc.qmd
+        - content/yr_msc.qmd
+    - part: "Guidelines"
+      chapters:
+        - content/considerations.qmd
+        - content/qaa.qmd
+        - content/holding.qmd
+        - content/references.qmd
 
   page-footer:
-    right: "This page is built with [Quarto](https://quarto.org/)."
+    right: "Built  with [Quarto](https://quarto.org/) and 🚬 and 🍻."
     left: "&copy; CC-1.0"
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
-    favicon: images/favicon.ico
+    logo: images/LMLLOGO.png
+    favicon: images/LMLLOGO.png
     pinned: true
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
+        href: https://littlemonkeylab.github.io
+        text: "LittleMonkeyLab"
     style: "docked"
     search: true
-    collapse-level: 1
-
-bibliography: [content/references.bib]
+    collapse-level: 2
+    
+bibliography: ["references 2.bib"]
+reference-location: section
 
 execute:
   echo: false
   code-overflow: wrap
 
+  
+
 format:
-  titlepage-pdf:
+  pdf:
+    number-sections: false
+    fontsize: 11pt
     documentclass: scrbook
     classoption: ["oneside", "open=any"]
-    titlepage: "plain"
-    keep-tex: true
-  docx:
-    toc: true
-    toc-depth: 2
-    reference-doc: template.docx
-    always_allow_html: true
+    titlepage: "academic"
+    mainfont: "Atkinson Hyperlegible"
+    sansfont: "Atkinson Hyperlegible"
+    keep-tex: false
+    links-as-notes: true
+    margin-left: 1in
+    margin-right: 1in
+    margin-top: 1in
+    margin-bottom: 1in
+    include-in-header: 
+      text: |
+        \usepackage{scrlayer-scrpage}
+        \rohead{Header text}
+        \rofoot{Footer text}
+  # docx:
+  #   # toc: true
+  #   # toc-depth: 2
+  #   reference-doc: template.docx
+  #   # always_allow_html: true
+  #   # prefer-html: true
   html:
     theme: [cosmo, assets/theme.scss] 
+    number-sections: false
     toc: true
     toc-depth: 3
+    reference-location: section
     
-filters:
-  - assets/include-files.lua
-  - quarto
+# filters:
+#   - assets/include-files.lua
+#   - quarto
 
 editor: visual
 

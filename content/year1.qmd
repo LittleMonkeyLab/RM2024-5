@@ -1,0 +1,135 @@
+---
+title: Level 4
+---
+
+## Level 4 - topline summary
+
+### Module Content
+
+This module equips students with the practical and conceptual skills
+necessary for the effective study of psychology. It includes computer
+skills, presenting results of experiments, structuring an essay, and
+critiquing a scientific paper. Additionally, it provides an introduction
+to experimental design, data, and statistics in psychology. Students
+will learn the theoretical aspects of basic statistical concepts and
+tests, and gain experience using statistical packages.
+
+### Module Learning Outcomes
+
+The student should be able to:
+
+demonstrate a comprehensive understanding of the principles of
+experimental psychology, from reading and summarizing scientific papers
+to planning, writing and presenting essays, reports and presentations.
+
+understand the importance and relevance of data analysis, the different
+types of experiments and tests used.
+
+understand the philosophical underpinnings of qualitative and
+quantitative approaches to research and evaluate their merits.
+
+demonstrate the skills to analyse and interpret data using qualitative
+and quantitative frameworks and methods.
+
+demonstrate statistical proficiency in the ability to use R to compute
+summary statistics, z-scores, chi-square, binomial tests, and parametric
+and non-parametric comparison of two means.
+
+be able to visualise and present/communicate research findings to a
+range of audiences
+
+select and provide a rationale for using a statistical test to analyse a
+particular dataset, and present the results correctly in both graphical
+and APA format.
+
+### Assessment
+
+| Assessment Element | Length | \%  | F or S | LO Tested |
+|--------------------|--------|-----|--------|-----------|
+|                    |        |     |        |           |
+|                    |        |     |        |           |
+| RPS                |        |     |        |           |
+
+### Reading and Resource List
+
+We have a custom made textbook to support key study skills throughout
+your degree:
+
+\newpage
+
++-------------+------------------------------+-------------------------+
+| Week        | Lecture                      | Practical               |
++:===========:+:=============================+:========================+
+| Pre         | Preparing to become a        |                         |
+|             | Psychologist                 |                         |
+|             |                              |                         |
+|             |     <i class                 |                         |
+|             | ="fa-solid fa-file-pdf"></i> |                         |
++-------------+------------------------------+-------------------------+
+| WW          | Let's measure some stuff     |                         |
++-------------+------------------------------+-------------------------+
+| 1           | **Lecture:** Lorem Ipsem     | **Reading:** Scarf      |
+|             |                              | adghsdbsG gdsg as ash   |
+|             |                              | ah a ah rdhad fh ad. h  |
+|             |                              | j j j asd hasf ha dr    |
+|             |                              | hadfj                   |
++-------------+------------------------------+-------------------------+
+|             | **Lab:** Lorem Ipsem         | **Data:** Snarg         |
++-------------+------------------------------+-------------------------+
+| 2           | Finding patterns and         |                         |
+|             | relationships                |                         |
++-------------+------------------------------+-------------------------+
+| 3           | Correlations and models      |                         |
++-------------+------------------------------+-------------------------+
+| 4           | Distributions and sampling   |                         |
++-------------+------------------------------+-------------------------+
+| 5           | Probabilities and P-Values   |                         |
++-------------+------------------------------+-------------------------+
+| RW          | \--                          | \--                     |
++-------------+------------------------------+-------------------------+
+| 6           | Open Science, Reporting and  |                         |
+|             | Critique                     |                         |
++-------------+------------------------------+-------------------------+
+| 7           | Qualitative Research         |                         |
++-------------+------------------------------+-------------------------+
+| 8           | Correlational Research       |                         |
++-------------+------------------------------+-------------------------+
+| 9           | Q u asi-Experimental         |                         |
+|             | Research                     |                         |
++-------------+------------------------------+-------------------------+
+| 10          | Experimental Research        |                         |
++-------------+------------------------------+-------------------------+
+
+: Y1 Term 1 Laydown
+
++---------------------+-----------------------+------------------------+
+| Term 2              |                       |                        |
++:===================:+:=====================:+:======================:+
+| 1                   | Statistical Models    | Reproducibility        |
++---------------------+-----------------------+------------------------+
+| 2                   | Inferential           |                        |
+|                     | Statistics            |                        |
++---------------------+-----------------------+------------------------+
+| 3                   | Alpha, Power, Effect  |                        |
+|                     | and Sample Size       |                        |
++---------------------+-----------------------+------------------------+
+| 4                   | Correlation           |                        |
++---------------------+-----------------------+------------------------+
+| 5                   | Regression            |                        |
++---------------------+-----------------------+------------------------+
+| RW                  | \--                   | \--                    |
++---------------------+-----------------------+------------------------+
+| 6                   | Multiple Regression   |                        |
++---------------------+-----------------------+------------------------+
+| 7                   | Logistic Regression   |                        |
++---------------------+-----------------------+------------------------+
+| 8                   | Comparing two means   |                        |
++---------------------+-----------------------+------------------------+
+| 9                   | Comparing several     |                        |
+|                     | means                 |                        |
++---------------------+-----------------------+------------------------+
+| 10                  | Data Skills for       |                        |
+|                     | Employability         |                        |
++---------------------+-----------------------+------------------------+
+
+## 

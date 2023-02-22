@@ -1,0 +1,89 @@
+---
+title: "Level 5"
+---
+
+## Level 5 - topline summary
+
+### Module aims
+
+Experimental designs in psychology typically employ statistical analyses
+such as analysis of variance, factor analysis and regression. The aim of
+this module is to make these topics more accessible through the use of
+practical examples and data collection on a self-directed group research
+project.
+
+### Module Content
+
+The module's overall aim is to offer a supportive and intellectually
+rigorous environment allowing students to develop highly valuable,
+transferrable research and collaboration skills in the context of
+undertaking a group research project.
+
+This module teaches fundamental empirical research techniques within the
+framework of Open Science and reproducibility, promoting best practice
+in study design, Open Materials and Data, and methodological practice.
+This module fully immerses students in the Goldsmiths 'community of
+practice,' providing structured research support and opportunities to
+reflect on learning, modelling the key milestones of the final year
+dissertation.
+
+The module seeks to promote the application of a scientific,
+intellectually virtuous, research-based approach to any and all future
+endeavours, and integrates metacognitive and reflective practices to
+deliver this transformative learning towards academic and personal
+development.
+
+Over the course of two terms students will follow a programme of
+lectures introducing a critical approach to psychological research, as
+well as how such skills can be transferred beyond psychology; across
+academic disciplines and into the everyday world, with extensive use of
+case studies and problem-based learning.
+
+Structured weekly labs will enable students to work collaboratively to
+identify an area of research, critically evaluate current research in
+the area, and develop a modest research project building on these
+insights.
+
+Students will work together, alongside lab tutors and researchers in the
+department, to design and deliver the research project, including
+obtaining ethical approval, data collection and analysis, then
+interpreting and writing up the results, and sharing the materials and
+data in line with Open Science best practices in the Psychological,
+Behavioural and Data Sciences.
+
+### Module Learning Outcomes
+
+1.  Show a critical understanding of research design and methodology
+
+2.  Design, conduct, analyse, interpret and disseminate a psychological
+    research project
+
+3.  Understand the conceptual and historical issues concerned with
+    psychology as a science and area of practical application
+
+4.  Demonstrate valuable time-management and collaborative
+    project-management skills and proficiencies
+
+5.  Reflect on their own learning, skill development and metacognition,
+    preparing them for the final year dissertation
+
+6.  be able to use R to analyse: regression, correlations, reliability
+    and validity, effect sizes, one-way within and between subjects
+    designs (and post-hocs), two-way within, between and mixed designs;
+    and factor analysis
+
+7.  Be able to present reproducible, APA format literate-programmed
+    research reports.
+
+### Assessment
+
+| Assessment Element | Length | \%  | F or S | LO Tested |
+|--------------------|--------|-----|--------|-----------|
+|                    |        |     |        |           |
+|                    |        |     |        |           |
+| RPS                |        |     |        |           |
+
+### Reading and Resource List
+
+We have a custom made textbook to support key study skills throughout
+your degree:
