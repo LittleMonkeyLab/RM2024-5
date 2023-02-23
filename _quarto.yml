@@ -1,12 +1,45 @@
 project:
-  title: "RM2024-5"
-  type: book
-
-
-links-as-notes: false
+  output-dir: _output
+bibliography: references.bib
+csl: apa7.csl
 linkcolor:  blue
 
-book:  
+format:
+  pdf:
+    number-sections: false
+    fontsize: 11pt
+    documentclass: scrbook
+    # classoption: ["oneside", "open=any"]
+    # titlepage: "academic"
+    mainfont: "Atkinson Hyperlegible"
+    sansfont: "Atkinson Hyperlegible"
+    keep-tex: false
+    margin-left: 1in
+    margin-right: 1in
+    margin-top: 1in
+    margin-bottom: 1in
+    include-in-header: 
+      text: |
+        \usepackage{scrlayer-scrpage}
+        \rohead{Header text}
+        \rofoot{Footer text}
+
+  docx:
+    toc: true
+    toc-depth: 1
+    number-sections: false
+    reference-doc: custom-reference-doc.docx
+    always_allow_html: true
+    prefer-html: true
+  
+  html:
+    theme: [cosmo, assets/theme.scss] 
+    number-sections: false
+    toc: true
+    toc-depth: 3
+    search: true
+    
+book:
   page-navigation: true
   title: "Draft Proposal - Goldsmiths Research Methods in Psychology"
   # subtitle: "Levels 3, 4, 5, 6 & 7 - 2024/5 entry"
@@ -88,44 +121,7 @@ execute:
 
   
 
-format:
-  pdf:
-    number-sections: false
-    fontsize: 11pt
-    documentclass: scrbook
-    classoption: ["oneside", "open=any"]
-    titlepage: "academic"
-    mainfont: "Atkinson Hyperlegible"
-    sansfont: "Atkinson Hyperlegible"
-    keep-tex: false
 
-    links-as-notes: false
-
-    margin-left: 1in
-    margin-right: 1in
-    margin-top: 1in
-    margin-bottom: 1in
-    include-in-header: 
-      text: |
-        \usepackage{scrlayer-scrpage}
-        \rohead{Header text}
-        \rofoot{Footer text}
-
-  docx:
-    toc: true
-    toc-depth: 2
-    number-sections: false
-    reference-doc: custom-reference-doc.docx
-    always_allow_html: true
-    prefer-html: true
-  
-  html:
-    theme: [cosmo, assets/theme.scss] 
-    number-sections: false
-    toc: true
-    toc-depth: 3
-    reference-location: section
-    
 # filters:
 #   - assets/include-files.lua
 #   - quarto
