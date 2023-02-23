@@ -1,20 +1,21 @@
 project:
   title: "RM2024-5"
-  type: website
+  type: book
+
 
 links-as-notes: false
 linkcolor:  blue
 
-book: 
+book:  
   page-navigation: true
   title: "Draft Proposal - Goldsmiths Research Methods in Psychology"
-  subtitle: "Levels 3, 4, 5, 6 & 7 - 2024/5 entry"
-
+  # subtitle: "Levels 3, 4, 5, 6 & 7 - 2024/5 entry"
   site-url: "https://littlemonkeylab.github.io/" 
   repo-url: "https://github.com/littlemonkeylab/RM2024-5"
   repo-actions: [edit, source, issue]
   favicon: images/LMLLOGO.png
   downloads: [pdf]
+  references: references.bib
   search: true
   author:
     - name: Gordon Wright
@@ -117,8 +118,7 @@ format:
     reference-doc: custom-reference-doc.docx
     always_allow_html: true
     prefer-html: true
-    
-
+  
   html:
     theme: [cosmo, assets/theme.scss] 
     number-sections: false
