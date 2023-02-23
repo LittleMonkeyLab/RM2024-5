@@ -20,10 +20,30 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
@@ -31,7 +51,6 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../">
 <link href="../content/considerations.html" rel="next">
 <link href="../index.html" rel="prev">
-<link href="../images/LMLLOGO.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -64,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -80,20 +99,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header sidebar-header-stacked">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../images/LMLLOGO.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="../">
       Draft Proposal - Goldsmiths Research Methods in Psychology
       </a> 
-        <div class="sidebar-tools-main tools-wide">
-    <a href="https://littlemonkeylab.github.io" title="LittleMonkeyLab" class="sidebar-tool px-1"><i class="bi bi-globe"></i></a>
-    <a href="https://github.com/littlemonkeylab/RM2024-5" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="../Draft-Proposal---Goldsmiths-Research-Methods-in-Psychology.pdf" title="Download PDF" class="sidebar-tool px-1"><i class="bi bi-file-pdf"></i></a>
-</div>
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -128,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/foundation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Customization</span></a>
+  <a href="../content/foundation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Foundations (Level 3)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -223,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/littlemonkeylab/RM2024-5/edit/main/content/pedagogy.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/littlemonkeylab/RM2024-5/blob/main/content/pedagogy.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/littlemonkeylab/RM2024-5/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -249,7 +260,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>General FUN</h1>
 <p>Practical first.</p>
 <p>Flipped stats</p>
-<p>Evidence suggests that a flipped approach to teaching statistics significantly improves student performance (across a range of metrics) at the mean and throughout the achievement distribution, while controlling for baseline student characteristics <span class="citation" data-cites="sathy2020">(<a href="#ref-sathy2020" role="doc-biblioref"><strong>sathy2020?</strong></a>)</span> (see tables 13.3 &amp; 13.4 - specifically Anxiety, preparedness and under-represented minority status).</p>
+<p>Evidence suggests that a flipped approach to teaching statistics significantly improves student performance (across a range of metrics) at the mean and throughout the achievement distribution, while controlling for baseline student characteristics <span class="citation" data-cites="sathy2020">Sathy and Moore (<a href="references.html#ref-sathy2020" role="doc-biblioref">2020</a>)</span> (see tables 13.3 &amp; 13.4 - specifically Anxiety, preparedness and under-represented minority status).</p>
 <section id="assessments" class="level2">
 <h2 class="anchored" data-anchor-id="assessments">Assessments</h2>
 <div class="callout-note callout callout-style-default callout-captioned">
@@ -266,7 +277,7 @@ assessment types
 <p>Podcast</p>
 <p>Website</p>
 <p>Posters</p>
-<p>Information Packs <span class="citation" data-cites="macandrew2002">(<a href="#ref-macandrew2002" role="doc-biblioref"><strong>macandrew2002?</strong></a>)</span></p>
+<p>Information Packs <span class="citation" data-cites="macandrew2002">Macandrew and Edwards (<a href="references.html#ref-macandrew2002" role="doc-biblioref">2002</a>)</span></p>
 <p>Portfolios (or ProcessFolio)</p>
 <p>Interview (and self-reflection)</p>
 <p>Clinical Assessment</p>
@@ -280,13 +291,13 @@ assessment types
 <p>Data analysis (Results section)</p>
 </div>
 </div>
-<p>“Authentic assessment” <span class="citation" data-cites="archbald1991">(<a href="#ref-archbald1991" role="doc-biblioref"><strong>archbald1991?</strong></a>)</span> refers to assignments that are designed to reflect the skills that students will practice in their careers and other life experiences after graduation (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr24-00986283211027278">Gulikers et al., 2004</a>), looking beyond traditional assessment such as closed-book exams and traditional formats of academic essays (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr44-00986283211027278">Macandrew &amp; Edwards, 2002</a>). The impact of employing Authentic Assessments range from increased engagement and satisfaction through to heightened employability skills <span class="citation" data-cites="sokhanvar2021">(<a href="#ref-sokhanvar2021" role="doc-biblioref"><strong>sokhanvar2021?</strong></a>)</span></p>
+<p>“Authentic assessment” <span class="citation" data-cites="archbald1991">(<a href="references.html#ref-archbald1991" role="doc-biblioref">Archbald 1991</a>)</span> refers to assignments that are designed to reflect the skills that students will practice in their careers and other life experiences after graduation (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr24-00986283211027278">Gulikers et al., 2004</a>), looking beyond traditional assessment such as closed-book exams and traditional formats of academic essays (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr44-00986283211027278">Macandrew &amp; Edwards, 2002</a>). The impact of employing Authentic Assessments range from increased engagement and satisfaction through to heightened employability skills <span class="citation" data-cites="sokhanvar2021">(<a href="references.html#ref-sokhanvar2021" role="doc-biblioref">Sokhanvar, Salehi, and Sokhanvar 2021</a>)</span></p>
 </section>
 <section id="projects" class="level2">
 <h2 class="anchored" data-anchor-id="projects">Projects</h2>
 <p>“Authentic assessment” refers to assignments that are designed to reflect the skills that students will practice in their careers and other life experiences after graduation (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr4-00986283211027278">Archbald, 1991</a>; <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr24-00986283211027278">Gulikers et al., 2004</a>), looking beyond traditional assessment such as closed-book exams and traditional formats of academic essays (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr44-00986283211027278">Macandrew &amp; Edwards, 2002</a>). In general psychology, for example, authentic assessments may include the explicit development of scientific inquiry skills, such as a practical research report (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr25-00986283211027278">Halonen et al., 2003</a>). Or, for more applied facets such as clinical psychology, this may also include formulation of case studies or engagement in mock practitioner dialogues (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr66-00986283211027278">Villarroel et al., 2018</a>). Previous examples of authentic assessments designed to foster and assess psychological literacy include asking students to write letters to non-psychology audiences (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr14-00986283211027278">Cranney, 2013</a>), critical evaluation of media materials (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr26-00986283211027278">Halpern &amp; Butler, 2011</a>), written reflections of volunteering (Hadlington; as cited in <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr63-00986283211027278">Taylor &amp; Hulme, 2015</a>), and research project interviews (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr65-00986283211027278">Turner &amp; Davila-Ross, 2015</a>). All of these examples are designed to encourage a psychologically literate approach to psychology content because they encourage communication with non-experts and application of psychology content (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr33-00986283211027278">Hulme, 2014</a>).</p>
 <p>Indeed, central to the notion of psychological literacy is the effective communication of psychology in practice (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr64-00986283211027278">Trapp et al., 2011</a>). Therefore, a psychologically literate education should encourage students to communicate their knowledge in clear and accessible ways. With this in mind, here, we propose that blog writing may also be an effective assessment for capturing and promoting students’ psychological literacy. Blog writing inherently aligns with the agenda of psychological literacy because it aims to communicate often complex psychology knowledge in an accessible way (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr38-00986283211027278">Jolley et al., 2016</a>; <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr43-00986283211027278">Lin et al., 2007</a>).</p>
-<p>Primary Citation <span class="citation" data-cites="pownall2023">(<a href="#ref-pownall2023" role="doc-biblioref"><strong>pownall2023?</strong></a>)</span> Blogs, which are a web-based form of journal or writing platform, are a powerful tool in the wide dissemination of information in the modern media mix - relevant to current students (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr56-00986283211027278">Richardson, 2006</a>) .</p>
+<p>Primary Citation <span class="citation" data-cites="pownall2023">Pownall, Havelka, and Harris (<a href="references.html#ref-pownall2023" role="doc-biblioref">2023</a>)</span> Blogs, which are a web-based form of journal or writing platform, are a powerful tool in the wide dissemination of information in the modern media mix - relevant to current students (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr56-00986283211027278">Richardson, 2006</a>) .</p>
 <p>Blog writing is thought to offer the opportunity to take different perspectives in writing, develop a more critical appraisal of the content, and thus can prompt higher levels of self-reflection (e.g., <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr22-00986283211027278">Frye et al., 2010</a>; <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr37-00986283211027278">Jimoyiannis &amp; Angelaina, 2012</a>). Activities that encourage creative participation in the process of academic writing have been found to empower and engage students (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr18-00986283211027278">Creme &amp; Hunt, 2002</a>), a core goal of a psychology education (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr36-00986283211027278">Ishak &amp; Salter, 2017</a>). Therefore, blog writing promotes wider academic language learning (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr49-00986283211027278">Murray et al., 2007</a>) and thus complements more traditional forms of assessments by allowing a different set of skills to be assessed (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr47-00986283211027278">Morris et al., 2013</a>). Across the literature, studies show that students report high levels of engagement with blog writing exercises, owing to the high levels of creativity associated with this form of writing (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr31-00986283211027278">Hindley, 2018</a>).</p>
 <p>Research demonstrates students often report feeling unprepared and overwhelmed at the perceived “rules” of academic essay writing (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr36-00986283211027278">Ishak &amp; Salter, 2017</a>). Blog writing should help students to overcome this pedagogic challenge, given that blogs are governed less rigidly by academic norms (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr6-00986283211027278">Bennett et al., 2012</a>) and typically involve more reflective, creative, and critical tone (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr5-00986283211027278">Arslan &amp; Aysel, 2010</a>; <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr52-00986283211027278">Novakovich &amp; Long, 2013</a>). Writing in a clear and accessible way is an important transferable skill and undergraduate outcomes across subjects in higher education (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr29-00986283211027278">Hawkey &amp; Barker, 2004</a>; <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr42-00986283211027278">Leki &amp; Carson, 1994</a>). Blog writing can, in theory, enhance these skills, given its highly reflective nature and deviance away from the conventions of academic writing with which some students struggle (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr19-00986283211027278">Dippold, 2009</a>; <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr59-00986283211027278">Soysa et al., 2013</a>; <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr69-00986283211027278">Xie et al., 2008</a>). Similarly, blog writing also provides a useful opportunity to communicate psychology content to a wider audience. Scholars have noted how traditional forms of academic psychology dissemination, such as journal articles, are typically inaccessible to a general audience, both in terms of language use and access (i.e., because they are published behind a paywall that requires institutional subscriptions; <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr55-00986283211027278">Relojo, 2017</a>). Blog writing may thus be an important platform to mediate the relationship between science and the general public (e.g., <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr23-00986283211027278">Gardiner et al., 2018</a>; <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr57-00986283211027278">Schmidt, 2008</a>), which again is a facet of the psychological literacy approach (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr33-00986283211027278">Hulme, 2014</a>).</p>
 <p>Blog writing as an assessment has been embedded successfully in many different academic subjects in higher education, such as in pharmacy (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr20-00986283211027278">Dunne &amp; Ryan, 2016</a>), anthropology (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr67-00986283211027278">Walker &amp; Chatzigavriil, 2017</a>), professional development (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr58-00986283211027278">Shanks, 2020</a>), and English literature (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr1-00986283211027278">Agarwal, 2017</a>). Indeed, given that the <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr8-00986283211027278">British Psychological Society, 2019</a> note in their degree accreditation standards that “critical evaluation and reflection” is a key graduate attribute for psychology programs, blog writing may be particularly compatible with psychology undergraduate content. The blog approach to writing has been promoted through BPS-led initiatives, such as the Voices in Psychology program (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr60-00986283211027278">Sutton &amp; Pownall, 2018</a>, <a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr61-00986283211027278">2019</a>). This also extends to the American Psychological Association’s guidelines for undergraduate psychology majors (<a href="https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr3-00986283211027278">2013</a>), who too stress that scientific inquiry, critical thinking, and communication are among the core goals of a psychology degree.</p>
@@ -324,10 +335,27 @@ Blog Rubric example
 </div>
 </div>
 <div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden" data-render-id="quarto-int-sidebar-title">Draft Proposal - Goldsmiths Research Methods in Psychology</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Draft Proposal - Goldsmiths Research Methods in Psychology</span> <span class="hidden" data-render-id="quarto-int-next"><span class="chapter-number">3</span>  <span class="chapter-title">Considerations</span></span> <span class="hidden" data-render-id="quarto-int-prev"><span class="chapter-number">1</span>  <span class="chapter-title">Proposal for Psychology Department Research Methods 2024-5</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/index.html"><span class="chapter-number">1</span>  <span class="chapter-title">Proposal for Psychology Department Research Methods 2024-5</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/pedagogy.html"><span class="chapter-number">2</span>  <span class="chapter-title">Pedagogical &amp; Delivery Overview</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/considerations.html"><span class="chapter-number">3</span>  <span class="chapter-title">Considerations</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-1">Years</span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/foundation.html"><span class="chapter-number">4</span>  <span class="chapter-title">Customization</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_foundation.html"><span class="chapter-number">5</span>  <span class="chapter-title">Foundation Year schedule</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/year1.html"><span class="chapter-number">6</span>  <span class="chapter-title">Year 1 (Level 4)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_year1.html"><span class="chapter-number">7</span>  <span class="chapter-title">Year 1 schedule</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/year2.html"><span class="chapter-number">8</span>  <span class="chapter-title">Year 2 (level 5)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_year2.html"><span class="chapter-number">9</span>  <span class="chapter-title">Year 2 schedule</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/diss.html"><span class="chapter-number">10</span>  <span class="chapter-title">Dissertation (Y3 &amp; MSc)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_diss.html"><span class="chapter-number">11</span>  <span class="chapter-title">Dissertation Schedule (Y3 &amp; MSc)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/year3.html"><span class="chapter-number">12</span>  <span class="chapter-title">Year 3 RM module (NEW MODULE) (Level 6)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_year3.html"><span class="chapter-number">13</span>  <span class="chapter-title">Year 3 schedule (NEW MODULE)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/msc.html"><span class="chapter-number">14</span>  <span class="chapter-title">MSc Module (NEW)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_msc.html"><span class="chapter-number">15</span>  <span class="chapter-title">MSc Module (NEW) schedule</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-2">Guidelines</span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/qaa.html"><span class="chapter-number">16</span>  <span class="chapter-title">QAA</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/references.html">References</span> <span class="hidden" data-render-id="footer-left">© CC-BY-SA-NC 4.0</span> <span class="hidden" data-render-id="footer-right">Built with <a href="https://quarto.org/">Quarto</a> and 🚬 and 🍻.</span></p>
+<p><span class="hidden" data-render-id="quarto-int-sidebar-title">Draft Proposal - Goldsmiths Research Methods in Psychology</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Draft Proposal - Goldsmiths Research Methods in Psychology</span> <span class="hidden" data-render-id="quarto-int-next"><span class="chapter-number">3</span>  <span class="chapter-title">Considerations</span></span> <span class="hidden" data-render-id="quarto-int-prev"><span class="chapter-number">1</span>  <span class="chapter-title">Proposal for Psychology Department Research Methods 2024-5</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/index.html"><span class="chapter-number">1</span>  <span class="chapter-title">Proposal for Psychology Department Research Methods 2024-5</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/pedagogy.html"><span class="chapter-number">2</span>  <span class="chapter-title">Pedagogical &amp; Delivery Overview</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/considerations.html"><span class="chapter-number">3</span>  <span class="chapter-title">Considerations</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-1">Years</span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/foundation.html"><span class="chapter-number">4</span>  <span class="chapter-title">Foundations (Level 3)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_foundation.html"><span class="chapter-number">5</span>  <span class="chapter-title">Foundation Year schedule</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/year1.html"><span class="chapter-number">6</span>  <span class="chapter-title">Year 1 (Level 4)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_year1.html"><span class="chapter-number">7</span>  <span class="chapter-title">Year 1 schedule</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/year2.html"><span class="chapter-number">8</span>  <span class="chapter-title">Year 2 (level 5)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_year2.html"><span class="chapter-number">9</span>  <span class="chapter-title">Year 2 schedule</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/diss.html"><span class="chapter-number">10</span>  <span class="chapter-title">Dissertation (Y3 &amp; MSc)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_diss.html"><span class="chapter-number">11</span>  <span class="chapter-title">Dissertation Schedule (Y3 &amp; MSc)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/year3.html"><span class="chapter-number">12</span>  <span class="chapter-title">Year 3 RM module (NEW MODULE) (Level 6)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_year3.html"><span class="chapter-number">13</span>  <span class="chapter-title">Year 3 schedule (NEW MODULE)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/msc.html"><span class="chapter-number">14</span>  <span class="chapter-title">MSc Module (NEW)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/yr_msc.html"><span class="chapter-number">15</span>  <span class="chapter-title">MSc Module (NEW) schedule</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-2">Guidelines</span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/qaa.html"><span class="chapter-number">16</span>  <span class="chapter-title">QAA</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/content/references.html">References</span></p>
 </div>
 <div id="quarto-meta-markdown" class="hidden">
 <p><span class="hidden" data-render-id="quarto-metatitle">Draft Proposal - Goldsmiths Research Methods in Psychology - <span class="chapter-number">2</span>  <span class="chapter-title">Pedagogical &amp; Delivery Overview</span></span> <span class="hidden" data-render-id="quarto-twittercardtitle">Draft Proposal - Goldsmiths Research Methods in Psychology - <span class="chapter-number">2</span>  <span class="chapter-title">Pedagogical &amp; Delivery Overview</span></span> <span class="hidden" data-render-id="quarto-ogcardtitle">Draft Proposal - Goldsmiths Research Methods in Psychology - <span class="chapter-number">2</span>  <span class="chapter-title">Pedagogical &amp; Delivery Overview</span></span> <span class="hidden" data-render-id="quarto-metasitename">Draft Proposal - Goldsmiths Research Methods in Psychology</span></p>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-archbald1991" class="csl-entry" role="doc-biblioentry">
+Archbald, Douglas A. 1991. <span>“Authentic Assessment: Principles, Practices, and Issues.”</span> <em>School Psychology Quarterly</em> 6 (4): 279–93. <a href="https://doi.org/10.1037/h0088821">https://doi.org/10.1037/h0088821</a>.
+</div>
+<div id="ref-macandrew2002" class="csl-entry" role="doc-biblioentry">
+Macandrew, Siobhan B. G., and Katherine Edwards. 2002. <span>“Essays Are Not the Only Way: A Case Report on the Benefits of Authentic Assessment.”</span> <em>Psychology Learning &amp; Teaching</em> 2 (2): 134–39. <a href="https://doi.org/10.2304/plat.2002.2.2.134">https://doi.org/10.2304/plat.2002.2.2.134</a>.
+</div>
+<div id="ref-pownall2023" class="csl-entry" role="doc-biblioentry">
+Pownall, Madeleine, Jelena Havelka, and Richard Harris. 2023. <span>“Scientific Blogs as a Psychological Literacy Assessment Tool.”</span> <em>Teaching of Psychology</em> 50 (1): 69–76. <a href="https://doi.org/10.1177/00986283211027278">https://doi.org/10.1177/00986283211027278</a>.
+</div>
+<div id="ref-sathy2020" class="csl-entry" role="doc-biblioentry">
+Sathy, Viji, and Quinn Moore. 2020. <span>“Who Benefits from the Flipped Classroom?: Quasi-Experimental Findings on Student Learning, Engagement, Course Perceptions, and Interest in Statistics.”</span> In <em>Teaching Statistics and Quantitative Methods in the 21st Century</em>. Routledge.
+</div>
+<div id="ref-sokhanvar2021" class="csl-entry" role="doc-biblioentry">
+Sokhanvar, Zahra, Keyvan Salehi, and Fatemeh Sokhanvar. 2021. <span>“Advantages of Authentic Assessment for Improving the Learning Experience and Employability Skills of Higher Education Students: A Systematic Literature Review.”</span> <em>Studies in Educational Evaluation</em> 70 (September): 101030. <a href="https://doi.org/10.1016/j.stueduc.2021.101030">https://doi.org/10.1016/j.stueduc.2021.101030</a>.
+</div>
 </div>
 </section>
 </section>
@@ -479,16 +507,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      <div class='footer-contents'>&copy; CC-BY-SA-NC 4.0</div>  
-    </div>   
-    <div class="nav-footer-right">
-      <div class='footer-contents'>Built with [Quarto](https://quarto.org/) and 🚬 and 🍻.</div>  
-    </div>
-  </div>
-</footer>
 
 </body>
 
