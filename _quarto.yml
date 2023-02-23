@@ -2,6 +2,7 @@ project:
   type: book
 mainfont: Atkinson Hyperlegible
 sansfont: Atkinson Hyperlegible
+logo: images/LMLLOGO.png
 
 book:
   page-navigation: true
@@ -38,10 +39,11 @@ book:
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
     left: "&copy; CC-1.0"
+    
   sidebar:
     background: "#D9E3E4"
-    logo: images/LMLLOGO.png
-    favicon: images/LMLLOGO.png
+    logo: "images/LMLLOGO.png"
+    favicon: "images/LMLLOGO.png"
     pinned: true
     align: center
     tools:
