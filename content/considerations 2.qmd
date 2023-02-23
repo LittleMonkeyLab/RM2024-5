@@ -1,0 +1,85 @@
+---
+title: Considerations
+---
+
+# Further considerations
+
+### Preparation
+
+Need to begin preparation
+
+Lectures x 40
+
+Open Educational Resources Textbook for Research Methods CCBY4.0
+
+Lab Practicals x 40
+
+Open Educational Resources Textbook for Data Skills (Navarro) CCBY4.0
+
+Recordings and worksheets for above x 40
+
+Y3/MSc Bootcamp
+
+### Infrastructure
+
+#### Recording suite
+
+#### Materials storage
+
+### Estates and Facilities
+
+#### Removal of computer banks in labs to make them more useful for practicals?
+
+#### Wall-mounted monitors
+
+#### 
+
+### Technology
+
+#### Posit Cloud as Entry Level
+
+#### Student download for Y2 onwards
+
+#### Possible Posit Server run by Ian
+
+### Costs
+
+#### Cost for Posit Cloud (Maybe)
+
+#### Chromebooks on loan
+
+### Risks
+
+#### Technology obstacles (lower than SPSS)
+
+#### Finite knowledge within staff
+
+#### Staff resistance
+
+### Staffing
+
+#### Recruit next TFs specifically to help build the infrastructure and programme
+
+### Timetabling
+
+#### HeartData week
+
+asdgasdfhg
+
+#### Induction planning
+
+#### Pre-arrival comms
+
+### Accessibility
+
+#### Homework club - Where staff are on hand every week
+
+### Student Support/Welfare
+
+#### Enhanced by access to resources
+
+### Employability
+
+#### R and Python are most versatile tools on the market
+
+# 

@@ -1,0 +1,20 @@
+{
+  "hash": "6178c86e7f98bd81e8b4adf08fc3e6ed",
+  "result": {
+    "markdown": "---\ntitle: Rendering with Code\n---\n\n\n\nYou can have code (R, Python or Julia) in your qmd file. You will need\nto have these installed on your local computer, but presumably you do\nalready if you are adding code to your qmd files.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nx <- c(5, 15, 25, 35, 45, 55)\ny <- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326  \n```\n:::\n:::\n\n\n\n## Modify the GitHub Action\n\nYou will need to change the GitHub Action in `.github/workflows` to\ninstall these and any needed packages in order for GitHub to be able to\nrender your webpage. The GitHub Action install R since I used that in\n`code.qmd`. If you use Python or Julia instead, then you will need to\nupdate the GitHub Action to install those.\n\nIf getting the GitHub Action to work is too much hassle (and that\ndefinitely happens), you can alway render locally and publish to the\n`gh-pages` branch. If you do this, make sure to delete or rename the\nGitHub Action to something like\n\n    render-and-publish.old_yml\n\nso GitHub does not keep trying to run it. Nothing bad will happen if you\ndon't do this, but if you are not using the action (because it keeps\nfailing), then you don't need GitHub to run it.\n\n## Render locally and publish to gh-pages branch\n\nTo render locally and push up to the `gh-pages` branch, open a terminal\nwindow and then `cd` to the directory with the Quarto project. Type this\nin the terminal:\n\n    quarto render gh-pages\n",
+    "supporting": [
+      "code_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

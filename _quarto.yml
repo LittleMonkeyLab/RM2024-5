@@ -1,7 +1,7 @@
 project:
   title: "RM2024-5"
   type: book
-<<<<<<< HEAD
+
 
 links-as-notes: false
 linkcolor:  blue
@@ -10,15 +10,7 @@ book:
   page-navigation: true
   title: "Draft Proposal - Goldsmiths Research Methods in Psychology"
   subtitle: "Levels 3, 4, 5, 6 & 7 - 2024/5 entry"
-=======
-csl: apa7.csl
-links-as-notes: true
 
-book: 
-  page-navigation: true
-  title: "Draft Proposal - Undergraduate Research Methods in Psychology"
-  subtitle: "BSc (Hons) Psychology and Streams, 2024/5 entry"
->>>>>>> cf51ddbe4f36d960eb9a6a3e839613f0997249c0
   site-url: "https://littlemonkeylab.github.io/" 
   repo-url: "https://github.com/littlemonkeylab/RM2024-5"
   repo-actions: [edit, source, issue]
@@ -27,21 +19,14 @@ book:
   search: true
   author:
     - name: Gordon Wright
-<<<<<<< HEAD
+
       affiliations:
         - name: g.wright@gold.ac.uk
         #   department: Psychology
     - name: Caroline Rix
       # institute: test
       affiliations:
-=======
-      affiliations:
-        - name: g.wright@gold.ac.uk
-        #   department: Psychology
-    - name: Caroline Rix
-      # institute: test
-      affiliations:
->>>>>>> cf51ddbe4f36d960eb9a6a3e839613f0997249c0
+
         - name: c.rix@gold.ac.uk
       #     department: Psychology
     #       institute: test
@@ -51,7 +36,6 @@ book:
     #       department: Southwest Fisheries Science Center
   chapters:
     - index.qmd
-<<<<<<< HEAD
     - content/pedagogy.qmd
     - content/considerations.qmd
     - part: "Years"
@@ -73,25 +57,7 @@ book:
         - content/qaa.qmd
         # - content/holding.qmd
         - content/references.qmd
-=======
-    - part: "General"
-      chapters:
-        - content/tables.qmd
-    - part: "Years"
-      chapters:
-        - content/foundation.qmd
-        - content/year1.qmd
-        - content/year2.qmd
-        - content/year3.qmd
-        - content/msc.qmd
-    - part: "Considerations"
-      chapters:
-        - content/considerations.qmd
-        - content/qaa.qmd
-        # - content/crap.qmd
-        - content/references.qmd
 
->>>>>>> cf51ddbe4f36d960eb9a6a3e839613f0997249c0
   page-footer:
     right: "Built with [Quarto](https://quarto.org/) and 🚬 and 🍻."
     left: "&copy; CC-BY-SA-NC 4.0"
@@ -109,16 +75,12 @@ book:
     style: "docked"
     search: true
     collapse-level: 2
-<<<<<<< HEAD
+
 cite-method: citeproc
 citeproc: true
 bibliography: [references.bib]
 csl: assets/apa.csl
-=======
-    
-bibliography: [references.bib]
-reference-location: section
->>>>>>> cf51ddbe4f36d960eb9a6a3e839613f0997249c0
+
 
 execute:
   echo: false
@@ -138,11 +100,9 @@ format:
     mainfont: "Atkinson Hyperlegible"
     sansfont: "Atkinson Hyperlegible"
     keep-tex: false
-<<<<<<< HEAD
+
     links-as-notes: false
-=======
-    links-as-notes: true
->>>>>>> cf51ddbe4f36d960eb9a6a3e839613f0997249c0
+
     margin-left: 1in
     margin-right: 1in
     margin-top: 1in
@@ -152,7 +112,7 @@ format:
         \usepackage{scrlayer-scrpage}
         \rohead{Header text}
         \rofoot{Footer text}
-<<<<<<< HEAD
+
   docx:
     toc: true
     toc-depth: 2
@@ -161,14 +121,7 @@ format:
     always_allow_html: true
     prefer-html: true
     
-=======
-  # docx:
-  #   toc: true
-  #   toc-depth: 2
-  #   reference-doc: template.docx
-  #   always_allow_html: true
-  #   prefer-html: true
->>>>>>> cf51ddbe4f36d960eb9a6a3e839613f0997249c0
+
   html:
     theme: [cosmo, assets/theme.scss] 
     number-sections: false

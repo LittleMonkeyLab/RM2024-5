@@ -1,0 +1,128 @@
+project:
+  title: "RM2024-5"
+  type: book
+
+links-as-notes: false
+linkcolor:  blue
+cite-method: citeproc
+citeproc: true
+bibliography: references.bib
+csl: assets/apa.csl
+
+book: 
+  page-navigation: true
+  title: "Draft Proposal - Goldsmiths Research Methods in Psychology"
+  subtitle: "Levels 3, 4, 5, 6 & 7 - 2024/5 entry"
+  site-url: "https://littlemonkeylab.github.io/" 
+  repo-url: "https://github.com/littlemonkeylab/RM2024-5"
+  repo-actions: [edit, source, issue]
+  favicon: images/LMLLOGO.png
+  downloads: [pdf]
+  search: true
+  author:
+    - name: Gordon Wright
+      affiliations:
+        - name: g.wright@gold.ac.uk
+        #   department: Psychology
+    - name: Caroline Rix
+      # institute: test
+      affiliations:
+        - name: c.rix@gold.ac.uk
+      #     department: Psychology
+    #       institute: test
+    # - name: Matti Meikäläinen
+    #   affiliations:
+    #     - name: NOAA Fisheries
+    #       department: Southwest Fisheries Science Center
+  chapters:
+    - index.qmd
+    - content/pedagogy.qmd
+    - content/considerations.qmd
+    - part: "Years"
+      chapters:
+        - content/foundation.qmd
+        - content/yr_foundation.qmd
+        - content/year1.qmd
+        - content/yr_year1.qmd
+        - content/year2.qmd
+        - content/yr_year2.qmd
+        - content/diss.qmd
+        - content/yr_diss.qmd
+        - content/year3.qmd
+        - content/yr_year3.qmd
+        - content/msc.qmd
+        - content/yr_msc.qmd
+    - part: "Guidelines"
+      chapters:
+        - content/qaa.qmd
+        # - content/holding.qmd
+        - content/references.qmd
+
+  page-footer:
+    right: "Built with [Quarto](https://quarto.org/) and 🚬 and 🍻."
+    left: "&copy; CC-BY-SA-NC 4.0"
+  
+  sidebar:
+    background: "#D9E3E4"
+    logo: images/LMLLOGO.png
+    favicon: images/LMLLOGO.png
+    pinned: true
+    align: center
+    tools: 
+      - icon: globe
+        href: https://littlemonkeylab.github.io
+        text: "LittleMonkeyLab"
+    style: "docked"
+    search: true
+    collapse-level: 2
+
+
+execute:
+  echo: false
+  code-overflow: wrap
+  freeze: true
+  
+
+format:
+  pdf:
+    number-sections: false
+    fontsize: 11pt
+    documentclass: scrbook
+    classoption: ["oneside", "open=any"]
+    titlepage: "academic"
+    mainfont: "Atkinson Hyperlegible"
+    sansfont: "Atkinson Hyperlegible"
+    keep-tex: false
+    links-as-notes: false
+    margin-left: 1in
+    margin-right: 1in
+    margin-top: 1in
+    margin-bottom: 1in
+    include-in-header: 
+      text: |
+        \usepackage{scrlayer-scrpage}
+        \rohead{Header text}
+        \rofoot{Footer text}
+
+  docx:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    reference-doc: custom-reference-doc.docx
+    always_allow_html: true
+    prefer-html: true
+    
+
+  html:
+    theme: [cosmo, assets/theme.scss] 
+    number-sections: false
+    toc: true
+    toc-depth: 3
+    reference-location: section
+    
+# filters:
+#   - assets/include-files.lua
+#   - quarto
+
+editor: visual
+
