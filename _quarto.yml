@@ -4,9 +4,14 @@ mainfont: Atkinson Hyperlegible
 sansfont: Atkinson Hyperlegible
 
 book:
+  page-navigation: true
   title: "Draft Proposal - Goldsmiths Research Methods in Psychology"
   author: "Gordon Wright & Caroline Rix"
-  date: "February 2023"
+  date: "February 28, 2023"
+  site-url: "https://littlemonkeylab.github.io/"
+  repo-url: "https://github.com/littlemonkeylab/RM2024-5"
+  repo-actions: [edit, source, issue]
+  downloads: [pdf, docx]
   chapters:
     - index.qmd
     - content/pedagogy.qmd
@@ -30,17 +35,36 @@ book:
         - content/qaa.qmd
         # - content/holding.qmd
         - content/references.qmd
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; CC-1.0"
+  sidebar:
+    background: "#D9E3E4"
+    logo: images/LMLLOGO.png
+    favicon: images/LMLLOGO.png
+    pinned: true
+    align: center
+    tools:
+      - icon: globe
+        href: https://littlemonkeylab.github.io
+        text: "LittleMonkeyLab"
+    style: "docked"
+    search: true
+    collapse-level: 2
 
-bibliography: references.bib
-cite-method: citeproc
-citeproc: true
+bibliography: [references.bib]
+# cite-method: citeproc
+# citeproc: true
+csl: apa7.csl
+
+execute:
+  echo: false
+  code-overflow: wrap
 
 format:
   html:
     theme: [cosmo, assets/theme.scss]
     number-sections: false
-    mainfont: Atkinson Hyperlegible
-    sansfont: Atkinson Hyperlegible
     sidebar:
     background: "#D9E3E4"
     logo: images/LMLLOGO.png
@@ -172,11 +196,11 @@ format:
 #         - content/references.qmd
 # 
 
-
-execute:
-  echo: false
-  code-overflow: wrap
-  freeze: true
+# 
+# execute:
+#   echo: false
+#   code-overflow: wrap
+#   freeze: true
 #   
 # 
 #   
