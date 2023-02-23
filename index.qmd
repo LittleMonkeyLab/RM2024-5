@@ -19,6 +19,21 @@ Through lectures, interactive group discussions, online skills development modul
 
 \-\--
 
+```{r}
+library(magrittr)
+library(gt)
+library(readr)
+library(dplyr)
+
+
+ScheduleY1 <- read_csv("ScheduleY1.csv")
+ScheduleY1 %>% 
+  gt()
+
+  
+
+```
+
 Communicate complex information effectively using appropriate written, oral, graphical and electronic means, taking into account diversity among individuals to whom the information is communicated.
 
 Explain the potential impact of psychological research and theory on a broad range of real world settings and situations (e.g., classrooms, industry, commerce, healthcare, as well as local and global communities).
