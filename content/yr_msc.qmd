@@ -1,13 +1,14 @@
 ---
-title: Tables
+title: MSc Module (NEW) schedule
 df-print: kable
 format: 
   pdf: default
   html: default
 ---
 
+
 |   Week   | Schedule     |                                                                |              |                                                                |
-|:-----:|:---------|:---------------------|:---------|:------------------------|
+|:-----------:|:------------|:---------------|:------------|:------------------|
 |  **1**   | **Lecture:** | There was a wee cooper who lived in fife and his hat was green | **IndStud:** | There was a wee cooper who lived in fife and his hat was green |
 |          | **Lab:**     | There was a wee cooper who lived in fife and his hat was green | **Data:**    | There was a wee cooper who lived in fife and his hat was green |
 |  **2**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
@@ -29,12 +30,13 @@ format:
 |          | **Lab:**     |                                                                | **Data:**    |                                                                |
 |  **10**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
 |          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|          |              |                                                                |              |                                                                |
-|          |              |                                                                |              |                                                                |
-| **Week** | **Schedule** |                                                                |              |                                                                |
-|  **11**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **12**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
+\newpage
+
+|   Week   | Schedule     |                                                                |              |                                                                |
+|:-----------:|:------------|:---------------|:------------|:------------------|
+|  **11**   | **Lecture:** | There was a wee cooper who lived in fife and his hat was green | **IndStud:** | There was a wee cooper who lived in fife and his hat was green |
+|          | **Lab:**     | There was a wee cooper who lived in fife and his hat was green | **Data:**    | There was a wee cooper who lived in fife and his hat was green |
+|  **12**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
 |          | **Lab:**     |                                                                | **Data:**    |                                                                |
 |  **13**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
 |          | **Lab:**     |                                                                | **Data:**    |                                                                |

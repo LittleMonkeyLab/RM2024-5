@@ -1,55 +1,61 @@
 ---
-title: Tables
+title: Year 1 schedule
 df-print: kable
 format: 
   pdf: default
   html: default
 ---
 
-|   Week   | Schedule     |                                                                |              |                                                                |
-|:-----:|:---------|:---------------------|:---------|:------------------------|
-|  **1**   | **Lecture:** | There was a wee cooper who lived in fife and his hat was green | **IndStud:** | There was a wee cooper who lived in fife and his hat was green |
-|          | **Lab:**     | There was a wee cooper who lived in fife and his hat was green | **Data:**    | There was a wee cooper who lived in fife and his hat was green |
-|  **2**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **3**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **4**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **5**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|          |              | Reading Week                                                   |              |                                                                |
-|  **6**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **7**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **8**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **9**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **10**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|          |              |                                                                |              |                                                                |
-|          |              |                                                                |              |                                                                |
-| **Week** | **Schedule** |                                                                |              |                                                                |
-|  **11**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **12**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **13**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **14**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **15**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|          |              | **Reading Week**                                               |              |                                                                |
-|  **16**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **17**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **18**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **19**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **20**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
+|  Week  | Schedule         |                                      |              |                                                |
+|:-------------:|:--------------|:--------------|:--------------|:--------------|
+| **-1** | **Pre-Arrival:** | Preparing for Research at Goldsmiths | **IndStud:** | Maths ability/anxiety/refresher quiz           |
+|        | **Lab:**         | Online Refresher Q&A                 | **Data:**    |                                                |
+| **0**  | **WelcomeWeek**  | I❤️Data Fair                         | **IndStud:** | Epistemology/Ontology Task                     |
+|        | **Lab:**         | Data Collection on self!             | **Data:**    | Reflective exercise                            |
+| **1**  | **Lecture:**     | Finding patterns and relationships   | **IndStud:** | First journal article!                         |
+|        | **Lab:**         | Visualise the year group             | **Data:**    | Blog about what you have learned. Posit/Quarto |
+| **2**  | **Lecture:**     | Finding patterns and relationships   | **IndStud:** |                                                |
+|        | **Lab:**         |                                      | **Data:**    |                                                |
+| **3**  | **Lecture:**     | Correlations and Models (GLM)        | **IndStud:** |                                                |
+|        | **Lab:**         |                                      | **Data:**    |                                                |
+| **4**  | **Lecture:**     | Distributions and Sampling           | **IndStud:** |                                                |
+|        | **Lab:**         |                                      | **Data:**    |                                                |
+| **5**  | **Lecture:**     | Probabilities and P-Values           | **IndStud:** |                                                |
+|        | **Lab:**         |                                      | **Data:**    |                                                |
+|        |                  | Reading Week                         |              |                                                |
+| **6**  | **Lecture:**     | Open Science, Reporting and Critique | **IndStud:** |                                                |
+|        | **Lab:**         |                                      | **Data:**    |                                                |
+| **7**  | **Lecture:**     | Qualititative Research               | **IndStud:** |                                                |
+|        | **Lab:**         |                                      | **Data:**    |                                                |
+| **8**  | **Lecture:**     | Correlational Research               | **IndStud:** |                                                |
+|        | **Lab:**         |                                      | **Data:**    |                                                |
+| **9**  | **Lecture:**     | Quasi-Experimental Research          | **IndStud:** |                                                |
+|        | **Lab:**         |                                      | **Data:**    |                                                |
+| **10** | **Lecture:**     | Experimental Research                | **IndStud:** |                                                |
+|        | **Lab:**         |                                      | **Data:**    |                                                |
+
+\newpage
+
+|  Week  | Schedule     |                                                                |              |                                                                |
+|:-------------:|:--------------|:--------------|:--------------|:--------------|
+| **11** | **Lecture:** | Statistical Models                                             | **IndStud:** | There was a wee cooper who lived in fife and his hat was green |
+|        | **Lab:**     | There was a wee cooper who lived in fife and his hat was green | **Data:**    | There was a wee cooper who lived in fife and his hat was green |
+| **12** | **Lecture:** | Inferential Statistics                                         | **IndStud:** |                                                                |
+|        | **Lab:**     |                                                                | **Data:**    |                                                                |
+| **13** | **Lecture:** | Alpha, Power, Effect & Sample Size                             | **IndStud:** |                                                                |
+|        | **Lab:**     |                                                                | **Data:**    |                                                                |
+| **14** | **Lecture:** | Correlation in depth                                           | **IndStud:** |                                                                |
+|        | **Lab:**     |                                                                | **Data:**    |                                                                |
+| **15** | **Lecture:** | Regression                                                     | **IndStud:** |                                                                |
+|        | **Lab:**     |                                                                | **Data:**    |                                                                |
+|        |              | **Reading Week**                                               |              |                                                                |
+| **16** | **Lecture:** | Multiple Regression                                            | **IndStud:** |                                                                |
+|        | **Lab:**     |                                                                | **Data:**    |                                                                |
+| **17** | **Lecture:** | Logistic Regression                                            | **IndStud:** |                                                                |
+|        | **Lab:**     |                                                                | **Data:**    |                                                                |
+| **18** | **Lecture:** | Comparing two means                                            | **IndStud:** |                                                                |
+|        | **Lab:**     |                                                                | **Data:**    |                                                                |
+| **19** | **Lecture:** | Comparing several means                                        | **IndStud:** |                                                                |
+|        | **Lab:**     |                                                                | **Data:**    |                                                                |
+| **20** | **Lecture:** | Employability and Data Skills                                  | **IndStud:** |                                                                |
+|        | **Lab:**     |                                                                | **Data:**    |                                                                |

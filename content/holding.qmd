@@ -113,11 +113,12 @@ Here are the changes you need to make if you to avoid `gh-pages` branch.
               git add -A && git commit -m 'Build site' || echo "No changes to commit"
               git push origin || echo "No changes to commit"
               
-              
-```{r}
-#| echo: false
-#| warning: false
 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(googlesheets4)
+library(gt)
+library(tidyverse)
 library(gt)
 library(dplyr)
 library(magrittr)
@@ -125,30 +126,7 @@ library(readr)
 library(gtExtras)
 library(webshot2)
 library(fontawesome)
-library(tidyverse)
 
-
-
-ScheduleY1 <- read.csv("ScheduleY1.csv")
-
-ScheduleY1 %>% 
-  dplyr::select(Week, Lecture, Lab, Reading, DS) %>% 
-  # mutate(
-  #     slideslink = map(slideslink, ~ htmltools::a(href = .x, "slides")),
-  #     slideslink = map(slideslink, ~ gt::html(as.character(.x)))) %>%
-  # dplyr::mutate(man = ifelse(slideslink != "null", "gear", "gears")) %>%
-  gt() %>%
-  # gt_fa_column(man) %>% 
-  gt_theme_538()
-
-
-```
-
-
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
-library(googlesheets4)
-library(gt)
-library(tidyverse)
 gs4_deauth()
 lectures <- read_sheet("https://docs.google.com/spreadsheets/d/1ZsmGNXF5fZuNbkGsYRnFxhDKS9fZJQdtOg2Cw3KlrtQ/edit?usp=sharing", sheet = "TopLevel")
 

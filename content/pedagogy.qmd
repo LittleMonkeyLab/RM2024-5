@@ -1,3 +1,305 @@
 ---
-title: "Pedagogical Overview"
+title: "Pedagogical & Delivery Overview"
 ---
+
+# General FUN
+
+Practical first.
+
+Flipped stats
+
+Evidence suggests that a flipped approach to teaching statistics
+significantly improves student performance (across a range of metrics)
+at the mean and throughout the achievement distribution, while
+controlling for baseline student characteristics @sathy2020 (see tables
+13.3 & 13.4 - specifically Anxiety, preparedness and under-represented
+minority status).
+
+## Assessments
+
+::: callout-note
+## assessment types
+
+Blog
+
+Podcast
+
+Website
+
+Posters
+
+Information Packs @macandrew2002
+
+Portfolios (or ProcessFolio)
+
+Interview (and self-reflection)
+
+Clinical Assessment
+
+Skills assessment
+
+Oral Examination (mock job interview)
+
+Self and Peer evaluation
+
+Literature Review (with or without annotations)
+
+Annotated Code
+
+Computational documents (Lab Reports)
+
+Design and Proposal (Pre-registration)
+
+Data analysis (Results section)
+:::
+
+"Authentic assessment" [@archbald1991] refers to assignments that are
+designed to reflect the skills that students will practice in their
+careers and other life experiences after graduation ([Gulikers et al.,
+2004](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr24-00986283211027278)),
+looking beyond traditional assessment such as closed-book exams and
+traditional formats of academic essays ([Macandrew & Edwards,
+2002](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr44-00986283211027278)).
+The impact of employing Authentic Assessments range from increased
+engagement and satisfaction through to heightened employability skills
+[@sokhanvar2021]
+
+## Projects
+
+"Authentic assessment" refers to assignments that are designed to
+reflect the skills that students will practice in their careers and
+other life experiences after graduation ([Archbald,
+1991](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr4-00986283211027278);
+[Gulikers et al.,
+2004](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr24-00986283211027278)),
+looking beyond traditional assessment such as closed-book exams and
+traditional formats of academic essays ([Macandrew & Edwards,
+2002](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr44-00986283211027278)).
+In general psychology, for example, authentic assessments may include
+the explicit development of scientific inquiry skills, such as a
+practical research report ([Halonen et al.,
+2003](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr25-00986283211027278)).
+Or, for more applied facets such as clinical psychology, this may also
+include formulation of case studies or engagement in mock practitioner
+dialogues ([Villarroel et al.,
+2018](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr66-00986283211027278)).
+Previous examples of authentic assessments designed to foster and assess
+psychological literacy include asking students to write letters to
+non-psychology audiences ([Cranney,
+2013](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr14-00986283211027278)),
+critical evaluation of media materials ([Halpern & Butler,
+2011](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr26-00986283211027278)),
+written reflections of volunteering (Hadlington; as cited in [Taylor &
+Hulme,
+2015](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr63-00986283211027278)),
+and research project interviews ([Turner & Davila-Ross,
+2015](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr65-00986283211027278)).
+All of these examples are designed to encourage a psychologically
+literate approach to psychology content because they encourage
+communication with non-experts and application of psychology content
+([Hulme,
+2014](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr33-00986283211027278)).
+
+Indeed, central to the notion of psychological literacy is the effective
+communication of psychology in practice ([Trapp et al.,
+2011](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr64-00986283211027278)).
+Therefore, a psychologically literate education should encourage
+students to communicate their knowledge in clear and accessible ways.
+With this in mind, here, we propose that blog writing may also be an
+effective assessment for capturing and promoting students' psychological
+literacy. Blog writing inherently aligns with the agenda of
+psychological literacy because it aims to communicate often complex
+psychology knowledge in an accessible way ([Jolley et al.,
+2016](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr38-00986283211027278);
+[Lin et al.,
+2007](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr43-00986283211027278)).
+
+Primary Citation @pownall2023 Blogs, which are a web-based form of
+journal or writing platform, are a powerful tool in the wide
+dissemination of information in the modern media mix - relevant to
+current students ([Richardson,
+2006](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr56-00986283211027278))
+.
+
+Blog writing is thought to offer the opportunity to take different
+perspectives in writing, develop a more critical appraisal of the
+content, and thus can prompt higher levels of self-reflection (e.g.,
+[Frye et al.,
+2010](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr22-00986283211027278);
+[Jimoyiannis & Angelaina,
+2012](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr37-00986283211027278)).
+Activities that encourage creative participation in the process of
+academic writing have been found to empower and engage students ([Creme
+& Hunt,
+2002](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr18-00986283211027278)),
+a core goal of a psychology education ([Ishak & Salter,
+2017](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr36-00986283211027278)).
+Therefore, blog writing promotes wider academic language learning
+([Murray et al.,
+2007](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr49-00986283211027278))
+and thus complements more traditional forms of assessments by allowing a
+different set of skills to be assessed ([Morris et al.,
+2013](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr47-00986283211027278)).
+Across the literature, studies show that students report high levels of
+engagement with blog writing exercises, owing to the high levels of
+creativity associated with this form of writing ([Hindley,
+2018](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr31-00986283211027278)).
+
+Research demonstrates students often report feeling unprepared and
+overwhelmed at the perceived "rules" of academic essay writing ([Ishak &
+Salter,
+2017](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr36-00986283211027278)).
+Blog writing should help students to overcome this pedagogic challenge,
+given that blogs are governed less rigidly by academic norms ([Bennett
+et al.,
+2012](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr6-00986283211027278))
+and typically involve more reflective, creative, and critical tone
+([Arslan & Aysel,
+2010](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr5-00986283211027278);
+[Novakovich & Long,
+2013](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr52-00986283211027278)).
+Writing in a clear and accessible way is an important transferable skill
+and undergraduate outcomes across subjects in higher education ([Hawkey
+& Barker,
+2004](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr29-00986283211027278);
+[Leki & Carson,
+1994](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr42-00986283211027278)).
+Blog writing can, in theory, enhance these skills, given its highly
+reflective nature and deviance away from the conventions of academic
+writing with which some students struggle ([Dippold,
+2009](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr19-00986283211027278);
+[Soysa et al.,
+2013](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr59-00986283211027278);
+[Xie et al.,
+2008](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr69-00986283211027278)).
+Similarly, blog writing also provides a useful opportunity to
+communicate psychology content to a wider audience. Scholars have noted
+how traditional forms of academic psychology dissemination, such as
+journal articles, are typically inaccessible to a general audience, both
+in terms of language use and access (i.e., because they are published
+behind a paywall that requires institutional subscriptions; [Relojo,
+2017](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr55-00986283211027278)).
+Blog writing may thus be an important platform to mediate the
+relationship between science and the general public (e.g., [Gardiner et
+al.,
+2018](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr23-00986283211027278);
+[Schmidt,
+2008](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr57-00986283211027278)),
+which again is a facet of the psychological literacy approach ([Hulme,
+2014](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr33-00986283211027278)).
+
+Blog writing as an assessment has been embedded successfully in many
+different academic subjects in higher education, such as in pharmacy
+([Dunne & Ryan,
+2016](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr20-00986283211027278)),
+anthropology ([Walker & Chatzigavriil,
+2017](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr67-00986283211027278)),
+professional development ([Shanks,
+2020](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr58-00986283211027278)),
+and English literature ([Agarwal,
+2017](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr1-00986283211027278)).
+Indeed, given that the [British Psychological Society,
+2019](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr8-00986283211027278)
+note in their degree accreditation standards that "critical evaluation
+and reflection" is a key graduate attribute for psychology programs,
+blog writing may be particularly compatible with psychology
+undergraduate content. The blog approach to writing has been promoted
+through BPS-led initiatives, such as the Voices in Psychology program
+([Sutton & Pownall,
+2018](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr60-00986283211027278),
+[2019](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr61-00986283211027278)).
+This also extends to the American Psychological Association's guidelines
+for undergraduate psychology majors
+([2013](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr3-00986283211027278)),
+who too stress that scientific inquiry, critical thinking, and
+communication are among the core goals of a psychology degree.
+
+Moreover, research shows that blog writing prompts critical thinking and
+reflection ([Chretien et al.,
+2008](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr12-00986283211027278);
+[Novakovich,
+2016](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr51-00986283211027278)).
+For example, [Novakovich
+(2016)](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr51-00986283211027278)
+investigated whether there are differences in the quality of writing
+generated through in-class workshops between the use of traditional
+methods compared with blog writing. They concluded that blog writing
+fostered more complex literacy skills, which is echoed by other
+empirical studies (e.g., [Alsamadani,
+2018](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr2-00986283211027278);
+[Febianti & Wahyuni,
+2019](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr21-00986283211027278)).
+
+However, there are also some challenges in implementing blogs as an
+effective assessment format. For example, students often have little to
+no previous experience of blogging which can impede engagement with it
+as an assessment ([Kerawalla et al.,
+2009](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr39-00986283211027278)).
+Similarly, [Kerawalla et al.
+(2009)](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr39-00986283211027278)
+warned that blog writing as an assessment in higher education should be
+grounded effectively in the course materials; without an effective sense
+of purpose, blogs as an assessment can be perceived as lacking clarity
+about their function, audience, and tone. Therefore, the expectations of
+blog writing should be made clear to students. Given the necessary
+alignment with subject-specific degree outcomes, blog writing may be
+best understood through a lens of psychological literacy, given that
+this approach encourages psychology students to apply their knowledge to
+daily life ([Cranney et al.,
+2008](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr17-00986283211027278),
+[2012](https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278#bibr15-00986283211027278)).
+Therefore, we propose that blog writing may provide a useful opportunity
+to allow students to apply their psychology content in a critical,
+creative, non-conventional way.
+
+::: callout-note
+## Blog Rubric example
+
+Scientific Blog marking rubric
+
+Below are the grading criteria for the assessment of the science blog.
+The profiles give an
+
+indication of typical performance at each class band, and clearly permit
+some variations upwards
+
+or downwards while remaining in the same class band. These descriptions
+should be taken as
+
+indicative rather than prescriptive. Seven key attributes of written
+work are considered when
+
+assigning marks, with some (e.g., 'accuracy') clearly more important
+than others:
+
+1.  Accuracy (i.e., is the material reported accurately?)
+2.  Appropriateness for general audience (i.e., is key content well
+    defined and explained, could a
+3.  non-specialist follow the argument)
+4.  Application to question (i.e., is the material used effectively in
+    the assignment)
+5.  Evidence (i.e., are claims supported by relevant evidence and/or
+    theory from the literature?)
+6.  Argument (i.e., is there a convincing line of argument through the
+    work?)
+7.  Critical evaluation (i.e., is the material presented evaluated
+    fully?)
+8.  Structure and coherence (i.e., is the answer well-structured with
+    good flow between points?)
+9.  Presentation (i.e., is the clarity of expression good)
+
+**See accompanying website for Rubric or go here**
+<https://osf.io/rgf8t>
+
+```{=html}
+<iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/download/rgf8t/?direct%26mode=render"
+    width="100%"
+    scrolling="yes"
+    height="677px"
+    marginheight="0"
+    frameborder="0"
+    allowfullscreen
+    webkitallowfullscreen
+>
+```
+:::

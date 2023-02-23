@@ -1,8 +1,9 @@
 project:
   title: "RM2024-5"
   type: book
-# csl: apa7.csl
-links-as-notes: true
+
+links-as-notes: false
+linkcolor:  blue
 
 book: 
   page-navigation: true
@@ -31,12 +32,8 @@ book:
     #       department: Southwest Fisheries Science Center
   chapters:
     - index.qmd
-    - part: "Pedagogy"
-      chapters:
-        - content/considerations.qmd
-    - part: "Operational Details"
-      chapters:
-        - content/pedagogy.qmd
+    - content/pedagogy.qmd
+    - content/considerations.qmd
     - part: "Years"
       chapters:
         - content/foundation.qmd
@@ -53,14 +50,12 @@ book:
         - content/yr_msc.qmd
     - part: "Guidelines"
       chapters:
-        - content/considerations.qmd
         - content/qaa.qmd
-        - content/holding.qmd
+        # - content/holding.qmd
         - content/references.qmd
-
   page-footer:
-    right: "Built  with [Quarto](https://quarto.org/) and 🚬 and 🍻."
-    left: "&copy; CC-1.0"
+    right: "Built with [Quarto](https://quarto.org/) and 🚬 and 🍻."
+    left: "&copy; CC-BY-SA-NC 4.0"
   
   sidebar:
     background: "#D9E3E4"
@@ -75,9 +70,10 @@ book:
     style: "docked"
     search: true
     collapse-level: 2
-    
-bibliography: ["references 2.bib"]
-reference-location: section
+cite-method: citeproc
+citeproc: true
+bibliography: [references.bib]
+csl: assets/apa.csl
 
 execute:
   echo: false
@@ -95,7 +91,7 @@ format:
     mainfont: "Atkinson Hyperlegible"
     sansfont: "Atkinson Hyperlegible"
     keep-tex: false
-    links-as-notes: true
+    links-as-notes: false
     margin-left: 1in
     margin-right: 1in
     margin-top: 1in
@@ -105,12 +101,14 @@ format:
         \usepackage{scrlayer-scrpage}
         \rohead{Header text}
         \rofoot{Footer text}
-  # docx:
-  #   # toc: true
-  #   # toc-depth: 2
-  #   reference-doc: template.docx
-  #   # always_allow_html: true
-  #   # prefer-html: true
+  docx:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    reference-doc: custom-reference-doc.docx
+    always_allow_html: true
+    prefer-html: true
+    
   html:
     theme: [cosmo, assets/theme.scss] 
     number-sections: false

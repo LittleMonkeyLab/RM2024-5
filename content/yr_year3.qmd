@@ -1,5 +1,5 @@
 ---
-title: Tables
+title: Year 3 schedule (NEW MODULE)
 df-print: kable
 format: 
   pdf: default
@@ -7,7 +7,7 @@ format:
 ---
 
 |   Week   | Schedule     |                                                                |              |                                                                |
-|:-----:|:---------|:---------------------|:---------|:------------------------|
+|:-----------:|:------------|:---------------|:------------|:------------------|
 |  **1**   | **Lecture:** | There was a wee cooper who lived in fife and his hat was green | **IndStud:** | There was a wee cooper who lived in fife and his hat was green |
 |          | **Lab:**     | There was a wee cooper who lived in fife and his hat was green | **Data:**    | There was a wee cooper who lived in fife and his hat was green |
 |  **2**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
@@ -28,28 +28,4 @@ format:
 |  **9**   | **Lecture:** |                                                                | **IndStud:** |                                                                |
 |          | **Lab:**     |                                                                | **Data:**    |                                                                |
 |  **10**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|          |              |                                                                |              |                                                                |
-|          |              |                                                                |              |                                                                |
-| **Week** | **Schedule** |                                                                |              |                                                                |
-|  **11**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **12**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **13**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **14**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **15**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|          |              | **Reading Week**                                               |              |                                                                |
-|  **16**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **17**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **18**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **19**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
-|          | **Lab:**     |                                                                | **Data:**    |                                                                |
-|  **20**  | **Lecture:** |                                                                | **IndStud:** |                                                                |
 |          | **Lab:**     |                                                                | **Data:**    |                                                                |
