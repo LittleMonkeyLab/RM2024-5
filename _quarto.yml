@@ -2,7 +2,7 @@ project:
   type: book
 mainfont: Atkinson Hyperlegible
 sansfont: Atkinson Hyperlegible
-logo: images/LMLLOGO.png
+
 
 book:
   page-navigation: true
@@ -41,6 +41,7 @@ book:
     left: "&copy; CC-1.0"
     
   sidebar:
+    contents: auto
     background: "#D9E3E4"
     logo: "images/LMLLOGO.png"
     favicon: "images/LMLLOGO.png"
@@ -52,11 +53,12 @@ book:
         text: "LittleMonkeyLab"
     style: "docked"
     search: true
+    
     collapse-level: 2
 
 bibliography: [references.bib]
-# cite-method: citeproc
-# citeproc: true
+cite-method: citeproc
+citeproc: true
 csl: apa7.csl
 
 execute:
