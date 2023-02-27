@@ -1,0 +1,2343 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  11pt,
+  letterpaper,
+  oneside,
+  open=any]{scrbook}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \setmainfont[]{Atkinson Hyperlegible}
+  \setsansfont[]{Atkinson Hyperlegible}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[lmargin=1in,rmargin=1in,tmargin=1in,bmargin=1in]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\usepackage{scrlayer-scrpage}
+\rohead{Header text}
+\rofoot{Footer text}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Draft Proposal - Goldsmiths Research Methods in Psychology},
+  pdfauthor={Gordon Wright \& Caroline Rix},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Draft Proposal - Goldsmiths Research Methods in Psychology}
+\author{Gordon Wright \& Caroline Rix}
+\date{2/28/23}
+
+\begin{document}
+\frontmatter
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, sharp corners, frame hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, breakable, interior hidden]}{\end{tcolorbox}}\fi
+
+\renewcommand*\contentsname{Table of contents}
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\mainmatter
+\bookmarksetup{startatroot}
+
+\hypertarget{proposal-for-psychology-department-research-methods-2024-5}{%
+\chapter{Proposal for Psychology Department Research Methods
+2024-5}\label{proposal-for-psychology-department-research-methods-2024-5}}
+
+\raggedright
+
+\bookmarksetup{startatroot}
+
+\hypertarget{overview}{%
+\chapter{Overview}\label{overview}}
+
+\hypertarget{statistics-and-research-methods-for-psychological-and-behavioural-science}{%
+\section{Statistics and Research Methods for Psychological and
+Behavioural
+Science}\label{statistics-and-research-methods-for-psychological-and-behavioural-science}}
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-warning-color!10!white, breakable, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, colback=white, titlerule=0mm, opacityback=0, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Warning}, arc=.35mm, bottomrule=.15mm, toprule=.15mm, left=2mm, coltitle=black]
+
+General Goldsmiths bollocks
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-important-color!10!white, breakable, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, colback=white, titlerule=0mm, opacityback=0, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, arc=.35mm, bottomrule=.15mm, toprule=.15mm, left=2mm, coltitle=black]
+
+The Psychology department at Goldsmiths has a number of differentiating
+features, upon which it must build in order to ensure it remains
+attractive and distinctive.
+
+\begin{itemize}
+\tightlist
+\item
+  Alchemical, interdisciplinary research programmes and projects
+\item
+  Passion for empowering students and producing creative, skillful,
+  disruptive agents of change
+\item
+  Blend of Art and Science, craft, entrepreneurship, massively
+  transferable mind-set/skill-set
+\end{itemize}
+
+Research Methods has to be an adventure, ``Alive'' with enthusiasm,
+inspiring curiosity and intellectual problem-solving.
+
+We have to break the A-Level preconception that Research Methods is dry,
+maths-like or indeed difficult.
+
+This must be achieved by: - Practical First - The majority of lab
+sessions should be practical and `hands on'! - Only present
+research/methods/topics that are `ownable' - where we have expertise,
+cachet and competitive advantage - and that could NOT be done at school
+- `Relevant \& Applicable' above all else. Nothing is taught `because
+the BPS says we have to' or that doesn't have widespread use in a range
+of future endeavours - Demonstrate and model intellectual virtue,
+curiosity, empiricism, skepticism, humility and
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-important-color!10!white, breakable, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, colback=white, titlerule=0mm, opacityback=0, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Departmental integration}, arc=.35mm, bottomrule=.15mm, toprule=.15mm, left=2mm, coltitle=black]
+
+Integration across the years
+
+Vertical Integration
+
+project delivery
+
+Y0 - MSc
+
+Aggregation of teaching
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white, breakable, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, colback=white, titlerule=0mm, opacityback=0, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Open Stuff}, arc=.35mm, bottomrule=.15mm, toprule=.15mm, left=2mm, coltitle=black]
+
+We embrace an Open Science approach in our efforts to cultivate your
+critical evaluation skills, enhance your understanding of the
+significance - and power - of research, and equip you with the necessary
+graduate-level skills to collect, handle, and interpret data using
+programming software for statistical model development, visualisation
+and analysis.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white, breakable, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, colback=white, titlerule=0mm, opacityback=0, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Teaching and Assessment}, arc=.35mm, bottomrule=.15mm, toprule=.15mm, left=2mm, coltitle=black]
+
+Through lectures, interactive group discussions, online skills
+development modules, and practical lab sessions, we will ignite your
+enthusiasm for Psychology and Behavioural Science research and help you
+develop the fundamental skills, knowledge - and confidence - required to
+become a Psychology literate, disruptive scientist of the future. Tada!
+
+\end{tcolorbox}
+
+AUTHENTIC ASSESSMENT - OPenAI
+
+``Authentic assessment'' generally refers to assignments that reflect
+the skills students will use in their post-graduation careers and life
+experiences (Archbald, 1991; Gulikers et al., 2004). This is distinct
+from traditional assessments such as closed-book exams and academic
+essays (Macandrew \& Edwards, 2002). For psychology, authentic
+assessments may involve the development of scientific inquiry skills,
+such as a practical research report (Halonen et al., 2003). In clinical
+psychology, this can include formulation of case studies or mock
+practitioner dialogues (Villarroel et al., 2018). Other examples of
+authentic assessments include writing letters to non-psychology
+audiences (Cranney, 2013), critical evaluation of media materials
+(Halpern \& Butler, 2011), written reflections of volunteering
+(Hadlington; as cited in Taylor \& Hulme, 2015), and research project
+interviews (Turner \& Davila-Ross, 2015). All of these are designed to
+promote psychological literacy by encouraging communication with
+non-experts and application of psychology content (Hulme, 2014).
+
+Central to psychological literacy is the effective communication of
+psychology in practice (Trapp et al., 2011). To this end, blog writing
+may be an effective assessment for capturing and promoting students'
+psychological literacy. Blogs are a web-based form of journal or writing
+platform, and are useful for disseminating information (Richardson,
+2006). They are also increasingly popular for assessing written language
+skills (Kim, 2008; Lee, 2010; Raith, 2009; Williams \& Jacobs, 2004).
+Blog writing may help students take different perspectives, develop a
+critical appraisal of content, and become more self-reflective (Frye et
+al., 2010; Jimoyiannis \& Angelaina, 2012). It also empowers and engages
+students (Creme \& Hunt, 2002), a core goal of psychology education
+(Ishak \& Salter, 2017). It enhances academic language learning (Murray
+et al., 2007) and assesses different skills than traditional forms of
+assessment (Morris et al., 2013). Studies show that students report high
+levels of engagement with blog writing (Hindley, 2018).
+
+Blog writing may help students overcome the challenge of academic essay
+writing (Ishak \& Salter, 2017) since it is less rigidly governed by
+academic norms (Bennett et al., 2012) and involves more reflective,
+creative, and critical tone (Arslan \& Aysel, 2010; Novakovich \& Long,
+2013). It also provides an opportunity to communicate psychology content
+to a wider audience (Gardiner et al., 2018; Schmidt, 2008; Relojo,
+2017). It has been embedded successfully in many different subjects in
+higher education, such as pharmacy (Dunne \& Ryan, 2016), anthropology
+(Walker \& Chatzigavriil, 2017), professional development (Shanks,
+2020), and English literature (Agarwal, 2017). The British Psychological
+Society, 2019 and the American Psychological Association (2013) stress
+the importance of critical evaluation and reflection, which is
+compatible with blog writing. Research shows that blog writing prompts
+critical thinking and reflection (Chretien et al., 2008; Novakovich,
+2016). Challenges to implementing blog writing as an assessment include
+students having little to no previous experience (Kerawalla et al.,
+2009). Blog writing should be grounded effectively in course materials,
+have clear expectations, and be understood through a lens of
+psychological literacy (Cranney et al., 2008, 2012). We propose that
+blog writing may provide a useful opportunity to allow students to apply
+their psychology content in a critical, creative, and non-conventional
+way.
+
+\begin{itemize}
+\tightlist
+\item
+  OPENAIabove
+\end{itemize}
+
+BPS Guidelines from OpenAI
+
+1. Ensure that students have a clear understanding of the research
+methods used in their field of study.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\item
+  Provide opportunities for students to develop critical thinking skills
+  in relation to the research methods used.
+\item
+  Encourage students to practice the research methods in a safe and
+  secure environment.
+\item
+  Develop a range of teaching materials and resources that best support
+  student learning.
+\item
+  Encourage students to become independent learners by providing
+  appropriate scaffolding and support.
+\item
+  Encourage students to become active participants in their learning
+  process.
+\item
+  Facilitate meaningful discussions about research methods and the
+  application of research methods in practice.
+\item
+  Incorporate ethical considerations into the research methods teaching.
+\item
+  Promote the use of technology to support the teaching of research
+  methods.
+\item
+  Monitor and evaluate students' progress throughout the teaching
+  period.
+\end{enumerate}
+
+Source: British Psychological Society (BPS). (2020). Guidance for the
+teaching of undergraduate research methods. Retrieved from
+https://www.bps.org.uk/publications/guidance-teaching-undergraduate-research-methods
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white, breakable, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, colback=white, titlerule=0mm, opacityback=0, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{BPS website}, arc=.35mm, bottomrule=.15mm, toprule=.15mm, left=2mm, coltitle=black]
+
+Research methods Research methods must be delivered at Level 5 or Level
+6. Research methods are integral to Psychology and students obtain a
+sound knowledge of, and a proven ability to use, a range of methods
+appropriately. Knowledge and understanding of how to obtain and analyse
+evidence is best acquired and demonstrated through extensive and
+progressive empirical work in laboratory and naturalistic settings
+through all stages of a degree. {[}section 3.4 Subject Benchmark
+Statement{]} Psychology students learn the basic principles of sound
+data collection. Given the broad theoretical scope of Psychology,
+rigorous specialist training is required to engender a critical
+understanding of the role of experimental design, the choice of research
+methods employed, and the analytic approach taken, for testing
+psychological theories. {[}section 3.5 Subject Benchmark Statement{]}
+Programmes' coverage of research methods should support students'
+engagement with the sub-areas listed above, and should be directed
+towards supporting students' attainment of the subject-specific skills
+highlighted in section 4.4 of the Subject Benchmark Statement. As they
+progress through the programme, students should be able to: • apply
+multiple perspectives to psychological issues, recognising that
+psychology involves a range of research methods, theories, evidence and
+applications; • integrate ideas and findings across the multiple
+perspectives in psychology and recognise distinctive psychological
+approaches to relevant issues; • identify and evaluate patterns in
+behaviour, psychological functioning and experience; • generate and
+explore hypotheses and research questions drawing on relevant theory and
+research; • carry out empirical studies involving a variety of methods
+of data collection, including experiments, observation, questionnaires,
+interviews and focus groups; • analyse, present and evaluate
+quantitative and qualitative data and evaluate research findings; •
+employ evidence-based reasoning and examine practical, theoretical and
+ethical issues associated with the range of methodologies; • use a
+variety of psychological tools, including specialist software,
+laboratory equipment and psychometric instruments; • apply psychological
+knowledge ethically and safely to real world problems; and • critically
+evaluate psychological theory and research.
+
+\end{tcolorbox}
+
+Communicate complex information effectively using appropriate written,
+oral, graphical and electronic means, taking into account diversity
+among individuals to whom the information is communicated.
+
+Explain the potential impact of psychological research and theory on a
+broad range of real world settings and situations (e.g., classrooms,
+industry, commerce, healthcare, as well as local and global
+communities).
+
+Problem-solve and reason scientifically. Specifically, graduates will be
+able to identify and pose research questions, consider alternative
+approaches to their solutions, and evaluate outcomes.
+
+Be sensitive to contextual and interpersonal factors. Graduates will be
+familiar with the complexity of the factors that shape behaviour and
+social interaction which, in turn, will make them more aware of the
+bases of problems and interpersonal conflicts.
+
+or Be a self-critical learner, showing sensitivity to contextual and
+interpersonal factors. Graduates will be familiar with the complexity of
+the factors that shape behaviour and social interaction which, in turn,
+will make them more aware of the bases of problems and interpersonal
+conflicts.
+
+Show an understanding of various research paradigms, methods, and
+evaluation procedures, including statistical analysis, as well as their
+constraints.
+
+Design, carry out, evaluate and interpret scientifically rigorous and
+ethically sound studies both independently and collaboratively,
+utilizing quantitative and qualitative methods, statistical analysis and
+modern digital software.
+
+Psychological literacy is the ability to understand and apply
+psychological principles and theories to everyday life. This includes
+the ability to understand how psychological processes and phenomena
+influence our behavior, emotions, thoughts, and relationships. It also
+includes the capacity to use psychological knowledge to make informed
+decisions and to better understand, explain, and predict the behavior of
+self and others.
+
+Psychology graduates are highly sought after by employers due to their
+ability to formulate and communicate well-reasoned, evidence-based, and
+statistically defensible arguments based on their expertise in the study
+of human behavior and its causes. On top of this, psychology graduates
+possess the skills to work independently or collaboratively, as well as
+strong numerical capabilities, verbal and written communication skills,
+and an up-to-date knowledge of digital technologies applicable to a wide
+range of occupational fields.
+
+\hypertarget{intended-learning-outcomes}{%
+\subsection{Intended Learning
+Outcomes}\label{intended-learning-outcomes}}
+
+Intended Learning Outcomes
+
+Create reproducible data analysis scripts and reports within the R
+statistical programming environment.
+
+QAA Benchmarks
+
+Subject Knowledge and Understanding
+
+6.3.4 demonstrate detailed knowledge of several specialised areas and/or
+applications, some of which are at the cutting edge of research in the
+discipline 6.3.5 demonstrate a systematic knowledge of a range of
+research paradigms, research methods and measurement techniques,
+including statistics and probability, and be aware of their limitations.
+
+Subject-specific skills
+
+PS510XX - RM1 - Introduction to Research Methods and Data Skills
+
+PS520XX - RM2 - Research Methods in Practice and Data Skills
+
+PS530XX - RM3 - Research Project Incubator
+
+*PS710XX - Practical Research Skills
+
+Lectures - Overview of key concepts/context and preview Lab practicals /
+Data Skills
+
+Labs - Practical or activity based (inc. Group Work)
+
+\hypertarget{executive-summary-by-year}{%
+\subsection{Executive Summary by year}\label{executive-summary-by-year}}
+
+Y1 - showcase and active participation/skill development
+
+Y2 - Practical drive towards self-motivated research
+
+Y3 - Competent research
+
+Social Constructivist
+
+PeerMark
+
+Podcast/Webpage/Blog
+
+Integrate own interest/guided by stream/lab
+
+\hypertarget{technical-overview}{%
+\subsection{Technical Overview}\label{technical-overview}}
+
+\begin{figure}
+
+\begin{minipage}[t]{0.20\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=0.67708in,height=\textheight]{images/R_logo.png}
+
+}
+
+\caption{R language}
+
+}
+
+\end{minipage}%
+%
+\begin{minipage}[t]{0.15\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=0.52083in,height=\textheight]{images/posit_logo.png}
+
+}
+
+\caption{Posit (Formerly RStudio)}
+
+}
+
+\end{minipage}%
+%
+\begin{minipage}[t]{0.64\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=2.16667in,height=\textheight]{images/quarto_logo.png}
+
+}
+
+\caption{Quarto Academic Writing Suite}
+
+}
+
+\end{minipage}%
+
+\end{figure}
+
+\begin{figure}
+
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\hypertarget{list-one}{%
+\subsection{List One}\label{list-one}}
+
+\begin{itemize}
+\tightlist
+\item
+  Item A
+\item
+  Item B
+\item
+  Item C
+\end{itemize}
+
+}
+
+\end{minipage}%
+%
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\hypertarget{list-two}{%
+\subsection{List Two}\label{list-two}}
+
+\begin{itemize}
+\tightlist
+\item
+  Item X
+\item
+  Item Y
+\item
+  Item Z
+\end{itemize}
+
+}
+
+\end{minipage}%
+
+\end{figure}
+
+R will be used. Gold standard statistical programming language
+
+For literate programming (The concept of
+\href{https://en.wikipedia.org/wiki/Literate_programming}{\textbf{``literate
+programming''}} was originally introduced by
+\href{http://www.literateprogramming.com/knuthweb.pdf}{Donald Knuth} in
+1984 )
+
+Formerly RStudio. The Interactive Development Enviornment for use of R.
+
+\hypertarget{hours-specification-e.g.-years-1-2}{%
+\subsection{Hours specification (e.g.) Years 1 \&
+2}\label{hours-specification-e.g.-years-1-2}}
+
+\begin{longtable}[]{@{}lll@{}}
+\caption{Notional Hours}\tabularnewline
+\toprule()
+Activity & Time & Note \\
+\midrule()
+\endfirsthead
+\toprule()
+Activity & Time & Note \\
+\midrule()
+\endhead
+Lectures & 40 & 2hrs/week \\
+Labs & 40 & 2hrs/week \\
+Data Skills (Online) & 40 & 2hrs/week \\
+Guided Reading/viewing & 40 & 2hrs/week \\
+RPS & 20 & 1hr/week \\
+Independent Study/Coursework & 120 & 6hr/week \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{programme-overview}{%
+\section{Programme Overview}\label{programme-overview}}
+
+\hypertarget{pre-arrival-onwards-onboarding}{%
+\subsection{Pre-Arrival onwards /
+Onboarding}\label{pre-arrival-onwards-onboarding}}
+
+Showcase in Induction week - Staff labs and research projects for the
+year.
+
+Year One students self-test
+
+MSc Students - ditto and ability to shop around for supervision
+
+Year 2 develop their pods? Show Y1 and Foundations what they did last
+year
+
+Year 3/MSc students - Research Bootcamp and refreshers/skills workshops
+
+Support PhD students and staff
+
+\hypertarget{shock-and-awe---shatter-the-a-level-preconceptions}{%
+\subsection{Shock and Awe - Shatter the A-Level
+preconceptions}\label{shock-and-awe---shatter-the-a-level-preconceptions}}
+
+\hypertarget{vertically-integrated-projects-via-labs}{%
+\subsection{Vertically Integrated Projects via
+`Labs'}\label{vertically-integrated-projects-via-labs}}
+
+\hypertarget{heartdata-week-recruitment-forward-prep}{%
+\subsection{HeartData week (recruitment \& forward
+prep)}\label{heartdata-week-recruitment-forward-prep}}
+
+Potentially Reading Week Term 2? Or week before/after?
+
+Allows all levels of students to blitz data and to showcase their work
+for external stakeholders and to make a department-wide event.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{stuff}{%
+\chapter{STUFF}\label{stuff}}
+
+\hypertarget{personal-development-skills}{%
+\section{\texorpdfstring{\textbf{Personal development
+skills}}{Personal development skills}}\label{personal-development-skills}}
+
+\begin{itemize}
+\item
+  self-management
+\item
+  team working
+\item
+  problem solving
+\item
+  application of information skills
+\item
+  communication
+\item
+  application of numeracy skills
+\item
+  specialist skills
+\end{itemize}
+
+OPENAI of below
+
+McGovern et al.~(2010) define psychological literacy as `being
+insightful and reflective about one's own and others' behaviour and
+mental processes' (p.11). This concept captures the ability of a
+psychology student to apply the knowledge and skills gained during their
+education to all aspects of life, such as the workplace, personal life,
+and wider social context. Cranney et al.~(2012, p.4) adopt a similar
+definition of psychological literacy as `the general capacity to
+adaptively and intentionally apply psychology to meet personal,
+professional and societal needs'. Dunn (2009) further explains that
+psychologically literate people are able to use psychology to solve
+issues on a local, civic, and national level by looking to data instead
+of personal opinion.
+
+In order to promote psychological literacy, Dunn et al.~(2011) and Mair
+et al.~(2013) suggest that the applications of psychology should be
+recognised and taught in a real-world context; Biggs (1996) recommends
+that courses should be constructively aligned to explicitly include
+psychological literacy in the learning outcomes and assessments; and
+Akhurst et al.~(in press), Bernstein (2011), Cranney and Dunn (2011),
+McGovern (2011) and Zinkiewicz et al.~(2003) suggest that psychological
+literacy should be modelled in professional lives through interactions
+with colleagues and students, and by using psychology to inform teaching
+practices, solve problems, and ensure inclusivity.
+
+\begin{itemize}
+\item
+  \begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white, breakable, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, colback=white, titlerule=0mm, opacityback=0, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, arc=.35mm, bottomrule=.15mm, toprule=.15mm, left=2mm, coltitle=black]
+
+  \begin{itemize}
+  \item
+    McGovern et al.~(2010) defines psychological literacy as `being
+    insightful and reflective about one's own and others behaviour and
+    mental processes' (p.11). It is, in essence, the general capacity to
+    apply psychological knowledge to real-world scenarios.
+  \item
+    Dunn (2009) discusses this, claiming that `psychologically literate
+    people can use what they know about psychology to solve home-based,
+    local, civic, and even national matters by looking to data instead
+    of personal opinion'.
+  \item
+    McGovern et al.~(2010, p.11) define psychological literacy as `being
+    insightful and reflective about one's own and others' behaviour and
+    mental processes' and having the ability to apply `psychological
+    principles to personal, social, and organizational issues in work,
+    relationships and the broader community'. Cranney et al.~(2012, p.4)
+    adopt a similar stance, describing psychological literacy as `the
+    general capacity to adaptively and intentionally apply psychology to
+    meet personal, professional and societal needs'. The concept of
+    psychological literacy thus captures the ability of a psychology
+    student to apply the knowledge and skills that they acquire during
+    their education to all aspects of life: the workplace, their
+    personal lives and the wider social context. As such, psychological
+    literacy may provide a lens through which we can view the wider
+    benefits of psychology education. It may also hold out some hope to
+    students who may be coming to accept that their aspirations towards
+    a career in psychology are likely to remain unfulfilled, but who
+    remain enthused and inspired by the subject, and are looking for
+    ways to continue to stay in touch with it.
+  \item
+    We need to:\\
+    I~~ ~recognise and to teach the applications of psychology, its
+    relevance to the real world and the transferability of skills,
+    rather than always teaching it in a theoretical context (Dunn et
+    al., 2011; Mair et al., 2013);\\
+    I~~ ~constructively align (Biggs, 1996) our courses to explicitly
+    include psychological literacy in our learning outcomes, our
+    teaching, and the assessments that we give to our students (Dunn et
+    al., 2011; Trapp, 2010; Trapp et al., 2011);\\
+    I~~ ~model psychological literacy in our own professional lives,
+    through our interactions with colleagues and students, using
+    psychology to inform our teaching practices, solve problems and
+    ensure inclusivity (Akhurst et al., in press; Bernstein, 2011;
+    Cranney and Dunn, 2011; McGovern, 2011; Zinkiewicz et al., 2003).
+  \item
+    \emph{Psychological Literacy}
+
+    Barnett, R. (2006). Graduate attributes in an age of uncertainty.
+    \emph{Graduate attributes, learning and employability}, 49-65.
+
+    Cranney, J., Botwood, L., \& Morris, S. (2012). National standards
+    for psychological literacy and global citizenship: Outcomes of
+    undergraduate psychology education. \emph{Australia: The University
+    of New South Wales.}
+
+    Cranney, J., Morris, S., Martin, F. H., Provost, S., Zinkiewicz, L.,
+    Reece, J \& Earl, J. (2011). Psychological literacy and applied
+    psychology in undergraduate education.
+
+    Dunn (2009) Psychology Today.
+    \href{https://www.psychologytoday.com/blog/head-the-class/200909/thinking-about-psychological-literacy}{\textbf{https://www.psychologytoday.com/blog/head-the-class/200909/thinking-about-psychological-literacy}}
+
+    Haigh, M., \& Clifford, V. A. (2010). Widening the graduate
+    attribute debate: a Higher education for Global citizenship.
+    \emph{Brookes eJournal of Learning and Teaching}, \emph{2}(5).
+
+    McGovern T. V., Corey L., Cranney J., Dixon W., Holmes J. D.,
+    Kuebli, et al.~. (2010). Psychologically literate citizens, in
+    Undergraduate Education in Pscyhology: A Blueprint for the Future of
+    the Discipline, ed Halpern D. F., editor. (Washington, DC: American
+    Psychological Association; ), 9--27.
+
+    Murdoch, D. D. (2016). Psychological literacy: proceed with caution,
+    construction ahead. \emph{Psychology research and behavior
+    management}, \emph{9}, 189.
+
+    Trapp, A., Banister, P., Ellis, J., Latto, R., Miell, D., \& Upton,
+    D. (2011). The future of undergraduate psychology in the United
+    Kingdom. \emph{Higher Education Academy Psychology Network,
+    University of York, York}.
+  \item
+    Akhurst, J. (2013). Enhancing psychology students' employability
+    through international community-based work placements. Higher
+    Education Academy. Retrieved 30 September 2014 from
+    \href{http://www.tinyurl.com/pd6bmtg}{\textbf{tinyurl.com/pd6bmtg}}\\
+    Akhurst, J., Coxon, M. \& Hulme, J. (in press). Applying psychology
+    to psychology learning and teaching. York: Higher Education
+    Academy.\\
+    Barnett, R. (2010). Life-wide education: A new and transformative
+    concept for higher education? In N. Jackson \& R. Law (Eds.)
+    Enabling a More Complete Education {[}Conference proceedings{]}.
+    University of Surrey. (Available at
+    \href{http://www.http//lifewidelearningconference\%20.pbworks.com/E-proceedings}{\textbf{http://lifewidelearningconferencepbworks.com/E-proceedings}})\\
+    Bernstein, D. (2011). A scientist-educator perspective on
+    psychological literacy. In J. Cranney \& D. Dunn (Eds.) The
+    psychologically literate citizen. New York: Oxford University
+    Press.\\
+    Biggs, J. (1996). Enhancing teaching through constructive alignment.
+    Higher Education, 32(3), 347--364.\\
+    Boneau, C.A. (1990). Psychological literacy: A first approximation.
+    American Psychologist, 45, 891--900.\\
+    Bromnick, R. \& Horowitz, A. (2013). Reframing employability:
+    Exploring career-related values in psychology undergraduates. Paper
+    presented at the HEA STEM Annual Learning and Teaching Conference,
+    University of Birmingham, April. Retrieved 30 September 2014 from
+    \href{http://www.tinyurl.com/mm9xojq}{\textbf{tinyurl.com/mm9xojq}}\\
+    CBI/NUS (2011). Working towards your future: Making the most of your
+    time in higher education. London: CBI. Retrieved 22 July 2014 from
+    \href{http://www.tinyurl.com/lsqsdwu}{\textbf{tinyurl.com/lsqsdwu}}\\
+    CIPD (2011). The coaching climate. London: CIPD. (Available via
+    \href{http://www.www.cipd.co.uk/hr-resources/survey-reports/coaching-climate-2011.aspx}{\textbf{www.cipd.co.uk/hr-resources/survey-reports/coaching-climate-2011.aspx}})\\
+    Cranney, J., Botwood, L. \& Morris, S. (2012). National standards
+    for psychological literacy and global citizenship: Outcomes of
+    undergraduate psychology education. Sydney, NSW: Office for Learning
+    and Teaching. Retrieved 22 July 2014 from
+    \href{http://www.tinyurl.com/q98zg4y}{\textbf{tinyurl.com/q98zg4y}}\\
+    Cranney, J. \& Dunn, D. (2011). What the world needs now is
+    psychological literacy. In J. Cranney \& D. Dunn (Eds.) The
+    psychologically literate citizen. New York: Oxford University
+    Press.\\
+    Dunn, D., Cautin, R.L. \& Gurung, A.R. (2011). Curriculum matters:
+    Structure, content, and psychological literacy. In J. Cranney \& D.
+    Dunn (Eds.) The psychologically literate citizen. New York: Oxford
+    University Press.\\
+    Grabinger, R.S. \& Dunlap, J.C. (1995). Rich environments for active
+    learning: A definition. Research in Learning Technology, 3(2),
+    5--34.\\
+    Halpern, D. (2010). Undergraduate education in psychology: A
+    blueprint for the future of the discipline. Washington, DC: APA.\\
+    Harkness, F. (2013). He's just not that into you. The Psychologist,
+    26(5), 314--315.\\
+    Harnish, R. \& Bridges, K.R. (2012). Promoting student engagement:
+    Using community service-learning projects in undergraduate
+    psychology. PRISM: A Journal of Regional Engagement, 1(2). Retrieved
+    22 July 2014 from
+    \href{http://www.http//encompass.eku.edu/prism/vol1/iss2/1\%E2\%88\%9A}{\textbf{http://encompass.eku.edu/prism/vol1/iss2/1√}}
+
+    \hfill\break
+  \item
+    \href{https://thepsychologist.bps.org.uk/volume-27/december-2014/psychological-literacy-classroom-real-world}{\textbf{psychological
+    literacy}}
+  \end{itemize}
+
+  \end{tcolorbox}
+\item
+\end{itemize}
+
+\begin{figure}
+
+\includegraphics[width=0.36458in,height=\textheight]{images/GitHub-Mark.png} \hfill{}
+
+\end{figure}
+
+\href{http://creativecommons.org/licenses/by/4.0/}{\includegraphics{images/creative_commons.png}}
+This website/book is licensed under a
+\href{http://creativecommons.org/licenses/by/4.0/}{Creative Commons
+Attribution 4.0 International License.}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{pedagogical-delivery-overview}{%
+\chapter{Pedagogical \& Delivery
+Overview}\label{pedagogical-delivery-overview}}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{general-fun}{%
+\chapter{General FUN}\label{general-fun}}
+
+Practical first.
+
+Flipped stats
+
+Evidence suggests that a flipped approach to teaching statistics
+significantly improves student performance (across a range of metrics)
+at the mean and throughout the achievement distribution, while
+controlling for baseline student characteristics Sathy \& Moore (2020)
+(see tables 13.3 \& 13.4 - specifically Anxiety, preparedness and
+under-represented minority status).
+
+\hypertarget{assessments}{%
+\section{Assessments}\label{assessments}}
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white, breakable, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, colback=white, titlerule=0mm, opacityback=0, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{assessment types}, arc=.35mm, bottomrule=.15mm, toprule=.15mm, left=2mm, coltitle=black]
+
+Blog
+
+Podcast
+
+Website
+
+Posters
+
+Information Packs Macandrew \& Edwards (2002)
+
+Portfolios (or ProcessFolio)
+
+Interview (and self-reflection)
+
+Clinical Assessment
+
+Skills assessment
+
+Oral Examination (mock job interview)
+
+Self and Peer evaluation
+
+Literature Review (with or without annotations)
+
+Annotated Code
+
+Computational documents (Lab Reports)
+
+Design and Proposal (Pre-registration)
+
+Data analysis (Results section)
+
+\end{tcolorbox}
+
+``Authentic assessment'' (Archbald, 1991) refers to assignments that are
+designed to reflect the skills that students will practice in their
+careers and other life experiences after graduation
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr24-00986283211027278}{Gulikers
+et al., 2004}), looking beyond traditional assessment such as
+closed-book exams and traditional formats of academic essays
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr44-00986283211027278}{Macandrew
+\& Edwards, 2002}). The impact of employing Authentic Assessments range
+from increased engagement and satisfaction through to heightened
+employability skills (Sokhanvar et al., 2021)
+
+\hypertarget{projects}{%
+\section{Projects}\label{projects}}
+
+``Authentic assessment'' refers to assignments that are designed to
+reflect the skills that students will practice in their careers and
+other life experiences after graduation
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr4-00986283211027278}{Archbald,
+1991};
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr24-00986283211027278}{Gulikers
+et al., 2004}), looking beyond traditional assessment such as
+closed-book exams and traditional formats of academic essays
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr44-00986283211027278}{Macandrew
+\& Edwards, 2002}). In general psychology, for example, authentic
+assessments may include the explicit development of scientific inquiry
+skills, such as a practical research report
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr25-00986283211027278}{Halonen
+et al., 2003}). Or, for more applied facets such as clinical psychology,
+this may also include formulation of case studies or engagement in mock
+practitioner dialogues
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr66-00986283211027278}{Villarroel
+et al., 2018}). Previous examples of authentic assessments designed to
+foster and assess psychological literacy include asking students to
+write letters to non-psychology audiences
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr14-00986283211027278}{Cranney,
+2013}), critical evaluation of media materials
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr26-00986283211027278}{Halpern
+\& Butler, 2011}), written reflections of volunteering (Hadlington; as
+cited in
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr63-00986283211027278}{Taylor
+\& Hulme, 2015}), and research project interviews
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr65-00986283211027278}{Turner
+\& Davila-Ross, 2015}). All of these examples are designed to encourage
+a psychologically literate approach to psychology content because they
+encourage communication with non-experts and application of psychology
+content
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr33-00986283211027278}{Hulme,
+2014}).
+
+Indeed, central to the notion of psychological literacy is the effective
+communication of psychology in practice
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr64-00986283211027278}{Trapp
+et al., 2011}). Therefore, a psychologically literate education should
+encourage students to communicate their knowledge in clear and
+accessible ways. With this in mind, here, we propose that blog writing
+may also be an effective assessment for capturing and promoting
+students' psychological literacy. Blog writing inherently aligns with
+the agenda of psychological literacy because it aims to communicate
+often complex psychology knowledge in an accessible way
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr38-00986283211027278}{Jolley
+et al., 2016};
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr43-00986283211027278}{Lin
+et al., 2007}).
+
+Primary Citation Pownall et al. (2023) Blogs, which are a web-based form
+of journal or writing platform, are a powerful tool in the wide
+dissemination of information in the modern media mix - relevant to
+current students
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr56-00986283211027278}{Richardson,
+2006}) .
+
+Blog writing is thought to offer the opportunity to take different
+perspectives in writing, develop a more critical appraisal of the
+content, and thus can prompt higher levels of self-reflection (e.g.,
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr22-00986283211027278}{Frye
+et al., 2010};
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr37-00986283211027278}{Jimoyiannis
+\& Angelaina, 2012}). Activities that encourage creative participation
+in the process of academic writing have been found to empower and engage
+students
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr18-00986283211027278}{Creme
+\& Hunt, 2002}), a core goal of a psychology education
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr36-00986283211027278}{Ishak
+\& Salter, 2017}). Therefore, blog writing promotes wider academic
+language learning
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr49-00986283211027278}{Murray
+et al., 2007}) and thus complements more traditional forms of
+assessments by allowing a different set of skills to be assessed
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr47-00986283211027278}{Morris
+et al., 2013}). Across the literature, studies show that students report
+high levels of engagement with blog writing exercises, owing to the high
+levels of creativity associated with this form of writing
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr31-00986283211027278}{Hindley,
+2018}).
+
+Research demonstrates students often report feeling unprepared and
+overwhelmed at the perceived ``rules'' of academic essay writing
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr36-00986283211027278}{Ishak
+\& Salter, 2017}). Blog writing should help students to overcome this
+pedagogic challenge, given that blogs are governed less rigidly by
+academic norms
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr6-00986283211027278}{Bennett
+et al., 2012}) and typically involve more reflective, creative, and
+critical tone
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr5-00986283211027278}{Arslan
+\& Aysel, 2010};
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr52-00986283211027278}{Novakovich
+\& Long, 2013}). Writing in a clear and accessible way is an important
+transferable skill and undergraduate outcomes across subjects in higher
+education
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr29-00986283211027278}{Hawkey
+\& Barker, 2004};
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr42-00986283211027278}{Leki
+\& Carson, 1994}). Blog writing can, in theory, enhance these skills,
+given its highly reflective nature and deviance away from the
+conventions of academic writing with which some students struggle
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr19-00986283211027278}{Dippold,
+2009};
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr59-00986283211027278}{Soysa
+et al., 2013};
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr69-00986283211027278}{Xie
+et al., 2008}). Similarly, blog writing also provides a useful
+opportunity to communicate psychology content to a wider audience.
+Scholars have noted how traditional forms of academic psychology
+dissemination, such as journal articles, are typically inaccessible to a
+general audience, both in terms of language use and access (i.e.,
+because they are published behind a paywall that requires institutional
+subscriptions;
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr55-00986283211027278}{Relojo,
+2017}). Blog writing may thus be an important platform to mediate the
+relationship between science and the general public (e.g.,
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr23-00986283211027278}{Gardiner
+et al., 2018};
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr57-00986283211027278}{Schmidt,
+2008}), which again is a facet of the psychological literacy approach
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr33-00986283211027278}{Hulme,
+2014}).
+
+Blog writing as an assessment has been embedded successfully in many
+different academic subjects in higher education, such as in pharmacy
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr20-00986283211027278}{Dunne
+\& Ryan, 2016}), anthropology
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr67-00986283211027278}{Walker
+\& Chatzigavriil, 2017}), professional development
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr58-00986283211027278}{Shanks,
+2020}), and English literature
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr1-00986283211027278}{Agarwal,
+2017}). Indeed, given that the
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr8-00986283211027278}{British
+Psychological Society, 2019} note in their degree accreditation
+standards that ``critical evaluation and reflection'' is a key graduate
+attribute for psychology programs, blog writing may be particularly
+compatible with psychology undergraduate content. The blog approach to
+writing has been promoted through BPS-led initiatives, such as the
+Voices in Psychology program
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr60-00986283211027278}{Sutton
+\& Pownall, 2018},
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr61-00986283211027278}{2019}).
+This also extends to the American Psychological Association's guidelines
+for undergraduate psychology majors
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr3-00986283211027278}{2013}),
+who too stress that scientific inquiry, critical thinking, and
+communication are among the core goals of a psychology degree.
+
+Moreover, research shows that blog writing prompts critical thinking and
+reflection
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr12-00986283211027278}{Chretien
+et al., 2008};
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr51-00986283211027278}{Novakovich,
+2016}). For example,
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr51-00986283211027278}{Novakovich
+(2016)} investigated whether there are differences in the quality of
+writing generated through in-class workshops between the use of
+traditional methods compared with blog writing. They concluded that blog
+writing fostered more complex literacy skills, which is echoed by other
+empirical studies (e.g.,
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr2-00986283211027278}{Alsamadani,
+2018};
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr21-00986283211027278}{Febianti
+\& Wahyuni, 2019}).
+
+However, there are also some challenges in implementing blogs as an
+effective assessment format. For example, students often have little to
+no previous experience of blogging which can impede engagement with it
+as an assessment
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr39-00986283211027278}{Kerawalla
+et al., 2009}). Similarly,
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr39-00986283211027278}{Kerawalla
+et al. (2009)} warned that blog writing as an assessment in higher
+education should be grounded effectively in the course materials;
+without an effective sense of purpose, blogs as an assessment can be
+perceived as lacking clarity about their function, audience, and tone.
+Therefore, the expectations of blog writing should be made clear to
+students. Given the necessary alignment with subject-specific degree
+outcomes, blog writing may be best understood through a lens of
+psychological literacy, given that this approach encourages psychology
+students to apply their knowledge to daily life
+(\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr17-00986283211027278}{Cranney
+et al., 2008},
+\href{https://journals-sagepub-com.gold.idm.oclc.org/doi/full/10.1177/00986283211027278\#bibr15-00986283211027278}{2012}).
+Therefore, we propose that blog writing may provide a useful opportunity
+to allow students to apply their psychology content in a critical,
+creative, non-conventional way.
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white, breakable, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, colback=white, titlerule=0mm, opacityback=0, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Blog Rubric example}, arc=.35mm, bottomrule=.15mm, toprule=.15mm, left=2mm, coltitle=black]
+
+Scientific Blog marking rubric
+
+Below are the grading criteria for the assessment of the science blog.
+The profiles give an
+
+indication of typical performance at each class band, and clearly permit
+some variations upwards
+
+or downwards while remaining in the same class band. These descriptions
+should be taken as
+
+indicative rather than prescriptive. Seven key attributes of written
+work are considered when
+
+assigning marks, with some (e.g., `accuracy') clearly more important
+than others:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Accuracy (i.e., is the material reported accurately?)
+\item
+  Appropriateness for general audience (i.e., is key content well
+  defined and explained, could a
+\item
+  non-specialist follow the argument)
+\item
+  Application to question (i.e., is the material used effectively in the
+  assignment)
+\item
+  Evidence (i.e., are claims supported by relevant evidence and/or
+  theory from the literature?)
+\item
+  Argument (i.e., is there a convincing line of argument through the
+  work?)
+\item
+  Critical evaluation (i.e., is the material presented evaluated fully?)
+\item
+  Structure and coherence (i.e., is the answer well-structured with good
+  flow between points?)
+\item
+  Presentation (i.e., is the clarity of expression good)
+\end{enumerate}
+
+\textbf{See accompanying website for Rubric or go here}
+\url{https://osf.io/rgf8t}
+
+\end{tcolorbox}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{considerations}{%
+\chapter{Considerations}\label{considerations}}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{further-considerations}{%
+\chapter{Further considerations}\label{further-considerations}}
+
+\hypertarget{preparation}{%
+\subsection{Preparation}\label{preparation}}
+
+Need to begin preparation
+
+Lectures x 40
+
+Open Educational Resources Textbook for Research Methods CCBY4.0
+
+Lab Practicals x 40
+
+Open Educational Resources Textbook for Data Skills (Navarro) CCBY4.0
+
+Recordings and worksheets for above x 40
+
+Y3/MSc Bootcamp
+
+\hypertarget{infrastructure}{%
+\subsection{Infrastructure}\label{infrastructure}}
+
+\hypertarget{recording-suite}{%
+\subsubsection{Recording suite}\label{recording-suite}}
+
+\hypertarget{materials-storage}{%
+\subsubsection{Materials storage}\label{materials-storage}}
+
+\hypertarget{estates-and-facilities}{%
+\subsection{Estates and Facilities}\label{estates-and-facilities}}
+
+\hypertarget{removal-of-computer-banks-in-labs-to-make-them-more-useful-for-practicals}{%
+\subsubsection{Removal of computer banks in labs to make them more
+useful for
+practicals?}\label{removal-of-computer-banks-in-labs-to-make-them-more-useful-for-practicals}}
+
+\hypertarget{wall-mounted-monitors}{%
+\subsubsection{Wall-mounted monitors}\label{wall-mounted-monitors}}
+
+\hypertarget{section}{%
+\subsubsection{}\label{section}}
+
+\hypertarget{technology}{%
+\subsection{Technology}\label{technology}}
+
+\hypertarget{posit-cloud-as-entry-level}{%
+\subsubsection{Posit Cloud as Entry
+Level}\label{posit-cloud-as-entry-level}}
+
+\hypertarget{student-download-for-y2-onwards}{%
+\subsubsection{Student download for Y2
+onwards}\label{student-download-for-y2-onwards}}
+
+\hypertarget{possible-posit-server-run-by-ian}{%
+\subsubsection{Possible Posit Server run by
+Ian}\label{possible-posit-server-run-by-ian}}
+
+\hypertarget{costs}{%
+\subsection{Costs}\label{costs}}
+
+\hypertarget{cost-for-posit-cloud-maybe}{%
+\subsubsection{Cost for Posit Cloud
+(Maybe)}\label{cost-for-posit-cloud-maybe}}
+
+\hypertarget{chromebooks-on-loan}{%
+\subsubsection{Chromebooks on loan}\label{chromebooks-on-loan}}
+
+\hypertarget{risks}{%
+\subsection{Risks}\label{risks}}
+
+\hypertarget{technology-obstacles-lower-than-spss}{%
+\subsubsection{Technology obstacles (lower than
+SPSS)}\label{technology-obstacles-lower-than-spss}}
+
+\hypertarget{finite-knowledge-within-staff}{%
+\subsubsection{Finite knowledge within
+staff}\label{finite-knowledge-within-staff}}
+
+\hypertarget{staff-resistance}{%
+\subsubsection{Staff resistance}\label{staff-resistance}}
+
+\hypertarget{staffing}{%
+\subsection{Staffing}\label{staffing}}
+
+\hypertarget{recruit-next-tfs-specifically-to-help-build-the-infrastructure-and-programme}{%
+\subsubsection{Recruit next TFs specifically to help build the
+infrastructure and
+programme}\label{recruit-next-tfs-specifically-to-help-build-the-infrastructure-and-programme}}
+
+\hypertarget{timetabling}{%
+\subsection{Timetabling}\label{timetabling}}
+
+\hypertarget{heartdata-week}{%
+\subsubsection{HeartData week}\label{heartdata-week}}
+
+asdgasdfhg
+
+\hypertarget{induction-planning}{%
+\subsubsection{Induction planning}\label{induction-planning}}
+
+\hypertarget{pre-arrival-comms}{%
+\subsubsection{Pre-arrival comms}\label{pre-arrival-comms}}
+
+\hypertarget{accessibility}{%
+\subsection{Accessibility}\label{accessibility}}
+
+\hypertarget{homework-club---where-staff-are-on-hand-every-week}{%
+\subsubsection{Homework club - Where staff are on hand every
+week}\label{homework-club---where-staff-are-on-hand-every-week}}
+
+\hypertarget{student-supportwelfare}{%
+\subsection{Student Support/Welfare}\label{student-supportwelfare}}
+
+\hypertarget{enhanced-by-access-to-resources}{%
+\subsubsection{Enhanced by access to
+resources}\label{enhanced-by-access-to-resources}}
+
+\hypertarget{employability}{%
+\subsection{Employability}\label{employability}}
+
+\hypertarget{r-and-python-are-most-versatile-tools-on-the-market}{%
+\subsubsection{R and Python are most versatile tools on the
+market}\label{r-and-python-are-most-versatile-tools-on-the-market}}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{section-1}{%
+\chapter{}\label{section-1}}
+
+\part{Years}
+
+\hypertarget{foundations-level-3}{%
+\chapter{Foundations (Level 3)}\label{foundations-level-3}}
+
+\hypertarget{section-2}{%
+\section{}\label{section-2}}
+
+sdgasdg
+
+\hypertarget{foundation-year-schedule}{%
+\chapter{Foundation Year schedule}\label{foundation-year-schedule}}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2162}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2568}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\centering
+Week
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Schedule
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{1} & \textbf{Lecture:} & There was a wee cooper who lived in
+fife and his hat was green & \textbf{IndStud:} & There was a wee cooper
+who lived in fife and his hat was green \\
+& \textbf{Lab:} & There was a wee cooper who lived in fife and his hat
+was green & \textbf{Data:} & There was a wee cooper who lived in fife
+and his hat was green \\
+\textbf{2} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{3} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{4} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{5} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+& & Reading Week & & \\
+\textbf{6} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{7} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{8} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{9} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{10} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\bottomrule()
+\end{longtable}
+
+\newpage
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2162}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2568}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\centering
+Week
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Schedule
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{11} & \textbf{Lecture:} & There was a wee cooper who lived in
+fife and his hat was green & \textbf{IndStud:} & There was a wee cooper
+who lived in fife and his hat was green \\
+& \textbf{Lab:} & There was a wee cooper who lived in fife and his hat
+was green & \textbf{Data:} & There was a wee cooper who lived in fife
+and his hat was green \\
+\textbf{12} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{13} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{14} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{15} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+& & \textbf{Reading Week} & & \\
+\textbf{16} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{17} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{18} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{19} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{20} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{year-1-level-4}{%
+\chapter{Year 1 (Level 4)}\label{year-1-level-4}}
+
+\hypertarget{year-1-level-4-1}{%
+\section{Year 1 (Level 4)}\label{year-1-level-4-1}}
+
+\hypertarget{module-content}{%
+\subsection{Module Content}\label{module-content}}
+
+This module equips students with the practical and conceptual skills
+necessary for the effective study of psychology. It includes computer
+skills, presenting results of experiments, structuring an essay, and
+critiquing a scientific paper. Additionally, it provides an introduction
+to experimental design, data, and statistics in psychology. Students
+will learn the theoretical aspects of basic statistical concepts and
+tests, and gain experience using statistical packages.
+
+\hypertarget{module-learning-outcomes}{%
+\subsection{Module Learning Outcomes}\label{module-learning-outcomes}}
+
+The student should be able to:
+
+demonstrate a comprehensive understanding of the principles of
+experimental psychology, from reading and summarizing scientific papers
+to planning, writing and presenting essays, reports and presentations.
+
+understand the importance and relevance of data analysis, the different
+types of experiments and tests used.
+
+understand the philosophical underpinnings of qualitative and
+quantitative approaches to research and evaluate their merits.
+
+demonstrate the skills to analyse and interpret data using qualitative
+and quantitative frameworks and methods.
+
+demonstrate statistical proficiency in the ability to use R to compute
+summary statistics, z-scores, chi-square, binomial tests, and parametric
+and non-parametric comparison of two means.
+
+be able to visualise and present/communicate research findings to a
+range of audiences
+
+select and provide a rationale for using a statistical test to analyse a
+particular dataset, and present the results correctly in both graphical
+and APA format.
+
+\hypertarget{assessment}{%
+\subsection{Assessment}\label{assessment}}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule()
+Assessment Element & Length & \% & F or S & LO Tested \\
+\midrule()
+\endhead
+& & & & \\
+& & & & \\
+RPS & & & & \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{reading-and-resource-list}{%
+\subsection{Reading and Resource List}\label{reading-and-resource-list}}
+
+We have a custom made textbook to support key study skills throughout
+your degree:
+
+\hypertarget{year-1-schedule}{%
+\chapter{Year 1 schedule}\label{year-1-schedule}}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\centering
+Week
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Schedule
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{-1} & \textbf{Pre-Arrival:} & Preparing for Research at
+Goldsmiths & \textbf{IndStud:} & Maths ability/anxiety/refresher quiz \\
+& \textbf{Lab:} & Online Refresher Q\&A & \textbf{Data:} & \\
+\textbf{0} & \textbf{WelcomeWeek} & I❤️Data Fair & \textbf{IndStud:} &
+Epistemology/Ontology Task \\
+& \textbf{Lab:} & Data Collection on self! & \textbf{Data:} & Reflective
+exercise \\
+\textbf{1} & \textbf{Lecture:} & Finding patterns and relationships &
+\textbf{IndStud:} & First journal article! \\
+& \textbf{Lab:} & Visualise the year group & \textbf{Data:} & Blog about
+what you have learned. Posit/Quarto \\
+\textbf{2} & \textbf{Lecture:} & Finding patterns and relationships &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{3} & \textbf{Lecture:} & Correlations and Models (GLM) &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{4} & \textbf{Lecture:} & Distributions and Sampling &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{5} & \textbf{Lecture:} & Probabilities and P-Values &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+& & Reading Week & & \\
+\textbf{6} & \textbf{Lecture:} & Open Science, Reporting and Critique &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{7} & \textbf{Lecture:} & Qualititative Research &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{8} & \textbf{Lecture:} & Correlational Research &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{9} & \textbf{Lecture:} & Quasi-Experimental Research &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{10} & \textbf{Lecture:} & Experimental Research &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\bottomrule()
+\end{longtable}
+
+\newpage
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\centering
+Week
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Schedule
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{11} & \textbf{Lecture:} & Statistical Models & \textbf{IndStud:}
+& There was a wee cooper who lived in fife and his hat was green \\
+& \textbf{Lab:} & There was a wee cooper who lived in fife and his hat
+was green & \textbf{Data:} & There was a wee cooper who lived in fife
+and his hat was green \\
+\textbf{12} & \textbf{Lecture:} & Inferential Statistics &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{13} & \textbf{Lecture:} & Alpha, Power, Effect \& Sample Size &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{14} & \textbf{Lecture:} & Correlation in depth &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{15} & \textbf{Lecture:} & Regression & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+& & \textbf{Reading Week} & & \\
+\textbf{16} & \textbf{Lecture:} & Multiple Regression &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{17} & \textbf{Lecture:} & Logistic Regression &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{18} & \textbf{Lecture:} & Comparing two means &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{19} & \textbf{Lecture:} & Comparing several means &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{20} & \textbf{Lecture:} & Employability and Data Skills &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{year-2-level-5}{%
+\chapter{Year 2 (level 5)}\label{year-2-level-5}}
+
+\hypertarget{year-2-level-5-1}{%
+\section{Year 2 (level 5)}\label{year-2-level-5-1}}
+
+\hypertarget{module-aims}{%
+\subsection{Module aims}\label{module-aims}}
+
+Experimental designs in psychology typically employ statistical analyses
+such as analysis of variance, factor analysis and regression. The aim of
+this module is to make these topics more accessible through the use of
+practical examples and data collection on a self-directed group research
+project.
+
+\hypertarget{module-content-1}{%
+\subsection{Module Content}\label{module-content-1}}
+
+The module's overall aim is to offer a supportive and intellectually
+rigorous environment allowing students to develop highly valuable,
+transferrable research and collaboration skills in the context of
+undertaking a group research project.
+
+This module teaches fundamental empirical research techniques within the
+framework of Open Science and reproducibility, promoting best practice
+in study design, Open Materials and Data, and methodological practice.
+This module fully immerses students in the Goldsmiths `community of
+practice,' providing structured research support and opportunities to
+reflect on learning, modelling the key milestones of the final year
+dissertation.
+
+The module seeks to promote the application of a scientific,
+intellectually virtuous, research-based approach to any and all future
+endeavours, and integrates metacognitive and reflective practices to
+deliver this transformative learning towards academic and personal
+development.
+
+Over the course of two terms students will follow a programme of
+lectures introducing a critical approach to psychological research, as
+well as how such skills can be transferred beyond psychology; across
+academic disciplines and into the everyday world, with extensive use of
+case studies and problem-based learning.
+
+Structured weekly labs will enable students to work collaboratively to
+identify an area of research, critically evaluate current research in
+the area, and develop a modest research project building on these
+insights.
+
+Students will work together, alongside lab tutors and researchers in the
+department, to design and deliver the research project, including
+obtaining ethical approval, data collection and analysis, then
+interpreting and writing up the results, and sharing the materials and
+data in line with Open Science best practices in the Psychological,
+Behavioural and Data Sciences.
+
+\hypertarget{module-learning-outcomes-1}{%
+\subsection{Module Learning Outcomes}\label{module-learning-outcomes-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Show a critical understanding of research design and methodology
+\item
+  Design, conduct, analyse, interpret and disseminate a psychological
+  research project
+\item
+  Understand the conceptual and historical issues concerned with
+  psychology as a science and area of practical application
+\item
+  Demonstrate valuable time-management and collaborative
+  project-management skills and proficiencies
+\item
+  Reflect on their own learning, skill development and metacognition,
+  preparing them for the final year dissertation
+\item
+  be able to use R to analyse: regression, correlations, reliability and
+  validity, effect sizes, one-way within and between subjects designs
+  (and post-hocs), two-way within, between and mixed designs; and factor
+  analysis
+\item
+  Be able to present reproducible, APA format literate-programmed
+  research reports.
+\end{enumerate}
+
+\hypertarget{assessment-1}{%
+\subsection{Assessment}\label{assessment-1}}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule()
+Assessment Element & Length & \% & F or S & LO Tested \\
+\midrule()
+\endhead
+& & & & \\
+& & & & \\
+RPS & & & & \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{reading-and-resource-list-1}{%
+\subsection{Reading and Resource
+List}\label{reading-and-resource-list-1}}
+
+We have a custom made textbook to support key study skills throughout
+your degree:
+
+\hypertarget{year-2-schedule}{%
+\chapter{Year 2 schedule}\label{year-2-schedule}}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\centering
+Week
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Schedule
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{1} & \textbf{Lecture:} & ANOVA recap & \textbf{IndStud:} & There
+was a wee cooper who lived in fife and his hat was green \\
+& \textbf{Lab:} & There was a wee cooper who lived in fife and his hat
+was green & \textbf{Data:} & There was a wee cooper who lived in fife
+and his hat was green \\
+\textbf{2} & \textbf{Lecture:} & ANCOVA & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{3} & \textbf{Lecture:} & Factorial ANOVA & \textbf{IndStud:}
+& \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{4} & \textbf{Lecture:} & RM ANOVA & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{5} & \textbf{Lecture:} & Mixed Designs & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+& & Reading Week & & \\
+\textbf{6} & \textbf{Lecture:} & Non-parametrics and non-numeric data &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{7} & \textbf{Lecture:} & Case studies, n=1 \& Ethnography &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{8} & \textbf{Lecture:} & Thematic Analysis \& Grounded Theory &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{9} & \textbf{Lecture:} & Focus Groups \& Consumer Research &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{10} & \textbf{Lecture:} & Interpretative Phenomenological
+Analysis \& Discourse Analysis & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\bottomrule()
+\end{longtable}
+
+\newpage
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\centering
+Week
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Schedule
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{11} & \textbf{Lecture:} & Your final year project &
+\textbf{IndStud:} & There was a wee cooper who lived in fife and his hat
+was green \\
+& \textbf{Lab:} & There was a wee cooper who lived in fife and his hat
+was green & \textbf{Data:} & There was a wee cooper who lived in fife
+and his hat was green \\
+\textbf{12} & \textbf{Lecture:} & MANOVA & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{13} & \textbf{Lecture:} & FA (LVM, PCA, EFA, CFA) &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{14} & \textbf{Lecture:} & Mediation \& Moderation &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{15} & \textbf{Lecture:} & Longitudinal Data & \textbf{IndStud:}
+& \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+& & \textbf{Reading Week} & & \\
+\textbf{16} & \textbf{Lecture:} & Multi-Level Models & \textbf{IndStud:}
+& \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{17} & \textbf{Lecture:} & Categorical Data & \textbf{IndStud:}
+& \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{18} & \textbf{Lecture:} & Big Data & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{19} & \textbf{Lecture:} & Machine Learning & \textbf{IndStud:}
+& \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{20} & \textbf{Lecture:} & Artificial Intelligence &
+\textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{dissertation-y3-msc}{%
+\chapter{Dissertation (Y3 \& MSc)}\label{dissertation-y3-msc}}
+
+\hypertarget{level-6---topline-summary}{%
+\section{Level 6 - topline summary}\label{level-6---topline-summary}}
+
+\hypertarget{module-content-2}{%
+\subsection{Module Content}\label{module-content-2}}
+
+\hypertarget{module-learning-outcomes-2}{%
+\subsection{Module Learning Outcomes}\label{module-learning-outcomes-2}}
+
+\hypertarget{assessment-2}{%
+\subsection{Assessment}\label{assessment-2}}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule()
+Assessment Element & Length & \% & F or S & LO Tested \\
+\midrule()
+\endhead
+& & & & \\
+& & & & \\
+& & & & \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{reading-and-resource-list-2}{%
+\subsection{Reading and Resource
+List}\label{reading-and-resource-list-2}}
+
+We have a custom made textbook to support key study skills throughout
+your degree:
+
+\newpage
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{Y3 Term 1 Laydown}\tabularnewline
+\toprule()
+Week & Lecture & Practical \\
+\midrule()
+\endfirsthead
+\toprule()
+Week & Lecture & Practical \\
+\midrule()
+\endhead
+Pre & Preparing to become a Psychologist & \\
+WW & Let's measure some stuff & \\
+1 & Answering questions with data & Doing stuff with stuff \\
+2 & Finding patterns and relationships & \\
+3 & Correlations and models & \\
+4 & Distributions and sampling & \\
+5 & Probabilities and P-Values & \\
+RW & -\/- & -\/- \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{dissertation-schedule-y3-msc}{%
+\chapter{Dissertation Schedule (Y3 \&
+MSc)}\label{dissertation-schedule-y3-msc}}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2162}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2568}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\centering
+Week
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Schedule
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{1} & \textbf{Lecture:} & There was a wee cooper who lived in
+fife and his hat was green & \textbf{IndStud:} & There was a wee cooper
+who lived in fife and his hat was green \\
+& \textbf{Lab:} & There was a wee cooper who lived in fife and his hat
+was green & \textbf{Data:} & There was a wee cooper who lived in fife
+and his hat was green \\
+\textbf{2} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{3} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{4} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{5} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+& & Reading Week & & \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{year-3-rm-module-new-module-level-6}{%
+\chapter{Year 3 RM module (NEW MODULE) (Level
+6)}\label{year-3-rm-module-new-module-level-6}}
+
+\hypertarget{year-3-level-6}{%
+\section{Year 3 (Level 6)}\label{year-3-level-6}}
+
+\hypertarget{module-content-3}{%
+\subsection{Module Content}\label{module-content-3}}
+
+\hypertarget{module-learning-outcomes-3}{%
+\subsection{Module Learning Outcomes}\label{module-learning-outcomes-3}}
+
+\hypertarget{assessment-3}{%
+\subsection{Assessment}\label{assessment-3}}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule()
+Assessment Element & Length & \% & F or S & LO Tested \\
+\midrule()
+\endhead
+& & & & \\
+& & & & \\
+& & & & \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{reading-and-resource-list-3}{%
+\subsection{Reading and Resource
+List}\label{reading-and-resource-list-3}}
+
+We have a custom made textbook to support key study skills throughout
+your degree:
+
+\hypertarget{year-3-schedule-new-module}{%
+\chapter{Year 3 schedule (NEW
+MODULE)}\label{year-3-schedule-new-module}}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2162}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2568}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\centering
+Week
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Schedule
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{1} & \textbf{Lecture:} & There was a wee cooper who lived in
+fife and his hat was green & \textbf{IndStud:} & There was a wee cooper
+who lived in fife and his hat was green \\
+& \textbf{Lab:} & There was a wee cooper who lived in fife and his hat
+was green & \textbf{Data:} & There was a wee cooper who lived in fife
+and his hat was green \\
+\textbf{2} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{3} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{4} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{5} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+& & Reading Week & & \\
+\textbf{6} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{7} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{8} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{9} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{10} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{msc-module-new}{%
+\chapter{MSc Module (NEW)}\label{msc-module-new}}
+
+xcghfg
+
+\hypertarget{msc-module-new-schedule}{%
+\chapter{MSc Module (NEW) schedule}\label{msc-module-new-schedule}}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2162}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2568}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\centering
+Week
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Schedule
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{1} & \textbf{Lecture:} & There was a wee cooper who lived in
+fife and his hat was green & \textbf{IndStud:} & There was a wee cooper
+who lived in fife and his hat was green \\
+& \textbf{Lab:} & There was a wee cooper who lived in fife and his hat
+was green & \textbf{Data:} & There was a wee cooper who lived in fife
+and his hat was green \\
+\textbf{2} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{3} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{4} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{5} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+& & Reading Week & & \\
+\textbf{6} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{7} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{8} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{9} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{10} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\bottomrule()
+\end{longtable}
+
+\newpage
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2162}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2568}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\centering
+Week
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Schedule
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{11} & \textbf{Lecture:} & There was a wee cooper who lived in
+fife and his hat was green & \textbf{IndStud:} & There was a wee cooper
+who lived in fife and his hat was green \\
+& \textbf{Lab:} & There was a wee cooper who lived in fife and his hat
+was green & \textbf{Data:} & There was a wee cooper who lived in fife
+and his hat was green \\
+\textbf{12} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{13} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{14} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{15} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+& & \textbf{Reading Week} & & \\
+\textbf{16} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{17} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{18} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{19} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\textbf{20} & \textbf{Lecture:} & & \textbf{IndStud:} & \\
+& \textbf{Lab:} & & \textbf{Data:} & \\
+\bottomrule()
+\end{longtable}
+
+\part{Guidelines}
+
+\hypertarget{qaa}{%
+\chapter{QAA}\label{qaa}}
+
+\hypertarget{qaa-benchmarks}{%
+\chapter{QAA Benchmarks}\label{qaa-benchmarks}}
+
+3.4 Research methods are integral to psychology and students obtain a
+sound knowledge of, and a proven ability to use, a range of both
+qualitative and quantitative methods appropriately. Knowledge and
+understanding of how to obtain and analyse evidence is best acquired and
+demonstrated through extensive and progressive empirical work in
+laboratory and naturalistic settings through all stages of a degree.
+
+3.5 Psychology students learn the basic principles of sound data
+collection. Given the broad theoretical scope of psychology, rigorous
+specialist training is required to engender a critical understanding of
+the role of experimental design, the choice of research methods
+employed, and the analytic approach taken, for testing psychological
+theories.
+
+Subject knowledge and understanding 6.3 On graduating with an honours
+degree in psychology, graduates are able to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  understand the scientific underpinnings of psychology as a discipline,
+  its historical origins, development and limitations
+\item
+  recognise the inherent variability and diversity of psychological
+  functioning and its significance
+\item
+  demonstrate systematic knowledge and critical understanding of a range
+  of influences on psychological functioning, how they are
+  conceptualised across the core areas as outlined in paragraphs 4.4 and
+  4.5 and how they interrelate
+\item
+  demonstrate detailed knowledge of several specialised areas and/or
+  applications, some of which are at the cutting edge of research in the
+  discipline
+\item
+  demonstrate a systematic knowledge of a range of research paradigms,
+  research methods and measurement techniques, including statistics and
+  probability, and be aware of their limitations.
+\end{enumerate}
+
+Subject-specific skills 6.4 On graduating with an honours degree in
+psychology, graduates are able to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  reason scientifically, understand the role of evidence and make
+  critical judgements about arguments in psychology
+\item
+  adopt multiple perspectives and systematically analyse the
+  relationships between them
+\item
+  detect meaningful patterns in behaviour and evaluate their
+  significance
+\item
+  recognise the subjective and variable nature of individual experience
+\item
+  pose, operationalise and critique research questions
+\item
+  demonstrate substantial competence in research skills through
+  practical activities
+\item
+  reason analytically and demonstrate competence in a range of
+  quantitative and qualitative methods
+\item
+  competently initiate, design, conduct and report on an
+  empirically-based research project under appropriate supervision, and
+  recognise its theoretical, practical and methodological implications
+  and limitations
+\item
+  be aware of ethical principles and approval procedures and demonstrate
+  these in relation to personal study, particularly with regard to the
+  research project, and be aware of the ethical context of psychology as
+  a discipline.
+\end{enumerate}
+
+Generic skills 6.5 On graduating with an honours degree in psychology,
+graduates are able to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{communicate ideas and research findings by written, oral and
+  visual means}
+\item
+  \textbf{interpret and use numerical, textual and other forms of data}
+\item
+  \textbf{be computer literate, for the purposes of furthering their own
+  learning and in the analysis and presentation of ideas and research
+  findings}
+\item
+  \textbf{solve problems by clarifying questions, considering
+  alternative solutions and evaluating outcomes}
+\item
+  \textbf{be sensitive to, and take account of, contextual and
+  interpersonal factors in groups and teams}
+\item
+  \textbf{undertake self-directed study and project management, in order
+  to meet desired objectives}
+\item
+  \textbf{take charge of their own learning, and reflect and evaluate
+  personal strengths and weaknesses for the purposes of future
+  learning.}
+\end{enumerate}
+
+\hypertarget{references}{%
+\chapter*{References}\label{references}}
+\addcontentsline{toc}{chapter}{References}
+
+\markboth{References}{References}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-archbald1991}{}}%
+Archbald, D. A. (1991). Authentic assessment: Principles, practices, and
+issues. \emph{School Psychology Quarterly}, \emph{6}(4), 279--293.
+\url{https://doi.org/10.1037/h0088821}
+
+\leavevmode\vadjust pre{\hypertarget{ref-macandrew2002}{}}%
+Macandrew, S. B. G., \& Edwards, K. (2002). Essays are Not the Only Way:
+A Case Report on the Benefits of Authentic Assessment. \emph{Psychology
+Learning \& Teaching}, \emph{2}(2), 134--139.
+\url{https://doi.org/10.2304/plat.2002.2.2.134}
+
+\leavevmode\vadjust pre{\hypertarget{ref-pownall2023}{}}%
+Pownall, M., Havelka, J., \& Harris, R. (2023). Scientific blogs as a
+psychological literacy assessment tool. \emph{Teaching of Psychology},
+\emph{50}(1), 69--76. \url{https://doi.org/10.1177/00986283211027278}
+
+\leavevmode\vadjust pre{\hypertarget{ref-sathy2020}{}}%
+Sathy, V., \& Moore, Q. (2020). Who benefits from the flipped
+classroom?: Quasi-experimental findings on student learning, engagement,
+course perceptions, and interest in statistics. In \emph{Teaching
+statistics and quantitative methods in the 21st century}. Routledge.
+
+\leavevmode\vadjust pre{\hypertarget{ref-sokhanvar2021}{}}%
+Sokhanvar, Z., Salehi, K., \& Sokhanvar, F. (2021). Advantages of
+authentic assessment for improving the learning experience and
+employability skills of higher education students: A systematic
+literature review. \emph{Studies in Educational Evaluation}, \emph{70},
+101030. \url{https://doi.org/10.1016/j.stueduc.2021.101030}
+
+\leavevmode\vadjust pre{\hypertarget{ref-archbald1991}{}}%
+Archbald, D. A. (1991). Authentic assessment: Principles, practices, and
+issues. \emph{School Psychology Quarterly}, \emph{6}(4), 279--293.
+\url{https://doi.org/10.1037/h0088821}
+
+\leavevmode\vadjust pre{\hypertarget{ref-macandrew2002}{}}%
+Macandrew, S. B. G., \& Edwards, K. (2002). Essays are Not the Only Way:
+A Case Report on the Benefits of Authentic Assessment. \emph{Psychology
+Learning \& Teaching}, \emph{2}(2), 134--139.
+\url{https://doi.org/10.2304/plat.2002.2.2.134}
+
+\leavevmode\vadjust pre{\hypertarget{ref-pownall2023}{}}%
+Pownall, M., Havelka, J., \& Harris, R. (2023). Scientific blogs as a
+psychological literacy assessment tool. \emph{Teaching of Psychology},
+\emph{50}(1), 69--76. \url{https://doi.org/10.1177/00986283211027278}
+
+\leavevmode\vadjust pre{\hypertarget{ref-sathy2020}{}}%
+Sathy, V., \& Moore, Q. (2020). Who benefits from the flipped
+classroom?: Quasi-experimental findings on student learning, engagement,
+course perceptions, and interest in statistics. In \emph{Teaching
+statistics and quantitative methods in the 21st century}. Routledge.
+
+\leavevmode\vadjust pre{\hypertarget{ref-sokhanvar2021}{}}%
+Sokhanvar, Z., Salehi, K., \& Sokhanvar, F. (2021). Advantages of
+authentic assessment for improving the learning experience and
+employability skills of higher education students: A systematic
+literature review. \emph{Studies in Educational Evaluation}, \emph{70},
+101030. \url{https://doi.org/10.1016/j.stueduc.2021.101030}
+
+\end{CSLReferences}
+
+
+\backmatter
+
+\end{document}

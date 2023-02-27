@@ -15,17 +15,30 @@ General Goldsmiths bollocks
 :::
 
 ::: callout-important
-The Psychology department at Goldsmiths has a number of differentiating features, upon which it must build in order to ensure it remains attractive and distinctive.
+The Psychology department at Goldsmiths has a number of differentiating
+features, upon which it must build in order to ensure it remains
+attractive and distinctive.
 
 -   Alchemical, interdisciplinary research programmes and projects
--   Passion for empowering students and producing creative, skillful, disruptive agents of change
--   Blend of Art and Science, craft, entrepreneurship, massively transferable mind-set/skill-set
+-   Passion for empowering students and producing creative, skillful,
+    disruptive agents of change
+-   Blend of Art and Science, craft, entrepreneurship, massively
+    transferable mind-set/skill-set
 
-Research Methods has to be an adventure, "Alive" with enthusiasm, inspiring curiosity and intellectual problem-solving.
+Research Methods has to be an adventure, "Alive" with enthusiasm,
+inspiring curiosity and intellectual problem-solving.
 
-We have to break the A-Level preconception that Research Methods is dry, maths-like or indeed difficult.
+We have to break the A-Level preconception that Research Methods is dry,
+maths-like or indeed difficult.
 
-This must be achieved by: - Practical First - The majority of lab sessions should be practical and 'hands on'! - Only present research/methods/topics that are 'ownable' - where we have expertise, cachet and competitive advantage - and that could NOT be done at school - 'Relevant & Applicable' above all else. Nothing is taught 'because the BPS says we have to' or that doesn't have widespread use in a range of future endeavours - Demonstrate and model intellectual virtue, curiosity, empiricism, skepticism, humility and
+This must be achieved by: - Practical First - The majority of lab
+sessions should be practical and 'hands on'! - Only present
+research/methods/topics that are 'ownable' - where we have expertise,
+cachet and competitive advantage - and that could NOT be done at
+school - 'Relevant & Applicable' above all else. Nothing is taught
+'because the BPS says we have to' or that doesn't have widespread use in
+a range of future endeavours - Demonstrate and model intellectual
+virtue, curiosity, empiricism, skepticism, humility and
 :::
 
 ::: callout-important
@@ -45,84 +58,226 @@ Aggregation of teaching
 ::: callout-note
 ## Open Stuff
 
-We embrace an Open Science approach in our efforts to cultivate your critical evaluation skills, enhance your understanding of the significance - and power - of research, and equip you with the necessary graduate-level skills to collect, handle, and interpret data using programming software for statistical model development, visualisation and analysis.
+We embrace an Open Science approach in our efforts to cultivate your
+critical evaluation skills, enhance your understanding of the
+significance - and power - of research, and equip you with the necessary
+graduate-level skills to collect, handle, and interpret data using
+programming software for statistical model development, visualisation
+and analysis.
 :::
 
 ::: callout-note
 ## Teaching and Assessment
 
-Through lectures, interactive group discussions, online skills development modules, and practical lab sessions, we will ignite your enthusiasm for Psychology and Behavioural Science research and help you develop the fundamental skills, knowledge - and confidence - required to become a Psychology literate, disruptive scientist of the future. Tada!
+Through lectures, interactive group discussions, online skills
+development modules, and practical lab sessions, we will ignite your
+enthusiasm for Psychology and Behavioural Science research and help you
+develop the fundamental skills, knowledge - and confidence - required to
+become a Psychology literate, disruptive scientist of the future. Tada!
 :::
 
 AUTHENTIC ASSESSMENT - OPenAI
 
-"Authentic assessment" generally refers to assignments that reflect the skills students will use in their post-graduation careers and life experiences (Archbald, 1991; Gulikers et al., 2004). This is distinct from traditional assessments such as closed-book exams and academic essays (Macandrew & Edwards, 2002). For psychology, authentic assessments may involve the development of scientific inquiry skills, such as a practical research report (Halonen et al., 2003). In clinical psychology, this can include formulation of case studies or mock practitioner dialogues (Villarroel et al., 2018). Other examples of authentic assessments include writing letters to non-psychology audiences (Cranney, 2013), critical evaluation of media materials (Halpern & Butler, 2011), written reflections of volunteering (Hadlington; as cited in Taylor & Hulme, 2015), and research project interviews (Turner & Davila-Ross, 2015). All of these are designed to promote psychological literacy by encouraging communication with non-experts and application of psychology content (Hulme, 2014).
+"Authentic assessment" generally refers to assignments that reflect the
+skills students will use in their post-graduation careers and life
+experiences (Archbald, 1991; Gulikers et al., 2004). This is distinct
+from traditional assessments such as closed-book exams and academic
+essays (Macandrew & Edwards, 2002). For psychology, authentic
+assessments may involve the development of scientific inquiry skills,
+such as a practical research report (Halonen et al., 2003). In clinical
+psychology, this can include formulation of case studies or mock
+practitioner dialogues (Villarroel et al., 2018). Other examples of
+authentic assessments include writing letters to non-psychology
+audiences (Cranney, 2013), critical evaluation of media materials
+(Halpern & Butler, 2011), written reflections of volunteering
+(Hadlington; as cited in Taylor & Hulme, 2015), and research project
+interviews (Turner & Davila-Ross, 2015). All of these are designed to
+promote psychological literacy by encouraging communication with
+non-experts and application of psychology content (Hulme, 2014).
 
-Central to psychological literacy is the effective communication of psychology in practice (Trapp et al., 2011). To this end, blog writing may be an effective assessment for capturing and promoting students' psychological literacy. Blogs are a web-based form of journal or writing platform, and are useful for disseminating information (Richardson, 2006). They are also increasingly popular for assessing written language skills (Kim, 2008; Lee, 2010; Raith, 2009; Williams & Jacobs, 2004). Blog writing may help students take different perspectives, develop a critical appraisal of content, and become more self-reflective (Frye et al., 2010; Jimoyiannis & Angelaina, 2012). It also empowers and engages students (Creme & Hunt, 2002), a core goal of psychology education (Ishak & Salter, 2017). It enhances academic language learning (Murray et al., 2007) and assesses different skills than traditional forms of assessment (Morris et al., 2013). Studies show that students report high levels of engagement with blog writing (Hindley, 2018).
+Central to psychological literacy is the effective communication of
+psychology in practice (Trapp et al., 2011). To this end, blog writing
+may be an effective assessment for capturing and promoting students'
+psychological literacy. Blogs are a web-based form of journal or writing
+platform, and are useful for disseminating information (Richardson,
+2006). They are also increasingly popular for assessing written language
+skills (Kim, 2008; Lee, 2010; Raith, 2009; Williams & Jacobs, 2004).
+Blog writing may help students take different perspectives, develop a
+critical appraisal of content, and become more self-reflective (Frye et
+al., 2010; Jimoyiannis & Angelaina, 2012). It also empowers and engages
+students (Creme & Hunt, 2002), a core goal of psychology education
+(Ishak & Salter, 2017). It enhances academic language learning (Murray
+et al., 2007) and assesses different skills than traditional forms of
+assessment (Morris et al., 2013). Studies show that students report high
+levels of engagement with blog writing (Hindley, 2018).
 
-Blog writing may help students overcome the challenge of academic essay writing (Ishak & Salter, 2017) since it is less rigidly governed by academic norms (Bennett et al., 2012) and involves more reflective, creative, and critical tone (Arslan & Aysel, 2010; Novakovich & Long, 2013). It also provides an opportunity to communicate psychology content to a wider audience (Gardiner et al., 2018; Schmidt, 2008; Relojo, 2017). It has been embedded successfully in many different subjects in higher education, such as pharmacy (Dunne & Ryan, 2016), anthropology (Walker & Chatzigavriil, 2017), professional development (Shanks, 2020), and English literature (Agarwal, 2017). The British Psychological Society, 2019 and the American Psychological Association (2013) stress the importance of critical evaluation and reflection, which is compatible with blog writing. Research shows that blog writing prompts critical thinking and reflection (Chretien et al., 2008; Novakovich, 2016). Challenges to implementing blog writing as an assessment include students having little to no previous experience (Kerawalla et al., 2009). Blog writing should be grounded effectively in course materials, have clear expectations, and be understood through a lens of psychological literacy (Cranney et al., 2008, 2012). We propose that blog writing may provide a useful opportunity to allow students to apply their psychology content in a critical, creative, and non-conventional way.
+Blog writing may help students overcome the challenge of academic essay
+writing (Ishak & Salter, 2017) since it is less rigidly governed by
+academic norms (Bennett et al., 2012) and involves more reflective,
+creative, and critical tone (Arslan & Aysel, 2010; Novakovich & Long,
+2013). It also provides an opportunity to communicate psychology content
+to a wider audience (Gardiner et al., 2018; Schmidt, 2008; Relojo,
+2017). It has been embedded successfully in many different subjects in
+higher education, such as pharmacy (Dunne & Ryan, 2016), anthropology
+(Walker & Chatzigavriil, 2017), professional development (Shanks, 2020),
+and English literature (Agarwal, 2017). The British Psychological
+Society, 2019 and the American Psychological Association (2013) stress
+the importance of critical evaluation and reflection, which is
+compatible with blog writing. Research shows that blog writing prompts
+critical thinking and reflection (Chretien et al., 2008; Novakovich,
+2016). Challenges to implementing blog writing as an assessment include
+students having little to no previous experience (Kerawalla et al.,
+2009). Blog writing should be grounded effectively in course materials,
+have clear expectations, and be understood through a lens of
+psychological literacy (Cranney et al., 2008, 2012). We propose that
+blog writing may provide a useful opportunity to allow students to apply
+their psychology content in a critical, creative, and non-conventional
+way.
 
 -   OPENAIabove
 
 BPS Guidelines from OpenAI
 
-1\. Ensure that students have a clear understanding of the research methods used in their field of study.
+1\. Ensure that students have a clear understanding of the research
+methods used in their field of study.
 
-2.  Provide opportunities for students to develop critical thinking skills in relation to the research methods used.
+2.  Provide opportunities for students to develop critical thinking
+    skills in relation to the research methods used.
 
-3.  Encourage students to practice the research methods in a safe and secure environment.
+3.  Encourage students to practice the research methods in a safe and
+    secure environment.
 
-4.  Develop a range of teaching materials and resources that best support student learning.
+4.  Develop a range of teaching materials and resources that best
+    support student learning.
 
-5.  Encourage students to become independent learners by providing appropriate scaffolding and support.
+5.  Encourage students to become independent learners by providing
+    appropriate scaffolding and support.
 
-6.  Encourage students to become active participants in their learning process.
+6.  Encourage students to become active participants in their learning
+    process.
 
-7.  Facilitate meaningful discussions about research methods and the application of research methods in practice.
+7.  Facilitate meaningful discussions about research methods and the
+    application of research methods in practice.
 
-8.  Incorporate ethical considerations into the research methods teaching.
+8.  Incorporate ethical considerations into the research methods
+    teaching.
 
-9.  Promote the use of technology to support the teaching of research methods.
+9.  Promote the use of technology to support the teaching of research
+    methods.
 
-10. Monitor and evaluate students' progress throughout the teaching period.
+10. Monitor and evaluate students' progress throughout the teaching
+    period.
 
-Source: British Psychological Society (BPS). (2020). Guidance for the teaching of undergraduate research methods. Retrieved from https://www.bps.org.uk/publications/guidance-teaching-undergraduate-research-methods
+Source: British Psychological Society (BPS). (2020). Guidance for the
+teaching of undergraduate research methods. Retrieved from
+https://www.bps.org.uk/publications/guidance-teaching-undergraduate-research-methods
 
 ::: callout-note
 ## BPS website
 
-Research methods Research methods must be delivered at Level 5 or Level 6. Research methods are integral to Psychology and students obtain a sound knowledge of, and a proven ability to use, a range of methods appropriately. Knowledge and understanding of how to obtain and analyse evidence is best acquired and demonstrated through extensive and progressive empirical work in laboratory and naturalistic settings through all stages of a degree. \[section 3.4 Subject Benchmark Statement\] Psychology students learn the basic principles of sound data collection. Given the broad theoretical scope of Psychology, rigorous specialist training is required to engender a critical understanding of the role of experimental design, the choice of research methods employed, and the analytic approach taken, for testing psychological theories. \[section 3.5 Subject Benchmark Statement\] Programmes' coverage of research methods should support students' engagement with the sub-areas listed above, and should be directed towards supporting students' attainment of the subject-specific skills highlighted in section 4.4 of the Subject Benchmark Statement. As they progress through the programme, students should be able to: • apply multiple perspectives to psychological issues, recognising that psychology involves a range of research methods, theories, evidence and applications; • integrate ideas and findings across the multiple perspectives in psychology and recognise distinctive psychological approaches to relevant issues; • identify and evaluate patterns in behaviour, psychological functioning and experience; • generate and explore hypotheses and research questions drawing on relevant theory and research; • carry out empirical studies involving a variety of methods of data collection, including experiments, observation, questionnaires, interviews and focus groups; • analyse, present and evaluate quantitative and qualitative data and evaluate research findings; • employ evidence-based reasoning and examine practical, theoretical and ethical issues associated with the range of methodologies; • use a variety of psychological tools, including specialist software, laboratory equipment and psychometric instruments; • apply psychological knowledge ethically and safely to real world problems; and • critically evaluate psychological theory and research.
+Research methods Research methods must be delivered at Level 5 or Level
+6. Research methods are integral to Psychology and students obtain a
+sound knowledge of, and a proven ability to use, a range of methods
+appropriately. Knowledge and understanding of how to obtain and analyse
+evidence is best acquired and demonstrated through extensive and
+progressive empirical work in laboratory and naturalistic settings
+through all stages of a degree. \[section 3.4 Subject Benchmark
+Statement\] Psychology students learn the basic principles of sound data
+collection. Given the broad theoretical scope of Psychology, rigorous
+specialist training is required to engender a critical understanding of
+the role of experimental design, the choice of research methods
+employed, and the analytic approach taken, for testing psychological
+theories. \[section 3.5 Subject Benchmark Statement\] Programmes'
+coverage of research methods should support students' engagement with
+the sub-areas listed above, and should be directed towards supporting
+students' attainment of the subject-specific skills highlighted in
+section 4.4 of the Subject Benchmark Statement. As they progress through
+the programme, students should be able to: • apply multiple perspectives
+to psychological issues, recognising that psychology involves a range of
+research methods, theories, evidence and applications; • integrate ideas
+and findings across the multiple perspectives in psychology and
+recognise distinctive psychological approaches to relevant issues; •
+identify and evaluate patterns in behaviour, psychological functioning
+and experience; • generate and explore hypotheses and research questions
+drawing on relevant theory and research; • carry out empirical studies
+involving a variety of methods of data collection, including
+experiments, observation, questionnaires, interviews and focus groups; •
+analyse, present and evaluate quantitative and qualitative data and
+evaluate research findings; • employ evidence-based reasoning and
+examine practical, theoretical and ethical issues associated with the
+range of methodologies; • use a variety of psychological tools,
+including specialist software, laboratory equipment and psychometric
+instruments; • apply psychological knowledge ethically and safely to
+real world problems; and • critically evaluate psychological theory and
+research.
 :::
 
-Communicate complex information effectively using appropriate written, oral, graphical and electronic means, taking into account diversity among individuals to whom the information is communicated.
+Communicate complex information effectively using appropriate written,
+oral, graphical and electronic means, taking into account diversity
+among individuals to whom the information is communicated.
 
-Explain the potential impact of psychological research and theory on a broad range of real world settings and situations (e.g., classrooms, industry, commerce, healthcare, as well as local and global communities).
+Explain the potential impact of psychological research and theory on a
+broad range of real world settings and situations (e.g., classrooms,
+industry, commerce, healthcare, as well as local and global
+communities).
 
-Problem-solve and reason scientifically. Specifically, graduates will be able to identify and pose research questions, consider alternative approaches to their solutions, and evaluate outcomes.
+Problem-solve and reason scientifically. Specifically, graduates will be
+able to identify and pose research questions, consider alternative
+approaches to their solutions, and evaluate outcomes.
 
-Be sensitive to contextual and interpersonal factors. Graduates will be familiar with the complexity of the factors that shape behaviour and social interaction which, in turn, will make them more aware of the bases of problems and interpersonal conflicts.
+Be sensitive to contextual and interpersonal factors. Graduates will be
+familiar with the complexity of the factors that shape behaviour and
+social interaction which, in turn, will make them more aware of the
+bases of problems and interpersonal conflicts.
 
-or Be a self-critical learner, showing sensitivity to contextual and interpersonal factors. Graduates will be familiar with the complexity of the factors that shape behaviour and social interaction which, in turn, will make them more aware of the bases of problems and interpersonal conflicts.
+or Be a self-critical learner, showing sensitivity to contextual and
+interpersonal factors. Graduates will be familiar with the complexity of
+the factors that shape behaviour and social interaction which, in turn,
+will make them more aware of the bases of problems and interpersonal
+conflicts.
 
-Show an understanding of various research paradigms, methods, and evaluation procedures, including statistical analysis, as well as their constraints.
+Show an understanding of various research paradigms, methods, and
+evaluation procedures, including statistical analysis, as well as their
+constraints.
 
-Design, carry out, evaluate and interpret scientifically rigorous and ethically sound studies both independently and collaboratively, utilizing quantitative and qualitative methods, statistical analysis and modern digital software.
+Design, carry out, evaluate and interpret scientifically rigorous and
+ethically sound studies both independently and collaboratively,
+utilizing quantitative and qualitative methods, statistical analysis and
+modern digital software.
 
-Psychological literacy is the ability to understand and apply psychological principles and theories to everyday life. This includes the ability to understand how psychological processes and phenomena influence our behavior, emotions, thoughts, and relationships. It also includes the capacity to use psychological knowledge to make informed decisions and to better understand, explain, and predict the behavior of self and others.
+Psychological literacy is the ability to understand and apply
+psychological principles and theories to everyday life. This includes
+the ability to understand how psychological processes and phenomena
+influence our behavior, emotions, thoughts, and relationships. It also
+includes the capacity to use psychological knowledge to make informed
+decisions and to better understand, explain, and predict the behavior of
+self and others.
 
-Psychology graduates are highly sought after by employers due to their ability to formulate and communicate well-reasoned, evidence-based, and statistically defensible arguments based on their expertise in the study of human behavior and its causes. On top of this, psychology graduates possess the skills to work independently or collaboratively, as well as strong numerical capabilities, verbal and written communication skills, and an up-to-date knowledge of digital technologies applicable to a wide range of occupational fields.
+Psychology graduates are highly sought after by employers due to their
+ability to formulate and communicate well-reasoned, evidence-based, and
+statistically defensible arguments based on their expertise in the study
+of human behavior and its causes. On top of this, psychology graduates
+possess the skills to work independently or collaboratively, as well as
+strong numerical capabilities, verbal and written communication skills,
+and an up-to-date knowledge of digital technologies applicable to a wide
+range of occupational fields.
 
 ### Intended Learning Outcomes
 
 Intended Learning Outcomes
 
-Create reproducible data analysis scripts and reports within the R statistical programming environment.
+Create reproducible data analysis scripts and reports within the R
+statistical programming environment.
 
 QAA Benchmarks
 
 Subject Knowledge and Understanding
 
-6.3.4 demonstrate detailed knowledge of several specialised areas and/or applications, some of which are at the cutting edge of research in the discipline 6.3.5 demonstrate a systematic knowledge of a range of research paradigms, research methods and measurement techniques, including statistics and probability, and be aware of their limitations.
+6.3.4 demonstrate detailed knowledge of several specialised areas and/or
+applications, some of which are at the cutting edge of research in the
+discipline 6.3.5 demonstrate a systematic knowledge of a range of
+research paradigms, research methods and measurement techniques,
+including statistics and probability, and be aware of their limitations.
 
 Subject-specific skills
 
@@ -134,7 +289,8 @@ PS530XX - RM3 - Research Project Incubator
 
 \*PS710XX - Practical Research Skills
 
-Lectures - Overview of key concepts/context and preview Lab practicals / Data Skills
+Lectures - Overview of key concepts/context and preview Lab practicals /
+Data Skills
 
 Labs - Practical or activity based (inc. Group Work)
 
@@ -156,9 +312,79 @@ Integrate own interest/guided by stream/lab
 
 ### Technical Overview
 
+![R language](images/R_logo.png){width="65"}
+
+R is primarily a computer programming language for statistical analysis.
+It is *free*, and *open-source* (many people contribute to developing
+it), and runs on most operating systems or through an internet browser,
+and so there are few obstacles to its use by the normal undergraduate
+population (compare to SPSS).
+
+It is a powerful language that can be used for all sorts of mathematical
+operations, data-processing, analysis, and graphical display of data -
+it is used more a more frequently in corporate settings, unlike 'pay to
+play' software such as SPSS.
+
+I even used R to write this lab manual. And, I use R all the time for my
+own research, because it makes data-analyis fast, efficient,
+transparent, reproducible, and exciting
+
+![Posit <br/> (Formerly RStudio)](images/posit_logo.png){width="50"}
+
+![Quarto Publishing](images/quarto_logo.png){width="100"}
+
+Quarto is an open-source scientific and technical publishing system
+built on [Pandoc](https://pandoc.org/). Quarto documents are authored
+using [markdown](https://en.wikipedia.org/wiki/Markdown), an easy to
+write plain text format.
+
+In addition to the core capabilities of Pandoc, Quarto includes:
+
+1.  Embedding code and output from Python, R, Julia, and JavaScript via
+    integration with [Jupyter](https://jupyter.org/),
+    [Knitr](https://yihui.org/knitr/), and
+    [Observable](https://github.com/observablehq/).
+
+2.  A variety of extensions to Pandoc markdown useful for technical
+    writing including cross-references, sub-figures, layout panels,
+    hoverable citations and footnotes, callouts, and more.
+
+3.  A project system for rendering groups of documents at once, sharing
+    options across documents, and producing aggregate output like
+    [websites](https://quarto.org/docs/websites/) and
+    [books](https://quarto.org/docs/books/).
+
+4.  Authoring using a wide variety of editors and notebooks including
+    [JupyterLab](https://quarto.org/docs/tools/jupyter-lab.html),
+    [RStudio](https://quarto.org/docs/tools/rstudio.html), and [VS
+    Code](https://quarto.org/docs/tools/vscode.html).
+
+5.  A [visual markdown editor](https://quarto.org/docs/visual-editor/)
+    that provides a productive writing interface for composing long-form
+    documents.
+
+Learn more about Quarto at [https://quarto.org](https://quarto.org/).
+
+::: {layout-ncol="2"}
+### List One
+
+-   Item A
+-   Item B
+-   Item C
+
+### List Two
+
+-   Item X
+-   Item Y
+-   Item Z
+:::
+
 R will be used. Gold standard statistical programming language
 
-For literate programming (The concept of [**"literate programming"**](https://en.wikipedia.org/wiki/Literate_programming) was originally introduced by [Donald Knuth](http://www.literateprogramming.com/knuthweb.pdf) in 1984 )
+For literate programming (The concept of [**"literate
+programming"**](https://en.wikipedia.org/wiki/Literate_programming) was
+originally introduced by [Donald
+Knuth](http://www.literateprogramming.com/knuthweb.pdf) in 1984 )
 
 Formerly RStudio. The Interactive Development Enviornment for use of R.
 
@@ -179,13 +405,15 @@ Formerly RStudio. The Interactive Development Enviornment for use of R.
 
 ### Pre-Arrival onwards / Onboarding
 
-Showcase in Induction week - Staff labs and research projects for the year.
+Showcase in Induction week - Staff labs and research projects for the
+year.
 
 Year One students self-test
 
 MSc Students - ditto and ability to shop around for supervision
 
-Year 2 develop their pods? Show Y1 and Foundations what they did last year
+Year 2 develop their pods? Show Y1 and Foundations what they did last
+year
 
 Year 3/MSc students - Research Bootcamp and refreshers/skills workshops
 
@@ -199,7 +427,8 @@ Support PhD students and staff
 
 Potentially Reading Week Term 2? Or week before/after?
 
-Allows all levels of students to blitz data and to showcase their work for external stakeholders and to make a department-wide event.
+Allows all levels of students to blitz data and to showcase their work
+for external stakeholders and to make a department-wide event.
 
 # STUFF
 
@@ -221,64 +450,184 @@ Allows all levels of students to blitz data and to showcase their work for exter
 
 OPENAI of below
 
-McGovern et al. (2010) define psychological literacy as 'being insightful and reflective about one's own and others' behaviour and mental processes' (p.11). This concept captures the ability of a psychology student to apply the knowledge and skills gained during their education to all aspects of life, such as the workplace, personal life, and wider social context. Cranney et al. (2012, p.4) adopt a similar definition of psychological literacy as 'the general capacity to adaptively and intentionally apply psychology to meet personal, professional and societal needs'. Dunn (2009) further explains that psychologically literate people are able to use psychology to solve issues on a local, civic, and national level by looking to data instead of personal opinion.
+McGovern et al. (2010) define psychological literacy as 'being
+insightful and reflective about one's own and others' behaviour and
+mental processes' (p.11). This concept captures the ability of a
+psychology student to apply the knowledge and skills gained during their
+education to all aspects of life, such as the workplace, personal life,
+and wider social context. Cranney et al. (2012, p.4) adopt a similar
+definition of psychological literacy as 'the general capacity to
+adaptively and intentionally apply psychology to meet personal,
+professional and societal needs'. Dunn (2009) further explains that
+psychologically literate people are able to use psychology to solve
+issues on a local, civic, and national level by looking to data instead
+of personal opinion.
 
-In order to promote psychological literacy, Dunn et al. (2011) and Mair et al. (2013) suggest that the applications of psychology should be recognised and taught in a real-world context; Biggs (1996) recommends that courses should be constructively aligned to explicitly include psychological literacy in the learning outcomes and assessments; and Akhurst et al. (in press), Bernstein (2011), Cranney and Dunn (2011), McGovern (2011) and Zinkiewicz et al. (2003) suggest that psychological literacy should be modelled in professional lives through interactions with colleagues and students, and by using psychology to inform teaching practices, solve problems, and ensure inclusivity.
+In order to promote psychological literacy, Dunn et al. (2011) and Mair
+et al. (2013) suggest that the applications of psychology should be
+recognised and taught in a real-world context; Biggs (1996) recommends
+that courses should be constructively aligned to explicitly include
+psychological literacy in the learning outcomes and assessments; and
+Akhurst et al. (in press), Bernstein (2011), Cranney and Dunn (2011),
+McGovern (2011) and Zinkiewicz et al. (2003) suggest that psychological
+literacy should be modelled in professional lives through interactions
+with colleagues and students, and by using psychology to inform teaching
+practices, solve problems, and ensure inclusivity.
 
 -   ::: callout-note
-    -   McGovern et al. (2010) defines psychological literacy as 'being insightful and reflective about one's own and others behaviour and mental processes' (p.11). It is, in essence, the general capacity to apply psychological knowledge to real-world scenarios.
+    -   McGovern et al. (2010) defines psychological literacy as 'being
+        insightful and reflective about one's own and others behaviour
+        and mental processes' (p.11). It is, in essence, the general
+        capacity to apply psychological knowledge to real-world
+        scenarios.
 
-    -   Dunn (2009) discusses this, claiming that 'psychologically literate people can use what they know about psychology to solve home-based, local, civic, and even national matters by looking to data instead of personal opinion'.
+    -   Dunn (2009) discusses this, claiming that 'psychologically
+        literate people can use what they know about psychology to solve
+        home-based, local, civic, and even national matters by looking
+        to data instead of personal opinion'.
 
-    -   McGovern et al. (2010, p.11) define psychological literacy as 'being insightful and reflective about one's own and others' behaviour and mental processes' and having the ability to apply 'psychological principles to personal, social, and organizational issues in work, relationships and the broader community'. Cranney et al. (2012, p.4) adopt a similar stance, describing psychological literacy as 'the general capacity to adaptively and intentionally apply psychology to meet personal, professional and societal needs'. The concept of psychological literacy thus captures the ability of a psychology student to apply the knowledge and skills that they acquire during their education to all aspects of life: the workplace, their personal lives and the wider social context. As such, psychological literacy may provide a lens through which we can view the wider benefits of psychology education. It may also hold out some hope to students who may be coming to accept that their aspirations towards a career in psychology are likely to remain unfulfilled, but who remain enthused and inspired by the subject, and are looking for ways to continue to stay in touch with it.
+    -   McGovern et al. (2010, p.11) define psychological literacy as
+        'being insightful and reflective about one's own and others'
+        behaviour and mental processes' and having the ability to apply
+        'psychological principles to personal, social, and
+        organizational issues in work, relationships and the broader
+        community'. Cranney et al. (2012, p.4) adopt a similar stance,
+        describing psychological literacy as 'the general capacity to
+        adaptively and intentionally apply psychology to meet personal,
+        professional and societal needs'. The concept of psychological
+        literacy thus captures the ability of a psychology student to
+        apply the knowledge and skills that they acquire during their
+        education to all aspects of life: the workplace, their personal
+        lives and the wider social context. As such, psychological
+        literacy may provide a lens through which we can view the wider
+        benefits of psychology education. It may also hold out some hope
+        to students who may be coming to accept that their aspirations
+        towards a career in psychology are likely to remain unfulfilled,
+        but who remain enthused and inspired by the subject, and are
+        looking for ways to continue to stay in touch with it.
 
     -   We need to:\
-        I    recognise and to teach the applications of psychology, its relevance to the real world and the transferability of skills, rather than always teaching it in a theoretical context (Dunn et al., 2011; Mair et al., 2013);\
-        I    constructively align (Biggs, 1996) our courses to explicitly include psychological literacy in our learning outcomes, our teaching, and the assessments that we give to our students (Dunn et al., 2011; Trapp, 2010; Trapp et al., 2011);\
-        I    model psychological literacy in our own professional lives, through our interactions with colleagues and students, using psychology to inform our teaching practices, solve problems and ensure inclusivity (Akhurst et al., in press; Bernstein, 2011; Cranney and Dunn, 2011; McGovern, 2011; Zinkiewicz et al., 2003).
+        I    recognise and to teach the applications of psychology, its
+        relevance to the real world and the transferability of skills,
+        rather than always teaching it in a theoretical context (Dunn et
+        al., 2011; Mair et al., 2013);\
+        I    constructively align (Biggs, 1996) our courses to
+        explicitly include psychological literacy in our learning
+        outcomes, our teaching, and the assessments that we give to our
+        students (Dunn et al., 2011; Trapp, 2010; Trapp et al., 2011);\
+        I    model psychological literacy in our own professional lives,
+        through our interactions with colleagues and students, using
+        psychology to inform our teaching practices, solve problems and
+        ensure inclusivity (Akhurst et al., in press; Bernstein, 2011;
+        Cranney and Dunn, 2011; McGovern, 2011; Zinkiewicz et al.,
+        2003).
 
     -   *Psychological Literacy*
 
-        Barnett, R. (2006). Graduate attributes in an age of uncertainty. *Graduate attributes, learning and employability*, 49-65.
+        Barnett, R. (2006). Graduate attributes in an age of
+        uncertainty. *Graduate attributes, learning and employability*,
+        49-65.
 
-        Cranney, J., Botwood, L., & Morris, S. (2012). National standards for psychological literacy and global citizenship: Outcomes of undergraduate psychology education. *Australia: The University of New South Wales.*
+        Cranney, J., Botwood, L., & Morris, S. (2012). National
+        standards for psychological literacy and global citizenship:
+        Outcomes of undergraduate psychology education. *Australia: The
+        University of New South Wales.*
 
-        Cranney, J., Morris, S., Martin, F. H., Provost, S., Zinkiewicz, L., Reece, J & Earl, J. (2011). Psychological literacy and applied psychology in undergraduate education.
+        Cranney, J., Morris, S., Martin, F. H., Provost, S., Zinkiewicz,
+        L., Reece, J & Earl, J. (2011). Psychological literacy and
+        applied psychology in undergraduate education.
 
-        Dunn (2009) Psychology Today. [**https://www.psychologytoday.com/blog/head-the-class/200909/thinking-about-psychological-literacy**](https://www.psychologytoday.com/blog/head-the-class/200909/thinking-about-psychological-literacy)
+        Dunn (2009) Psychology Today.
+        [**https://www.psychologytoday.com/blog/head-the-class/200909/thinking-about-psychological-literacy**](https://www.psychologytoday.com/blog/head-the-class/200909/thinking-about-psychological-literacy)
 
-        Haigh, M., & Clifford, V. A. (2010). Widening the graduate attribute debate: a Higher education for Global citizenship. *Brookes eJournal of Learning and Teaching*, *2*(5).
+        Haigh, M., & Clifford, V. A. (2010). Widening the graduate
+        attribute debate: a Higher education for Global citizenship.
+        *Brookes eJournal of Learning and Teaching*, *2*(5).
 
-        McGovern T. V., Corey L., Cranney J., Dixon W., Holmes J. D., Kuebli, et al. . (2010). Psychologically literate citizens, in Undergraduate Education in Pscyhology: A Blueprint for the Future of the Discipline, ed Halpern D. F., editor. (Washington, DC: American Psychological Association; ), 9--27.
+        McGovern T. V., Corey L., Cranney J., Dixon W., Holmes J. D.,
+        Kuebli, et al. . (2010). Psychologically literate citizens, in
+        Undergraduate Education in Pscyhology: A Blueprint for the
+        Future of the Discipline, ed Halpern D. F., editor. (Washington,
+        DC: American Psychological Association; ), 9--27.
 
-        Murdoch, D. D. (2016). Psychological literacy: proceed with caution, construction ahead. *Psychology research and behavior management*, *9*, 189.
+        Murdoch, D. D. (2016). Psychological literacy: proceed with
+        caution, construction ahead. *Psychology research and behavior
+        management*, *9*, 189.
 
-        Trapp, A., Banister, P., Ellis, J., Latto, R., Miell, D., & Upton, D. (2011). The future of undergraduate psychology in the United Kingdom. *Higher Education Academy Psychology Network, University of York, York*.
+        Trapp, A., Banister, P., Ellis, J., Latto, R., Miell, D., &
+        Upton, D. (2011). The future of undergraduate psychology in the
+        United Kingdom. *Higher Education Academy Psychology Network,
+        University of York, York*.
 
-    -   Akhurst, J. (2013). Enhancing psychology students' employability through international community-based work placements. Higher Education Academy. Retrieved 30 September 2014 from [**tinyurl.com/pd6bmtg**](http://www.tinyurl.com/pd6bmtg)\
-        Akhurst, J., Coxon, M. & Hulme, J. (in press). Applying psychology to psychology learning and teaching. York: Higher Education Academy.\
-        Barnett, R. (2010). Life-wide education: A new and transformative concept for higher education? In N. Jackson & R. Law (Eds.) Enabling a More Complete Education \[Conference proceedings\]. University of Surrey. (Available at [**http://lifewidelearningconferencepbworks.com/E-proceedings**](http://www.http//lifewidelearningconference%20.pbworks.com/E-proceedings))\
-        Bernstein, D. (2011). A scientist-educator perspective on psychological literacy. In J. Cranney & D. Dunn (Eds.) The psychologically literate citizen. New York: Oxford University Press.\
-        Biggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32(3), 347--364.\
-        Boneau, C.A. (1990). Psychological literacy: A first approximation. American Psychologist, 45, 891--900.\
-        Bromnick, R. & Horowitz, A. (2013). Reframing employability: Exploring career-related values in psychology undergraduates. Paper presented at the HEA STEM Annual Learning and Teaching Conference, University of Birmingham, April. Retrieved 30 September 2014 from [**tinyurl.com/mm9xojq**](http://www.tinyurl.com/mm9xojq)\
-        CBI/NUS (2011). Working towards your future: Making the most of your time in higher education. London: CBI. Retrieved 22 July 2014 from [**tinyurl.com/lsqsdwu**](http://www.tinyurl.com/lsqsdwu)\
-        CIPD (2011). The coaching climate. London: CIPD. (Available via [**www.cipd.co.uk/hr-resources/survey-reports/coaching-climate-2011.aspx**](http://www.www.cipd.co.uk/hr-resources/survey-reports/coaching-climate-2011.aspx))\
-        Cranney, J., Botwood, L. & Morris, S. (2012). National standards for psychological literacy and global citizenship: Outcomes of undergraduate psychology education. Sydney, NSW: Office for Learning and Teaching. Retrieved 22 July 2014 from [**tinyurl.com/q98zg4y**](http://www.tinyurl.com/q98zg4y)\
-        Cranney, J. & Dunn, D. (2011). What the world needs now is psychological literacy. In J. Cranney & D. Dunn (Eds.) The psychologically literate citizen. New York: Oxford University Press.\
-        Dunn, D., Cautin, R.L. & Gurung, A.R. (2011). Curriculum matters: Structure, content, and psychological literacy. In J. Cranney & D. Dunn (Eds.) The psychologically literate citizen. New York: Oxford University Press.\
-        Grabinger, R.S. & Dunlap, J.C. (1995). Rich environments for active learning: A definition. Research in Learning Technology, 3(2), 5--34.\
-        Halpern, D. (2010). Undergraduate education in psychology: A blueprint for the future of the discipline. Washington, DC: APA.\
-        Harkness, F. (2013). He's just not that into you. The Psychologist, 26(5), 314--315.\
-        Harnish, R. & Bridges, K.R. (2012). Promoting student engagement: Using community service-learning projects in undergraduate psychology. PRISM: A Journal of Regional Engagement, 1(2). Retrieved 22 July 2014 from [**http://encompass.eku.edu/prism/vol1/iss2/1√**](http://www.http//encompass.eku.edu/prism/vol1/iss2/1%E2%88%9A)
+    -   Akhurst, J. (2013). Enhancing psychology students' employability
+        through international community-based work placements. Higher
+        Education Academy. Retrieved 30 September 2014 from
+        [**tinyurl.com/pd6bmtg**](http://www.tinyurl.com/pd6bmtg)\
+        Akhurst, J., Coxon, M. & Hulme, J. (in press). Applying
+        psychology to psychology learning and teaching. York: Higher
+        Education Academy.\
+        Barnett, R. (2010). Life-wide education: A new and
+        transformative concept for higher education? In N. Jackson & R.
+        Law (Eds.) Enabling a More Complete Education \[Conference
+        proceedings\]. University of Surrey. (Available at
+        [**http://lifewidelearningconferencepbworks.com/E-proceedings**](http://www.http//lifewidelearningconference%20.pbworks.com/E-proceedings))\
+        Bernstein, D. (2011). A scientist-educator perspective on
+        psychological literacy. In J. Cranney & D. Dunn (Eds.) The
+        psychologically literate citizen. New York: Oxford University
+        Press.\
+        Biggs, J. (1996). Enhancing teaching through constructive
+        alignment. Higher Education, 32(3), 347--364.\
+        Boneau, C.A. (1990). Psychological literacy: A first
+        approximation. American Psychologist, 45, 891--900.\
+        Bromnick, R. & Horowitz, A. (2013). Reframing employability:
+        Exploring career-related values in psychology undergraduates.
+        Paper presented at the HEA STEM Annual Learning and Teaching
+        Conference, University of Birmingham, April. Retrieved 30
+        September 2014 from
+        [**tinyurl.com/mm9xojq**](http://www.tinyurl.com/mm9xojq)\
+        CBI/NUS (2011). Working towards your future: Making the most of
+        your time in higher education. London: CBI. Retrieved 22 July
+        2014 from
+        [**tinyurl.com/lsqsdwu**](http://www.tinyurl.com/lsqsdwu)\
+        CIPD (2011). The coaching climate. London: CIPD. (Available via
+        [**www.cipd.co.uk/hr-resources/survey-reports/coaching-climate-2011.aspx**](http://www.www.cipd.co.uk/hr-resources/survey-reports/coaching-climate-2011.aspx))\
+        Cranney, J., Botwood, L. & Morris, S. (2012). National standards
+        for psychological literacy and global citizenship: Outcomes of
+        undergraduate psychology education. Sydney, NSW: Office for
+        Learning and Teaching. Retrieved 22 July 2014 from
+        [**tinyurl.com/q98zg4y**](http://www.tinyurl.com/q98zg4y)\
+        Cranney, J. & Dunn, D. (2011). What the world needs now is
+        psychological literacy. In J. Cranney & D. Dunn (Eds.) The
+        psychologically literate citizen. New York: Oxford University
+        Press.\
+        Dunn, D., Cautin, R.L. & Gurung, A.R. (2011). Curriculum
+        matters: Structure, content, and psychological literacy. In J.
+        Cranney & D. Dunn (Eds.) The psychologically literate citizen.
+        New York: Oxford University Press.\
+        Grabinger, R.S. & Dunlap, J.C. (1995). Rich environments for
+        active learning: A definition. Research in Learning Technology,
+        3(2), 5--34.\
+        Halpern, D. (2010). Undergraduate education in psychology: A
+        blueprint for the future of the discipline. Washington, DC:
+        APA.\
+        Harkness, F. (2013). He's just not that into you. The
+        Psychologist, 26(5), 314--315.\
+        Harnish, R. & Bridges, K.R. (2012). Promoting student
+        engagement: Using community service-learning projects in
+        undergraduate psychology. PRISM: A Journal of Regional
+        Engagement, 1(2). Retrieved 22 July 2014 from
+        [**http://encompass.eku.edu/prism/vol1/iss2/1√**](http://www.http//encompass.eku.edu/prism/vol1/iss2/1%E2%88%9A)
 
         \
 
-    -   [**psychological literacy**](https://thepsychologist.bps.org.uk/volume-27/december-2014/psychological-literacy-classroom-real-world)
+    -   [**psychological
+        literacy**](https://thepsychologist.bps.org.uk/volume-27/december-2014/psychological-literacy-classroom-real-world)
     :::
 
 -   
 
 ![](images/GitHub-Mark.png){fig-align="left" width="35"}
 
-[![](images/creative_commons.png)](http://creativecommons.org/licenses/by/4.0/){fig-alt="Creative Commons License"} This website/book is licensed under a [Creative Commons Attribution 4.0 International License.](http://creativecommons.org/licenses/by/4.0/)
+[![](images/creative_commons.png)](http://creativecommons.org/licenses/by/4.0/){fig-alt="Creative Commons License"}
+This website/book is licensed under a [Creative Commons Attribution 4.0
+International License.](http://creativecommons.org/licenses/by/4.0/)
