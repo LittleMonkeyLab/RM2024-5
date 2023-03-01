@@ -10,11 +10,46 @@ bibliography: "references.bib"
 
 ## Statistics and Research Methods for Psychological and Behavioural Science
 
-::: callout-warning
-General Goldsmiths bollocks
-:::
+Jin, C., & Wells, J. (2015). Developing open educational resources with
+students: A case study in an undergraduate course. MERLOT Journal of
+Online Learning and Teaching, 11(2), 197-213.
 
-::: callout-important
+Below is an example of an executed code chunk - in html format clicking
+on ![](images/image-1563023320.png){width="150" height="27"}would unfold
+the code that drives the plot and results summary. In pdf format, it's
+unfolded and printed.
+
+```{r}
+#| warning: false
+#| echo: true
+#| code-fold: true
+#| code-summary: "Show the code"
+
+library(ggplot2)                                # <1>
+ggplot(airquality, aes(Temp, Ozone)) +          # <2>
+  geom_point() + # <3>                               
+  geom_smooth(method = "loess", se = FALSE) # <3>
+
+library(psych) # <4>
+describe(airquality, na.rm = TRUE, skew = FALSE, ranges = FALSE) # <4>
+
+```
+1. Load graphics package `ggplot`, and then
+2. ask for a plot of `airquality data` specifically columns `Temp` and `Ozone` as axes on the plot, 3. specify a scatterplot with a loess trend line
+4. finally describe the variables `Ozone` and `Temp` with `describe()` function from `psych` toolkit - i.e. fivenumber summary (n, mean, sd, median)
+
+```r
+library(tidyverse)
+library(palmerpenguins)
+penguins |>                                      # <1>
+  mutate(                                        # <2>
+    bill_ratio = bill_depth_mm / bill_length_mm, # <2>
+    bill_area  = bill_depth_mm * bill_length_mm  # <2>
+  )                                              # <2>
+```
+1. Take `penguins`, and then,
+2. add new columns for the bill ratio and bill area.
+
 The Psychology department at Goldsmiths has a number of differentiating
 features, upon which it must build in order to ensure it remains
 attractive and distinctive.
@@ -39,21 +74,6 @@ school - 'Relevant & Applicable' above all else. Nothing is taught
 'because the BPS says we have to' or that doesn't have widespread use in
 a range of future endeavours - Demonstrate and model intellectual
 virtue, curiosity, empiricism, skepticism, humility and
-:::
-
-::: callout-important
-## Departmental integration
-
-Integration across the years
-
-Vertical Integration
-
-project delivery
-
-Y0 - MSc
-
-Aggregation of teaching
-:::
 
 ::: callout-note
 ## Open Stuff
@@ -365,20 +385,6 @@ In addition to the core capabilities of Pandoc, Quarto includes:
 
 Learn more about Quarto at [https://quarto.org](https://quarto.org/).
 
-::: {layout-ncol="2"}
-### List One
-
--   Item A
--   Item B
--   Item C
-
-### List Two
-
--   Item X
--   Item Y
--   Item Z
-:::
-
 R will be used. Gold standard statistical programming language
 
 For literate programming (The concept of [**"literate
@@ -419,212 +425,7 @@ Year 3/MSc students - Research Bootcamp and refreshers/skills workshops
 
 Support PhD students and staff
 
-### Shock and Awe - Shatter the A-Level preconceptions
-
-### Vertically Integrated Projects via 'Labs'
-
-### HeartData week (recruitment & forward prep)
-
-Potentially Reading Week Term 2? Or week before/after?
-
-Allows all levels of students to blitz data and to showcase their work
-for external stakeholders and to make a department-wide event.
-
-# STUFF
-
-## **Personal development skills**
-
--   self-management
-
--   team working
-
--   problem solving
-
--   application of information skills
-
--   communication
-
--   application of numeracy skills
-
--   specialist skills
-
-OPENAI of below
-
-McGovern et al. (2010) define psychological literacy as 'being
-insightful and reflective about one's own and others' behaviour and
-mental processes' (p.11). This concept captures the ability of a
-psychology student to apply the knowledge and skills gained during their
-education to all aspects of life, such as the workplace, personal life,
-and wider social context. Cranney et al. (2012, p.4) adopt a similar
-definition of psychological literacy as 'the general capacity to
-adaptively and intentionally apply psychology to meet personal,
-professional and societal needs'. Dunn (2009) further explains that
-psychologically literate people are able to use psychology to solve
-issues on a local, civic, and national level by looking to data instead
-of personal opinion.
-
-In order to promote psychological literacy, Dunn et al. (2011) and Mair
-et al. (2013) suggest that the applications of psychology should be
-recognised and taught in a real-world context; Biggs (1996) recommends
-that courses should be constructively aligned to explicitly include
-psychological literacy in the learning outcomes and assessments; and
-Akhurst et al. (in press), Bernstein (2011), Cranney and Dunn (2011),
-McGovern (2011) and Zinkiewicz et al. (2003) suggest that psychological
-literacy should be modelled in professional lives through interactions
-with colleagues and students, and by using psychology to inform teaching
-practices, solve problems, and ensure inclusivity.
-
--   ::: callout-note
-    -   McGovern et al. (2010) defines psychological literacy as 'being
-        insightful and reflective about one's own and others behaviour
-        and mental processes' (p.11). It is, in essence, the general
-        capacity to apply psychological knowledge to real-world
-        scenarios.
-
-    -   Dunn (2009) discusses this, claiming that 'psychologically
-        literate people can use what they know about psychology to solve
-        home-based, local, civic, and even national matters by looking
-        to data instead of personal opinion'.
-
-    -   McGovern et al. (2010, p.11) define psychological literacy as
-        'being insightful and reflective about one's own and others'
-        behaviour and mental processes' and having the ability to apply
-        'psychological principles to personal, social, and
-        organizational issues in work, relationships and the broader
-        community'. Cranney et al. (2012, p.4) adopt a similar stance,
-        describing psychological literacy as 'the general capacity to
-        adaptively and intentionally apply psychology to meet personal,
-        professional and societal needs'. The concept of psychological
-        literacy thus captures the ability of a psychology student to
-        apply the knowledge and skills that they acquire during their
-        education to all aspects of life: the workplace, their personal
-        lives and the wider social context. As such, psychological
-        literacy may provide a lens through which we can view the wider
-        benefits of psychology education. It may also hold out some hope
-        to students who may be coming to accept that their aspirations
-        towards a career in psychology are likely to remain unfulfilled,
-        but who remain enthused and inspired by the subject, and are
-        looking for ways to continue to stay in touch with it.
-
-    -   We need to:\
-        I    recognise and to teach the applications of psychology, its
-        relevance to the real world and the transferability of skills,
-        rather than always teaching it in a theoretical context (Dunn et
-        al., 2011; Mair et al., 2013);\
-        I    constructively align (Biggs, 1996) our courses to
-        explicitly include psychological literacy in our learning
-        outcomes, our teaching, and the assessments that we give to our
-        students (Dunn et al., 2011; Trapp, 2010; Trapp et al., 2011);\
-        I    model psychological literacy in our own professional lives,
-        through our interactions with colleagues and students, using
-        psychology to inform our teaching practices, solve problems and
-        ensure inclusivity (Akhurst et al., in press; Bernstein, 2011;
-        Cranney and Dunn, 2011; McGovern, 2011; Zinkiewicz et al.,
-        2003).
-
-    -   *Psychological Literacy*
-
-        Barnett, R. (2006). Graduate attributes in an age of
-        uncertainty. *Graduate attributes, learning and employability*,
-        49-65.
-
-        Cranney, J., Botwood, L., & Morris, S. (2012). National
-        standards for psychological literacy and global citizenship:
-        Outcomes of undergraduate psychology education. *Australia: The
-        University of New South Wales.*
-
-        Cranney, J., Morris, S., Martin, F. H., Provost, S., Zinkiewicz,
-        L., Reece, J & Earl, J. (2011). Psychological literacy and
-        applied psychology in undergraduate education.
-
-        Dunn (2009) Psychology Today.
-        [**https://www.psychologytoday.com/blog/head-the-class/200909/thinking-about-psychological-literacy**](https://www.psychologytoday.com/blog/head-the-class/200909/thinking-about-psychological-literacy)
-
-        Haigh, M., & Clifford, V. A. (2010). Widening the graduate
-        attribute debate: a Higher education for Global citizenship.
-        *Brookes eJournal of Learning and Teaching*, *2*(5).
-
-        McGovern T. V., Corey L., Cranney J., Dixon W., Holmes J. D.,
-        Kuebli, et al. . (2010). Psychologically literate citizens, in
-        Undergraduate Education in Pscyhology: A Blueprint for the
-        Future of the Discipline, ed Halpern D. F., editor. (Washington,
-        DC: American Psychological Association; ), 9--27.
-
-        Murdoch, D. D. (2016). Psychological literacy: proceed with
-        caution, construction ahead. *Psychology research and behavior
-        management*, *9*, 189.
-
-        Trapp, A., Banister, P., Ellis, J., Latto, R., Miell, D., &
-        Upton, D. (2011). The future of undergraduate psychology in the
-        United Kingdom. *Higher Education Academy Psychology Network,
-        University of York, York*.
-
-    -   Akhurst, J. (2013). Enhancing psychology students' employability
-        through international community-based work placements. Higher
-        Education Academy. Retrieved 30 September 2014 from
-        [**tinyurl.com/pd6bmtg**](http://www.tinyurl.com/pd6bmtg)\
-        Akhurst, J., Coxon, M. & Hulme, J. (in press). Applying
-        psychology to psychology learning and teaching. York: Higher
-        Education Academy.\
-        Barnett, R. (2010). Life-wide education: A new and
-        transformative concept for higher education? In N. Jackson & R.
-        Law (Eds.) Enabling a More Complete Education \[Conference
-        proceedings\]. University of Surrey. (Available at
-        [**http://lifewidelearningconferencepbworks.com/E-proceedings**](http://www.http//lifewidelearningconference%20.pbworks.com/E-proceedings))\
-        Bernstein, D. (2011). A scientist-educator perspective on
-        psychological literacy. In J. Cranney & D. Dunn (Eds.) The
-        psychologically literate citizen. New York: Oxford University
-        Press.\
-        Biggs, J. (1996). Enhancing teaching through constructive
-        alignment. Higher Education, 32(3), 347--364.\
-        Boneau, C.A. (1990). Psychological literacy: A first
-        approximation. American Psychologist, 45, 891--900.\
-        Bromnick, R. & Horowitz, A. (2013). Reframing employability:
-        Exploring career-related values in psychology undergraduates.
-        Paper presented at the HEA STEM Annual Learning and Teaching
-        Conference, University of Birmingham, April. Retrieved 30
-        September 2014 from
-        [**tinyurl.com/mm9xojq**](http://www.tinyurl.com/mm9xojq)\
-        CBI/NUS (2011). Working towards your future: Making the most of
-        your time in higher education. London: CBI. Retrieved 22 July
-        2014 from
-        [**tinyurl.com/lsqsdwu**](http://www.tinyurl.com/lsqsdwu)\
-        CIPD (2011). The coaching climate. London: CIPD. (Available via
-        [**www.cipd.co.uk/hr-resources/survey-reports/coaching-climate-2011.aspx**](http://www.www.cipd.co.uk/hr-resources/survey-reports/coaching-climate-2011.aspx))\
-        Cranney, J., Botwood, L. & Morris, S. (2012). National standards
-        for psychological literacy and global citizenship: Outcomes of
-        undergraduate psychology education. Sydney, NSW: Office for
-        Learning and Teaching. Retrieved 22 July 2014 from
-        [**tinyurl.com/q98zg4y**](http://www.tinyurl.com/q98zg4y)\
-        Cranney, J. & Dunn, D. (2011). What the world needs now is
-        psychological literacy. In J. Cranney & D. Dunn (Eds.) The
-        psychologically literate citizen. New York: Oxford University
-        Press.\
-        Dunn, D., Cautin, R.L. & Gurung, A.R. (2011). Curriculum
-        matters: Structure, content, and psychological literacy. In J.
-        Cranney & D. Dunn (Eds.) The psychologically literate citizen.
-        New York: Oxford University Press.\
-        Grabinger, R.S. & Dunlap, J.C. (1995). Rich environments for
-        active learning: A definition. Research in Learning Technology,
-        3(2), 5--34.\
-        Halpern, D. (2010). Undergraduate education in psychology: A
-        blueprint for the future of the discipline. Washington, DC:
-        APA.\
-        Harkness, F. (2013). He's just not that into you. The
-        Psychologist, 26(5), 314--315.\
-        Harnish, R. & Bridges, K.R. (2012). Promoting student
-        engagement: Using community service-learning projects in
-        undergraduate psychology. PRISM: A Journal of Regional
-        Engagement, 1(2). Retrieved 22 July 2014 from
-        [**http://encompass.eku.edu/prism/vol1/iss2/1√**](http://www.http//encompass.eku.edu/prism/vol1/iss2/1%E2%88%9A)
-
-        \
-
-    -   [**psychological
-        literacy**](https://thepsychologist.bps.org.uk/volume-27/december-2014/psychological-literacy-classroom-real-world)
-    :::
-
--   
+### 
 
 ![](images/GitHub-Mark.png){fig-align="left" width="35"}
 

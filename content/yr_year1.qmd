@@ -7,10 +7,10 @@ format:
 ---
 
 |  Week  | Schedule         |                                      |              |                                                |
-|:-------------:|:--------------|:--------------|:--------------|:--------------|
+|:------:|:-----------------|:-------------------------------------|:-------------|:-----------------------------------------------|
 | **-1** | **Pre-Arrival:** | Preparing for Research at Goldsmiths | **IndStud:** | Maths ability/anxiety/refresher quiz           |
 |        | **Lab:**         | Online Refresher Q&A                 | **Data:**    |                                                |
-| **0**  | **WelcomeWeek**  | I❤️Data Fair                         | **IndStud:** | Epistemology/Ontology Task                     |
+| **0**  | **WelcomeWeek**  | I{{< fa heart >}}️Data Fair           | **IndStud:** | Epistemology/Ontology Task                     |
 |        | **Lab:**         | Data Collection on self!             | **Data:**    | Reflective exercise                            |
 | **1**  | **Lecture:**     | Finding patterns and relationships   | **IndStud:** | First journal article!                         |
 |        | **Lab:**         | Visualise the year group             | **Data:**    | Blog about what you have learned. Posit/Quarto |
@@ -37,7 +37,7 @@ format:
 \newpage
 
 |  Week  | Schedule     |                                                                |              |                                                                |
-|:-------------:|:--------------|:--------------|:--------------|:--------------|
+|:------:|:-------------|:---------------------------------------------------------------|:-------------|:---------------------------------------------------------------|
 | **11** | **Lecture:** | Statistical Models                                             | **IndStud:** | There was a wee cooper who lived in fife and his hat was green |
 |        | **Lab:**     | There was a wee cooper who lived in fife and his hat was green | **Data:**    | There was a wee cooper who lived in fife and his hat was green |
 | **12** | **Lecture:** | Inferential Statistics                                         | **IndStud:** |                                                                |
@@ -59,3 +59,5 @@ format:
 |        | **Lab:**     |                                                                | **Data:**    |                                                                |
 | **20** | **Lecture:** | Employability and Data Skills                                  | **IndStud:** |                                                                |
 |        | **Lab:**     |                                                                | **Data:**    |                                                                |
+
+{{< fa thumbs-up >}} {{< fa folder >}} {{< fa chess-pawn >}} {{< fa brands bluetooth >}} {{< fa brands twitter size=2xl >}} {{< fa brands github size=5x >}} {{< fa battery-half size=Huge >}} {{< fa envelope title="An envelope" >}}

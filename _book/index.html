@@ -22,6 +22,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -249,14 +312,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#programme-overview" id="toc-programme-overview" class="nav-link" data-scroll-target="#programme-overview">Programme Overview</a>
   <ul class="collapse">
   <li><a href="#pre-arrival-onwards-onboarding" id="toc-pre-arrival-onwards-onboarding" class="nav-link" data-scroll-target="#pre-arrival-onwards-onboarding">Pre-Arrival onwards / Onboarding</a></li>
-  <li><a href="#shock-and-awe---shatter-the-a-level-preconceptions" id="toc-shock-and-awe---shatter-the-a-level-preconceptions" class="nav-link" data-scroll-target="#shock-and-awe---shatter-the-a-level-preconceptions">Shock and Awe - Shatter the A-Level preconceptions</a></li>
-  <li><a href="#vertically-integrated-projects-via-labs" id="toc-vertically-integrated-projects-via-labs" class="nav-link" data-scroll-target="#vertically-integrated-projects-via-labs">Vertically Integrated Projects via ‘Labs’</a></li>
-  <li><a href="#heartdata-week-recruitment-forward-prep" id="toc-heartdata-week-recruitment-forward-prep" class="nav-link" data-scroll-target="#heartdata-week-recruitment-forward-prep">HeartData week (recruitment &amp; forward prep)</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#stuff" id="toc-stuff" class="nav-link" data-scroll-target="#stuff">STUFF</a>
-  <ul class="collapse">
-  <li><a href="#personal-development-skills" id="toc-personal-development-skills" class="nav-link" data-scroll-target="#personal-development-skills"><strong>Personal development skills</strong></a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/littlemonkeylab/RM2024-5/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/littlemonkeylab/RM2024-5/blob/main/index.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/littlemonkeylab/RM2024-5/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -297,29 +354,55 @@ ul.task-list li input[type="checkbox"] {
 <h1>Overview</h1>
 <section id="statistics-and-research-methods-for-psychological-and-behavioural-science" class="level2">
 <h2 class="anchored" data-anchor-id="statistics-and-research-methods-for-psychological-and-behavioural-science">Statistics and Research Methods for Psychological and Behavioural Science</h2>
-<div class="callout callout-style-default callout-warning callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<p>Jin, C., &amp; Wells, J. (2015). Developing open educational resources with students: A case study in an undergraduate course. MERLOT Journal of Online Learning and Teaching, 11(2), 197-213.</p>
+<p>Below is an example of an executed code chunk - in html format clicking on <img src="images/image-1563023320.png" width="150" height="27">would unfold the code that drives the plot and results summary. In pdf format, it’s unfolded and printed.</p>
+<div class="cell">
+<details>
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="annotated-cell-1"><pre class="sourceCode r code-annotation-code code-with-copy"><code class="sourceCode r"><span id="annotated-cell-1-1"><a href="#annotated-cell-1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="annotated-cell-1-2"><a href="#annotated-cell-1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(airquality, <span class="fu">aes</span>(Temp, Ozone)) <span class="sc">+</span></span>
+<span id="annotated-cell-1-3"><a href="#annotated-cell-1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="annotated-cell-1-4"><a href="#annotated-cell-1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"loess"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-annotation">
+<dl>
+</dl>
 </div>
-<div class="callout-caption-container flex-fill">
-Warning
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+</div>
+<details>
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="annotated-cell-2"><pre class="sourceCode r code-annotation-code code-with-copy"><code class="sourceCode r"><span id="annotated-cell-2-1"><a href="#annotated-cell-2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psych)</span>
+<span id="annotated-cell-2-2"><a href="#annotated-cell-2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">describe</span>(airquality, <span class="at">na.rm =</span> <span class="cn">TRUE</span>, <span class="at">skew =</span> <span class="cn">FALSE</span>, <span class="at">ranges =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>        vars   n   mean    sd   se
+Ozone      1 116  42.13 32.99 3.06
+Solar.R    2 146 185.93 90.06 7.45
+Wind       3 153   9.96  3.52 0.28
+Temp       4 153  77.88  9.47 0.77
+Month      5 153   6.99  1.42 0.11
+Day        6 153  15.80  8.86 0.72</code></pre>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p>General Goldsmiths bollocks</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="sourceCode" id="annotated-cell-3"><pre class="sourceCode r code-annotation-code code-with-copy"><code class="sourceCode r"><span id="annotated-cell-3-1"><a href="#annotated-cell-3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="annotated-cell-3-2"><a href="#annotated-cell-3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(palmerpenguins)</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-3-3" class="code-annotation-target"><a href="#annotated-cell-3-3" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">|&gt;</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-3-4" class="code-annotation-target"><a href="#annotated-cell-3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="annotated-cell-3-5"><a href="#annotated-cell-3-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">bill_ratio =</span> bill_depth_mm <span class="sc">/</span> bill_length_mm,</span>
+<span id="annotated-cell-3-6"><a href="#annotated-cell-3-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">bill_area  =</span> bill_depth_mm <span class="sc">*</span> bill_length_mm</span>
+<span id="annotated-cell-3-7"><a href="#annotated-cell-3-7" aria-hidden="true" tabindex="-1"></a>  )</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-3" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-annotation="1" data-code-cell="annotated-cell-3" data-code-lines="3">Take <code>penguins</code>, and then,</span>
+</dd>
+<dt data-target-cell="annotated-cell-3" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-annotation="2" data-code-cell="annotated-cell-3" data-code-lines="4,5,6,7">add new columns for the bill ratio and bill area.</span>
+</dd>
+</dl>
 <p>The Psychology department at Goldsmiths has a number of differentiating features, upon which it must build in order to ensure it remains attractive and distinctive.</p>
 <ul>
 <li>Alchemical, interdisciplinary research programmes and projects</li>
@@ -329,25 +412,6 @@ Important
 <p>Research Methods has to be an adventure, “Alive” with enthusiasm, inspiring curiosity and intellectual problem-solving.</p>
 <p>We have to break the A-Level preconception that Research Methods is dry, maths-like or indeed difficult.</p>
 <p>This must be achieved by: - Practical First - The majority of lab sessions should be practical and ‘hands on’! - Only present research/methods/topics that are ‘ownable’ - where we have expertise, cachet and competitive advantage - and that could NOT be done at school - ‘Relevant &amp; Applicable’ above all else. Nothing is taught ‘because the BPS says we have to’ or that doesn’t have widespread use in a range of future endeavours - Demonstrate and model intellectual virtue, curiosity, empiricism, skepticism, humility and</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Departmental integration
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Integration across the years</p>
-<p>Vertical Integration</p>
-<p>project delivery</p>
-<p>Y0 - MSc</p>
-<p>Aggregation of teaching</p>
-</div>
-</div>
 <div class="callout callout-style-default callout-note callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -444,58 +508,41 @@ BPS website
 </section>
 <section id="technical-overview" class="level3">
 <h3 class="anchored" data-anchor-id="technical-overview">Technical Overview</h3>
-<div class="quarto-layout-panel" data-fig-align="left">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 30.2%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/R_logo.png" class="img-fluid figure-img" width="65"></p>
 <p></p><figcaption class="figure-caption">R language</figcaption><p></p>
 </figure>
 </div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 23.3%;justify-content: center;">
+<p>R is primarily a computer programming language for statistical analysis. It is <em>free</em>, and <em>open-source</em> (many people contribute to developing it), and runs on most operating systems or through an internet browser, and so there are few obstacles to its use by the normal undergraduate population (compare to SPSS).</p>
+<p>It is a powerful language that can be used for all sorts of mathematical operations, data-processing, analysis, and graphical display of data - it is used more a more frequently in corporate settings, unlike ‘pay to play’ software such as SPSS.</p>
+<p>I even used R to write this lab manual. And, I use R all the time for my own research, because it makes data-analyis fast, efficient, transparent, reproducible, and exciting</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/posit_logo.png" class="img-fluid figure-img" width="50"></p>
 <p></p><figcaption class="figure-caption">Posit <br> (Formerly RStudio)</figcaption><p></p>
 </figure>
 </div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 46.5%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/quarto_logo.png" class="img-fluid figure-img" width="100"></p>
 <p></p><figcaption class="figure-caption">Quarto Publishing</figcaption><p></p>
 </figure>
 </div>
-</div>
-</div>
-</div>
-</section>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<section id="list-one" class="level3 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<h3 class="anchored" data-anchor-id="list-one">List One</h3>
-<ul>
-<li>Item A</li>
-<li>Item B</li>
-<li>Item C</li>
-</ul>
-</section>
-<section id="list-two" class="level3 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<h3 class="anchored" data-anchor-id="list-two">List Two</h3>
-<ul>
-<li>Item X</li>
-<li>Item Y</li>
-<li>Item Z</li>
-</ul>
-</section>
-</div>
-</div>
+<p>Quarto is an open-source scientific and technical publishing system built on <a href="https://pandoc.org/">Pandoc</a>. Quarto documents are authored using <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a>, an easy to write plain text format.</p>
+<p>In addition to the core capabilities of Pandoc, Quarto includes:</p>
+<ol type="1">
+<li><p>Embedding code and output from Python, R, Julia, and JavaScript via integration with <a href="https://jupyter.org/">Jupyter</a>, <a href="https://yihui.org/knitr/">Knitr</a>, and <a href="https://github.com/observablehq/">Observable</a>.</p></li>
+<li><p>A variety of extensions to Pandoc markdown useful for technical writing including cross-references, sub-figures, layout panels, hoverable citations and footnotes, callouts, and more.</p></li>
+<li><p>A project system for rendering groups of documents at once, sharing options across documents, and producing aggregate output like <a href="https://quarto.org/docs/websites/">websites</a> and <a href="https://quarto.org/docs/books/">books</a>.</p></li>
+<li><p>Authoring using a wide variety of editors and notebooks including <a href="https://quarto.org/docs/tools/jupyter-lab.html">JupyterLab</a>, <a href="https://quarto.org/docs/tools/rstudio.html">RStudio</a>, and <a href="https://quarto.org/docs/tools/vscode.html">VS Code</a>.</p></li>
+<li><p>A <a href="https://quarto.org/docs/visual-editor/">visual markdown editor</a> that provides a productive writing interface for composing long-form documents.</p></li>
+</ol>
+<p>Learn more about Quarto at <a href="https://quarto.org/">https://quarto.org</a>.</p>
 <p>R will be used. Gold standard statistical programming language</p>
 <p>For literate programming (The concept of <a href="https://en.wikipedia.org/wiki/Literate_programming"><strong>“literate programming”</strong></a> was originally introduced by <a href="http://www.literateprogramming.com/knuthweb.pdf">Donald Knuth</a> in 1984 )</p>
 <p>Formerly RStudio. The Interactive Development Enviornment for use of R.</p>
+</section>
 <section id="hours-specification-e.g.-years-1-2" class="level3">
 <h3 class="anchored" data-anchor-id="hours-specification-e.g.-years-1-2">Hours specification (e.g.) Years 1 &amp; 2</h3>
 <table class="table">
@@ -553,87 +600,8 @@ BPS website
 <p>Year 3/MSc students - Research Bootcamp and refreshers/skills workshops</p>
 <p>Support PhD students and staff</p>
 </section>
-<section id="shock-and-awe---shatter-the-a-level-preconceptions" class="level3">
-<h3 class="anchored" data-anchor-id="shock-and-awe---shatter-the-a-level-preconceptions">Shock and Awe - Shatter the A-Level preconceptions</h3>
-</section>
-<section id="vertically-integrated-projects-via-labs" class="level3">
-<h3 class="anchored" data-anchor-id="vertically-integrated-projects-via-labs">Vertically Integrated Projects via ‘Labs’</h3>
-</section>
-<section id="heartdata-week-recruitment-forward-prep" class="level3">
-<h3 class="anchored" data-anchor-id="heartdata-week-recruitment-forward-prep">HeartData week (recruitment &amp; forward prep)</h3>
-<p>Potentially Reading Week Term 2? Or week before/after?</p>
-<p>Allows all levels of students to blitz data and to showcase their work for external stakeholders and to make a department-wide event.</p>
-</section>
-</section>
-</section>
-<section id="stuff" class="level1">
-<h1>STUFF</h1>
-<section id="personal-development-skills" class="level2">
-<h2 class="anchored" data-anchor-id="personal-development-skills"><strong>Personal development skills</strong></h2>
-<ul>
-<li><p>self-management</p></li>
-<li><p>team working</p></li>
-<li><p>problem solving</p></li>
-<li><p>application of information skills</p></li>
-<li><p>communication</p></li>
-<li><p>application of numeracy skills</p></li>
-<li><p>specialist skills</p></li>
-</ul>
-<p>OPENAI of below</p>
-<p>McGovern et al.&nbsp;(2010) define psychological literacy as ‘being insightful and reflective about one’s own and others’ behaviour and mental processes’ (p.11). This concept captures the ability of a psychology student to apply the knowledge and skills gained during their education to all aspects of life, such as the workplace, personal life, and wider social context. Cranney et al.&nbsp;(2012, p.4) adopt a similar definition of psychological literacy as ‘the general capacity to adaptively and intentionally apply psychology to meet personal, professional and societal needs’. Dunn (2009) further explains that psychologically literate people are able to use psychology to solve issues on a local, civic, and national level by looking to data instead of personal opinion.</p>
-<p>In order to promote psychological literacy, Dunn et al.&nbsp;(2011) and Mair et al.&nbsp;(2013) suggest that the applications of psychology should be recognised and taught in a real-world context; Biggs (1996) recommends that courses should be constructively aligned to explicitly include psychological literacy in the learning outcomes and assessments; and Akhurst et al.&nbsp;(in press), Bernstein (2011), Cranney and Dunn (2011), McGovern (2011) and Zinkiewicz et al.&nbsp;(2003) suggest that psychological literacy should be modelled in professional lives through interactions with colleagues and students, and by using psychology to inform teaching practices, solve problems, and ensure inclusivity.</p>
-<ul>
-<li><div class="callout callout-style-default callout-note callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><p>McGovern et al.&nbsp;(2010) defines psychological literacy as ‘being insightful and reflective about one’s own and others behaviour and mental processes’ (p.11). It is, in essence, the general capacity to apply psychological knowledge to real-world scenarios.</p></li>
-<li><p>Dunn (2009) discusses this, claiming that ‘psychologically literate people can use what they know about psychology to solve home-based, local, civic, and even national matters by looking to data instead of personal opinion’.</p></li>
-<li><p>McGovern et al.&nbsp;(2010, p.11) define psychological literacy as ‘being insightful and reflective about one’s own and others’ behaviour and mental processes’ and having the ability to apply ‘psychological principles to personal, social, and organizational issues in work, relationships and the broader community’. Cranney et al.&nbsp;(2012, p.4) adopt a similar stance, describing psychological literacy as ‘the general capacity to adaptively and intentionally apply psychology to meet personal, professional and societal needs’. The concept of psychological literacy thus captures the ability of a psychology student to apply the knowledge and skills that they acquire during their education to all aspects of life: the workplace, their personal lives and the wider social context. As such, psychological literacy may provide a lens through which we can view the wider benefits of psychology education. It may also hold out some hope to students who may be coming to accept that their aspirations towards a career in psychology are likely to remain unfulfilled, but who remain enthused and inspired by the subject, and are looking for ways to continue to stay in touch with it.</p></li>
-<li><p>We need to:<br>
-I&nbsp;&nbsp; &nbsp;recognise and to teach the applications of psychology, its relevance to the real world and the transferability of skills, rather than always teaching it in a theoretical context (Dunn et al., 2011; Mair et al., 2013);<br>
-I&nbsp;&nbsp; &nbsp;constructively align (Biggs, 1996) our courses to explicitly include psychological literacy in our learning outcomes, our teaching, and the assessments that we give to our students (Dunn et al., 2011; Trapp, 2010; Trapp et al., 2011);<br>
-I&nbsp;&nbsp; &nbsp;model psychological literacy in our own professional lives, through our interactions with colleagues and students, using psychology to inform our teaching practices, solve problems and ensure inclusivity (Akhurst et al., in press; Bernstein, 2011; Cranney and Dunn, 2011; McGovern, 2011; Zinkiewicz et al., 2003).</p></li>
-<li><p><em>Psychological Literacy</em></p>
-<p>Barnett, R. (2006). Graduate attributes in an age of uncertainty. <em>Graduate attributes, learning and employability</em>, 49-65.</p>
-<p>Cranney, J., Botwood, L., &amp; Morris, S. (2012). National standards for psychological literacy and global citizenship: Outcomes of undergraduate psychology education. <em>Australia: The University of New South Wales.</em></p>
-<p>Cranney, J., Morris, S., Martin, F. H., Provost, S., Zinkiewicz, L., Reece, J &amp; Earl, J. (2011). Psychological literacy and applied psychology in undergraduate education.</p>
-<p>Dunn (2009) Psychology Today. <a href="https://www.psychologytoday.com/blog/head-the-class/200909/thinking-about-psychological-literacy"><strong>https://www.psychologytoday.com/blog/head-the-class/200909/thinking-about-psychological-literacy</strong></a></p>
-<p>Haigh, M., &amp; Clifford, V. A. (2010). Widening the graduate attribute debate: a Higher education for Global citizenship. <em>Brookes eJournal of Learning and Teaching</em>, <em>2</em>(5).</p>
-<p>McGovern T. V., Corey L., Cranney J., Dixon W., Holmes J. D., Kuebli, et al.&nbsp;. (2010). Psychologically literate citizens, in Undergraduate Education in Pscyhology: A Blueprint for the Future of the Discipline, ed Halpern D. F., editor. (Washington, DC: American Psychological Association; ), 9–27.</p>
-<p>Murdoch, D. D. (2016). Psychological literacy: proceed with caution, construction ahead. <em>Psychology research and behavior management</em>, <em>9</em>, 189.</p>
-<p>Trapp, A., Banister, P., Ellis, J., Latto, R., Miell, D., &amp; Upton, D. (2011). The future of undergraduate psychology in the United Kingdom. <em>Higher Education Academy Psychology Network, University of York, York</em>.</p></li>
-<li><p>Akhurst, J. (2013). Enhancing psychology students’ employability through international community-based work placements. Higher Education Academy. Retrieved 30 September 2014 from <a href="http://www.tinyurl.com/pd6bmtg"><strong>tinyurl.com/pd6bmtg</strong></a><br>
-Akhurst, J., Coxon, M. &amp; Hulme, J. (in press). Applying psychology to psychology learning and teaching. York: Higher Education Academy.<br>
-Barnett, R. (2010). Life-wide education: A new and transformative concept for higher education? In N. Jackson &amp; R. Law (Eds.) Enabling a More Complete Education [Conference proceedings]. University of Surrey. (Available at <a href="http://www.http//lifewidelearningconference%20.pbworks.com/E-proceedings"><strong>http://lifewidelearningconferencepbworks.com/E-proceedings</strong></a>)<br>
-Bernstein, D. (2011). A scientist-educator perspective on psychological literacy. In J. Cranney &amp; D. Dunn (Eds.) The psychologically literate citizen. New York: Oxford University Press.<br>
-Biggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32(3), 347–364.<br>
-Boneau, C.A. (1990). Psychological literacy: A first approximation. American Psychologist, 45, 891–900.<br>
-Bromnick, R. &amp; Horowitz, A. (2013). Reframing employability: Exploring career-related values in psychology undergraduates. Paper presented at the HEA STEM Annual Learning and Teaching Conference, University of Birmingham, April. Retrieved 30 September 2014 from <a href="http://www.tinyurl.com/mm9xojq"><strong>tinyurl.com/mm9xojq</strong></a><br>
-CBI/NUS (2011). Working towards your future: Making the most of your time in higher education. London: CBI. Retrieved 22 July 2014 from <a href="http://www.tinyurl.com/lsqsdwu"><strong>tinyurl.com/lsqsdwu</strong></a><br>
-CIPD (2011). The coaching climate. London: CIPD. (Available via <a href="http://www.www.cipd.co.uk/hr-resources/survey-reports/coaching-climate-2011.aspx"><strong>www.cipd.co.uk/hr-resources/survey-reports/coaching-climate-2011.aspx</strong></a>)<br>
-Cranney, J., Botwood, L. &amp; Morris, S. (2012). National standards for psychological literacy and global citizenship: Outcomes of undergraduate psychology education. Sydney, NSW: Office for Learning and Teaching. Retrieved 22 July 2014 from <a href="http://www.tinyurl.com/q98zg4y"><strong>tinyurl.com/q98zg4y</strong></a><br>
-Cranney, J. &amp; Dunn, D. (2011). What the world needs now is psychological literacy. In J. Cranney &amp; D. Dunn (Eds.) The psychologically literate citizen. New York: Oxford University Press.<br>
-Dunn, D., Cautin, R.L. &amp; Gurung, A.R. (2011). Curriculum matters: Structure, content, and psychological literacy. In J. Cranney &amp; D. Dunn (Eds.) The psychologically literate citizen. New York: Oxford University Press.<br>
-Grabinger, R.S. &amp; Dunlap, J.C. (1995). Rich environments for active learning: A definition. Research in Learning Technology, 3(2), 5–34.<br>
-Halpern, D. (2010). Undergraduate education in psychology: A blueprint for the future of the discipline. Washington, DC: APA.<br>
-Harkness, F. (2013). He’s just not that into you. The Psychologist, 26(5), 314–315.<br>
-Harnish, R. &amp; Bridges, K.R. (2012). Promoting student engagement: Using community service-learning projects in undergraduate psychology. PRISM: A Journal of Regional Engagement, 1(2). Retrieved 22 July 2014 from <a href="http://www.http//encompass.eku.edu/prism/vol1/iss2/1%E2%88%9A"><strong>http://encompass.eku.edu/prism/vol1/iss2/1√</strong></a></p>
-<p><br>
-</p></li>
-<li><p><a href="https://thepsychologist.bps.org.uk/volume-27/december-2014/psychological-literacy-classroom-real-world"><strong>psychological literacy</strong></a></p></li>
-</ul>
-</div>
-</div></li>
-<li></li>
-</ul>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section"></h3>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="images/GitHub-Mark.png" class="img-fluid figure-img" width="35"></p>
@@ -642,6 +610,7 @@ Harnish, R. &amp; Bridges, K.R. (2012). Promoting student engagement: Using comm
 <p><a href="http://creativecommons.org/licenses/by/4.0/" data-fig-alt="Creative Commons License"><img src="images/creative_commons.png" class="img-fluid"></a> This website/book is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.</a></p>
 
 
+</section>
 </section>
 </section>
 
