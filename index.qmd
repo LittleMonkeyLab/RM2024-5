@@ -36,7 +36,7 @@ virtue, curiosity, empiricism, skepticism, humility and
 Psychology can be a stimulating and joyful endeavour, and learning it is
 best achieved in a safe, but challenging environment.
 
-::: callout-important
+::: {.callout-important appearance="simple"}
 Psychology is a diverse and highly interdisciplinary field of study that
 involves the varied application of systematic methods of inquiry to the
 exploration of behavior, mental processes, and social relationships.
@@ -62,7 +62,7 @@ psychology that is relevant to them and gives them agency to solve
 whatever challenges they choose to address.
 :::
 
-::: {.callout-warning icon="false"}
+::: {.callout-warning appearance="simple" icon="false"}
 At a departmental level we consider the following to be crucial
 
 **1)** Demonstrate understanding and competence regarding the use of
@@ -148,7 +148,7 @@ coding and writing exercises.
 
 Method-neutral and wide Open!
 
-::: {.callout-caution icon="false"}
+::: {.callout-caution appearance="simple" icon="false"}
 We embrace an Open Science approach in our efforts to cultivate your
 critical evaluation skills, enhance your understanding of the
 significance - and power - of research, and equip you with the necessary

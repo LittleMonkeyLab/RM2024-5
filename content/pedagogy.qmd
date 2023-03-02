@@ -23,7 +23,7 @@ minority status).
 
 ## Assessments
 
-::: {.callout-important icon="false"}
+::: {.callout-important appearance="simple" icon="false"}
 ## Teaching and Assessment
 
 Through lectures, interactive group discussions, online skills
@@ -84,7 +84,7 @@ blog writing may provide a useful opportunity to allow students to apply
 their psychology content in a critical, creative, and non-conventional
 way.
 
-::: callout-note
+::: {.callout-note appearance="simple"}
 ## Candidate assessment types that we think could actually work!
 
 Blog

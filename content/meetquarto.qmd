@@ -5,8 +5,9 @@ editor: visual
 
 ```{r}
 #| label: load-packages
+#| message: false
 #| echo: true
-#| include: true
+#| include: false
 
 library(tidyverse)
 library(palmerpenguins)
@@ -29,6 +30,8 @@ package contains size measurements for `r nrow(penguins)` penguins from
 three species observed on three islands in the Palmer Archipelago,
 Antarctica.
 
+{{< video https://www.youtube.com/watch?v=k22Gg13ahDc >}}
+
 The plot below shows the relationship between flipper and bill lengths
 of these penguins.
 
@@ -50,7 +53,13 @@ ggplot(penguins,
   theme_minimal()
 ```
 
-Presentation Slides
+[Presentations that are
+accessible](https://quarto.org/docs/presentations/revealjs/demo/index.html#/title-slide)
+
+```{=html}
+<iframe width="550" height="350" src="https://quarto.org/docs/presentations/revealjs/demo/"></iframe>
+```
+<https://quarto.org/docs/presentations/revealjs/demo/>
 
 Blogs
 
