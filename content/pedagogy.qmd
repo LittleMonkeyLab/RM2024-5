@@ -303,3 +303,11 @@ than others:
 >
 ```
 :::
+
+![](images/image-2016733822.png)
+
+![](images/image-1448901065.png)
+
+```{r}
+
+```

@@ -1,63 +1,182 @@
 ---
 title: Year 1 schedule
 df-print: kable
-format: 
-  pdf: default
-  html: default
 ---
 
-|  Week  | Schedule         |                                      |              |                                                |
-|:------:|:-----------------|:-------------------------------------|:-------------|:-----------------------------------------------|
-| **-1** | **Pre-Arrival:** | Preparing for Research at Goldsmiths | **IndStud:** | Maths ability/anxiety/refresher quiz           |
-|        | **Lab:**         | Online Refresher Q&A                 | **Data:**    |                                                |
-| **0**  | **WelcomeWeek**  | I{{< fa heart >}}️Data Fair           | **IndStud:** | Epistemology/Ontology Task                     |
-|        | **Lab:**         | Data Collection on self!             | **Data:**    | Reflective exercise                            |
-| **1**  | **Lecture:**     | Finding patterns and relationships   | **IndStud:** | First journal article!                         |
-|        | **Lab:**         | Visualise the year group             | **Data:**    | Blog about what you have learned. Posit/Quarto |
-| **2**  | **Lecture:**     | Finding patterns and relationships   | **IndStud:** |                                                |
-|        | **Lab:**         |                                      | **Data:**    |                                                |
-| **3**  | **Lecture:**     | Correlations and Models (GLM)        | **IndStud:** |                                                |
-|        | **Lab:**         |                                      | **Data:**    |                                                |
-| **4**  | **Lecture:**     | Distributions and Sampling           | **IndStud:** |                                                |
-|        | **Lab:**         |                                      | **Data:**    |                                                |
-| **5**  | **Lecture:**     | Probabilities and P-Values           | **IndStud:** |                                                |
-|        | **Lab:**         |                                      | **Data:**    |                                                |
-|        |                  | Reading Week                         |              |                                                |
-| **6**  | **Lecture:**     | Open Science, Reporting and Critique | **IndStud:** |                                                |
-|        | **Lab:**         |                                      | **Data:**    |                                                |
-| **7**  | **Lecture:**     | Qualititative Research               | **IndStud:** |                                                |
-|        | **Lab:**         |                                      | **Data:**    |                                                |
-| **8**  | **Lecture:**     | Correlational Research               | **IndStud:** |                                                |
-|        | **Lab:**         |                                      | **Data:**    |                                                |
-| **9**  | **Lecture:**     | Quasi-Experimental Research          | **IndStud:** |                                                |
-|        | **Lab:**         |                                      | **Data:**    |                                                |
-| **10** | **Lecture:**     | Experimental Research                | **IndStud:** |                                                |
-|        | **Lab:**         |                                      | **Data:**    |                                                |
+Year 1 Term 1
+
++----------+----------+--------------+----------+--------------------+
+| Week     | Schedule |              |          |                    |
++:========:+:=========+:=============+:=========+:===================+
+| 0        | Wel      | Data Frenzy  |          |                    |
+|          | comeWeek | on           |          |                    |
+|          |          | wellbeing?   |          |                    |
++----------+----------+--------------+----------+--------------------+
+| **1**    | **Le     | The year     | **DataS  | Intro to Posit     |
+|          | cture:** | ahead and    | kills:** | Cloud & R          |
+|          |          | answering    |          |                    |
+|          |          | questions    |          | and a group        |
+|          |          | with data    |          | question           |
++----------+----------+--------------+----------+--------------------+
+|          | **Lab:** | V            |          |                    |
+|          |          | isualisation |          |                    |
+|          |          | and          |          |                    |
+|          |          | descriptives |          |                    |
+|          |          | (Team        |          |                    |
+|          |          | Coding)      |          |                    |
++----------+----------+--------------+----------+--------------------+
+| **2a**   | **Le     | What is      | **DataS  | Descriptive Stats  |
+|          | cture:** | Science? Is  | kills:** | and the Psych      |
+|          |          | Psychology a |          | package            |
+|          |          | Science?     |          |                    |
+|          |          |              |          |                    |
+|          |          | Patterns and |          |                    |
+|          |          | r            |          |                    |
+|          |          | elationships |          |                    |
++----------+----------+--------------+----------+--------------------+
+|          | **Lab:** | Process your |          |                    |
+|          |          | group        |          |                    |
+|          |          | question and |          |                    |
+|          |          | submit       |          |                    |
+|          |          | poster       |          |                    |
++----------+----------+--------------+----------+--------------------+
+| **3a**   | **Le     | Open Science | **DataS  | APA referencing    |
+|          | cture:** | and the      | kills:** | and Lit Searching  |
+|          |          | Replication  |          | & Zotero           |
+|          |          | Crisis       |          |                    |
+|          |          |              |          |                    |
+|          |          | Critical     |          |                    |
+|          |          | Thinking and |          |                    |
+|          |          | being        |          |                    |
+|          |          | Scientific   |          |                    |
++----------+----------+--------------+----------+--------------------+
+|          | **Lab:** | Block A      |          |                    |
+|          |          | Experiment   |          |                    |
++----------+----------+--------------+----------+--------------------+
+| **4a**   | **Le     | Critical     | **DataS  | Critical Analysis  |
+|          | cture:** | Thinking and | kills:** | & Research Summary |
+|          |          | Thinking     |          | exercise           |
+|          |          | Sc           |          |                    |
+|          |          | ientifically |          |                    |
++----------+----------+--------------+----------+--------------------+
+|          | **Lab:** | Literature   | **Assig  | \--                |
+|          |          | review &     | nment:** |                    |
+|          |          | Critical     |          |                    |
+|          |          | Analysis     |          |                    |
++----------+----------+--------------+----------+--------------------+
+| **5b**   | **Le     | The research | **DataS  | Compare two papers |
+|          | cture:** | toolkit -    | kills:** | Q&Q                |
+|          |          | Qual &       |          |                    |
+|          |          | Quant -      |          |                    |
++----------+----------+--------------+----------+--------------------+
+|          | **Lab:** | O            | **Assig  | \--                |
+|          |          | bservational | nment:** |                    |
+|          |          | research     |          |                    |
++----------+----------+--------------+----------+--------------------+
+| **RW**   |          | Field Trip   |          |                    |
++----------+----------+--------------+----------+--------------------+
+| **6b**   | **Le     | Reporting    | **DataS  | Lab Report         |
+|          | cture:** |              | kills:** | Structure          |
++----------+----------+--------------+----------+--------------------+
+|          | **Lab:** | Block B      | **Assig  | \--                |
+|          |          | Experiment   | nment:** |                    |
++----------+----------+--------------+----------+--------------------+
+| **7b**   | **Le     | ANOVA recap  | **DataS  | \--                |
+|          | cture:** |              | kills:** |                    |
++----------+----------+--------------+----------+--------------------+
+|          | **Lab:** | \--          | **Assig  | Lab Report 1 -     |
+|          |          |              | nment:** | Quant              |
++----------+----------+--------------+----------+--------------------+
+| **8c**   | **Le     | ANOVA recap  | **DataS  | \--                |
+|          | cture:** |              | kills:** |                    |
++----------+----------+--------------+----------+--------------------+
+|          | **Lab:** | \--          | **Assig  | \--                |
+|          |          |              | nment:** |                    |
++----------+----------+--------------+----------+--------------------+
+| **9c**   | **Le     | ANOVA recap  | **DataS  | \--                |
+|          | cture:** |              | kills:** |                    |
++----------+----------+--------------+----------+--------------------+
+|          | **Lab:** | Block C      | **Assig  | Bibliography: Peer |
+|          |          | Experiment   | nment:** | & Formative        |
+|          |          |              |          | assessment         |
++----------+----------+--------------+----------+--------------------+
+| **10c**  | **Le     | ANOVA recap  | **DataS  | Blog or Vlog       |
+|          | cture:** |              | kills:** |                    |
++----------+----------+--------------+----------+--------------------+
+|          | **Lab:** | Bibliography | **Assig  | Summary Blog/Vlog  |
+|          |          | P            | nment:** |                    |
+|          |          | resentations |          |                    |
++----------+----------+--------------+----------+--------------------+
 
 \newpage
 
-|  Week  | Schedule     |                                                                |              |                                                                |
-|:------:|:-------------|:---------------------------------------------------------------|:-------------|:---------------------------------------------------------------|
-| **11** | **Lecture:** | Statistical Models                                             | **IndStud:** | There was a wee cooper who lived in fife and his hat was green |
-|        | **Lab:**     | There was a wee cooper who lived in fife and his hat was green | **Data:**    | There was a wee cooper who lived in fife and his hat was green |
-| **12** | **Lecture:** | Inferential Statistics                                         | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **13** | **Lecture:** | Alpha, Power, Effect & Sample Size                             | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **14** | **Lecture:** | Correlation in depth                                           | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **15** | **Lecture:** | Regression                                                     | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-|        |              | **Reading Week**                                               |              |                                                                |
-| **16** | **Lecture:** | Multiple Regression                                            | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **17** | **Lecture:** | Logistic Regression                                            | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **18** | **Lecture:** | Comparing two means                                            | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **19** | **Lecture:** | Comparing several means                                        | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **20** | **Lecture:** | Employability and Data Skills                                  | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
+Year 1 Term 2
 
-{{< fa thumbs-up >}} {{< fa folder >}} {{< fa chess-pawn >}} {{< fa brands bluetooth >}} {{< fa brands twitter size=2xl >}} {{< fa brands github size=5x >}} {{< fa battery-half size=Huge >}} {{< fa envelope title="An envelope" >}}
++----------+----------+--------------+----------+---------------------+
+| Week     | Schedule |              |          |                     |
++:========:+==========+==============+==========+=====================+
+| **11**   | **Le     | E            | **DataS  | Employability       |
+|          | cture:** | mployability | kills:** |                     |
++----------+----------+--------------+----------+---------------------+
+|          | **Lab:** | Careers /    | **Assig  | \--                 |
+|          |          | Pathways     | nment:** |                     |
++----------+----------+--------------+----------+---------------------+
+| **12a**  | **Le     | Qual data    | **DataS  | Transcript coding   |
+|          | cture:** | collection   | kills:** |                     |
++----------+----------+--------------+----------+---------------------+
+|          | **Lab:** | Interviewing | **Assig  | \--                 |
+|          |          | skills       | nment:** |                     |
++----------+----------+--------------+----------+---------------------+
+| **13a**  | **Le     | Qual         | **DataS  | Coding swap         |
+|          | cture:** | analysis &   | kills:** |                     |
+|          |          | writeup      |          |                     |
++----------+----------+--------------+----------+---------------------+
+|          | **Lab:** | Block A      | **Assig  | \--                 |
+|          |          | Experiment   | nment:** |                     |
++----------+----------+--------------+----------+---------------------+
+| **14a**  | **Le     | Mixing       | **DataS  | \--                 |
+|          | cture:** | methods      | kills:** |                     |
++----------+----------+--------------+----------+---------------------+
+|          | **Lab:** | \--          | **Assig  | Lab Report 2 QorQ   |
+|          |          |              | nment:** |                     |
++----------+----------+--------------+----------+---------------------+
+| **15b**  | **Le     | ANOVA recap  | **DataS  | \--                 |
+|          | cture:** |              | kills:** |                     |
++----------+----------+--------------+----------+---------------------+
+|          | **Lab:** | \--          |          |                     |
++----------+----------+--------------+----------+---------------------+
+| **RW**   | **Le     | ANOVA recap  | **DataS  | \--                 |
+|          | cture:** |              | kills:** |                     |
++----------+----------+--------------+----------+---------------------+
+|          | **Lab:** | \--          |          |                     |
++----------+----------+--------------+----------+---------------------+
+| **16b**  | **Le     | ANOVA recap  | **DataS  | \--                 |
+|          | cture:** |              | kills:** |                     |
++----------+----------+--------------+----------+---------------------+
+|          | **Lab:** | Block B      |          |                     |
+|          |          | Experiment   |          |                     |
++----------+----------+--------------+----------+---------------------+
+| **17b**  | **Le     | ANOVA recap  | **DataS  | \--                 |
+|          | cture:** |              | kills:** |                     |
++----------+----------+--------------+----------+---------------------+
+|          | **Lab:** | \--          | **Assig  | Lab Report 3 QorQ   |
+|          |          |              | nment:** |                     |
++----------+----------+--------------+----------+---------------------+
+| **18c**  | **Le     | ANOVA recap  | **DataS  | \--                 |
+|          | cture:** |              | kills:** |                     |
++----------+----------+--------------+----------+---------------------+
+|          | **Lab:** | \--          | **Assig  | \--                 |
+|          |          |              | nment:** |                     |
++----------+----------+--------------+----------+---------------------+
+| **19c**  | **Le     | ANOVA recap  | **DataS  | \--                 |
+|          | cture:** |              | kills:** |                     |
++----------+----------+--------------+----------+---------------------+
+|          | **Lab:** | Block C      | **Assig  | \--                 |
+|          |          | Experiment   | nment:** |                     |
++----------+----------+--------------+----------+---------------------+
+| **20c**  | **Le     | ANOVA recap  | **DataS  | \--                 |
+|          | cture:** |              | kills:** |                     |
++----------+----------+--------------+----------+---------------------+
+|          | **Lab:** | \--          | **Assig  | Bibliography final  |
+|          |          |              | nment:** | submission          |
++----------+----------+--------------+----------+---------------------+

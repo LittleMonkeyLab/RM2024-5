@@ -1,7 +1,11 @@
 project:
   type: book
+  preview:
+    port: 4200
+    browser: true
 mainfont: Atkinson Hyperlegible
 sansfont: Atkinson Hyperlegible
+number-sections: false
 
 
 book:
@@ -85,6 +89,7 @@ format:
   pdf:
     fontsize: 11pt
     documentclass: scrbook
+    number-sections: false
     classoption: ["oneside", "open=any"]
     mainfont: "Atkinson Hyperlegible"
     sansfont: "Atkinson Hyperlegible"

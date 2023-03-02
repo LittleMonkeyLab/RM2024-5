@@ -4,54 +4,167 @@ title: Year 1 (Level 4)
 
 ## Year 1 (Level 4)
 
+## Module Weighting - 30 Credits (300 notional hours)
+
+[Coursework and attendance only]{.underline}
+
+2 hours lectures each week - with 1 hour prep/reading
+
+2 hours labs each week - with 1 hour prep/reading
+
+2 hours Data Skills Interactive Online Tutorials with activities
+
 ### Module Content
 
-This module equips students with the practical and conceptual skills
-necessary for the effective study of psychology. It includes computer
-skills, presenting results of experiments, structuring an essay, and
-critiquing a scientific paper. Additionally, it provides an introduction
-to experimental design, data, and statistics in psychology. Students
-will learn the theoretical aspects of basic statistical concepts and
-tests, and gain experience using statistical packages.
+This module introduces and equips students with the conceptual and
+practical skills necessary for the effective study of psychology, but
+also highly valuable transferable and employability skills. This
+includes computer skills, presenting results of experiments, structuring
+a technical report, and critiquing scientific research.
+
+The module combines individual and group work, therefore requires the
+development of time- and project-management skills, as well as
+cooperation and communication skills.
+
+Additionally, it provides an introduction to research design, data, and
+statistics in psychology, as well as the processes of analysis and
+interpretation of Qualitative research.
+
+Students will learn the theoretical aspects of basic statistical
+concepts and tests, and gain experience using the statistical package R,
+as well as the IDE Posit (formerly RStudio) and Quarto academic
+publishing platform for the production of Posters, Blogs, Websites and
+interactive documents for Lab Reports and Theses.
 
 ### Module Learning Outcomes
 
 The student should be able to:
 
-demonstrate a comprehensive understanding of the principles of
-experimental psychology, from reading and summarizing scientific papers
-to planning, writing and presenting essays, reports and presentations.
-
-understand the importance and relevance of data analysis, the different
-types of experiments and tests used.
-
-understand the philosophical underpinnings of qualitative and
-quantitative approaches to research and evaluate their merits.
-
-demonstrate the skills to analyse and interpret data using qualitative
-and quantitative frameworks and methods.
-
-demonstrate statistical proficiency in the ability to use R to compute
-summary statistics, z-scores, chi-square, binomial tests, and parametric
-and non-parametric comparison of two means.
-
-be able to visualise and present/communicate research findings to a
-range of audiences
-
-select and provide a rationale for using a statistical test to analyse a
-particular dataset, and present the results correctly in both graphical
-and APA format.
+-   Demonstrate the ability to **work collaboratively and
+    independently** to deliver projects and reflect/evaluate their
+    individual and group performance
+-   demonstrate a comprehensive understanding of the **principles of
+    research in psychology**, both Qualitative and Quantitative, from
+    reading and summarizing scientific research to planning, writing and
+    presenting reports and presentations.
+-   understand the importance and relevance of **data analysis, the
+    different types of research design**, experiments, sampling
+    techniques and tests used.
+-   understand the **philosophical underpinnings** of qualitative and
+    quantitative approaches to research and evaluate their merits in
+    answering questions across the range of psychological domains.
+-   demonstrate the skills to **analyse and interpret data** using
+    qualitative and quantitative frameworks and methods.
+-   demonstrate statistical proficiency in the ability to use R to
+    perform appropriate statistical analysis and visualisation of
+    quantitative data.
+-   be able to visualise and present/communicate research findings to a
+    range of audiences
 
 ### Assessment
 
-| Assessment Element | Length | \%  | F or S | LO Tested |
-|--------------------|--------|-----|--------|-----------|
-|                    |        |     |        |           |
-|                    |        |     |        |           |
-| RPS                |        |     |        |           |
+| Assessment Element                | Length           | \%       | F or S    | Group/Individual |
+|-----------------------------------|------------------|----------|-----------|------------------|
+| Visualisation/Dashboard           | NA               | 0        | Formative | Group            |
+| Lab Reports x 3                   | 1500             | 30%      | Summative | Individual       |
+| Annotated Bibliography            | 1000             | 20%      | Summative | Individual       |
+| Portfolio of weekly activities    | 2 hours per week | 20%      | Summative | Mixed            |
+| Data Skills Interactive Tutorials | 2 hours per week | 20%      | Summative | Individual       |
+| RPS                               | 10 hours         | Required | Pass Fail | Individual       |
+
+::: callout
+Visualisation - The task will be to assemble a poster/dashboard of the
+cohort data, with some explanatory content (subtly employing the format
+of a lab report/academic poster) that communicates something about the
+year group. Each group can develop a single additional question to allow
+them to tailor the content that all students will answer, but will use
+the cohort-wide data collected in Welcome week. Qual and Quant data -
+posing the challenge of what to present and how to present it. Mesearch.
+
+This is an intro to R, Posit & Quarto, and the goal is to introduce
+group working early, to allow for feedback and reflection, and to get
+students to produce something novel, relevant and real, of which they
+can be proud. Can be a team-coding exercise, incorporating some novel
+student-generated questions and ethical considerations.
+
+Train tables and plots so that this contributes to academic writing
+skills.
+:::
+
+::: callout
+Lab Reports x 3 - 1 per theme at block 2, block 4 and block 6. Standard
+goal of training academic writing APA style. Heavily templated Quarto
+document, putting the focus on CONTENT, not formatting. Training the use
+of Zotero or .bib reference management.
+
+Cohort wide data collected by staff on a question central to the block
+in both Qual and Quant Methods:
+
+-   either multiple variables from which a student can choose. e.g. 5
+    predictors of well-being and 2 measures of well-being collected and
+    each student chooses 2 predictors and an outcome for a regression
+    model, or compare means (1, 2, 2+) or Qualitative from TA/DA/IPA/GT.
+-   Or there could be multiple studies to choose from from within a
+    block - to allow for intro to different methods
+-   Students must do at least one of each Qual or Quant out of the 3
+    reports.
+:::
+
+::: callout-important
+## Zotero online library resource per block
+
+<https://www.zotero.org/groups/4972953/ps52007d_research_methods/library> -
+Zotero Library of some AWESOME research that would be bundled and ready
+to go.
+:::
+
+::: callout
+Annotated bibliography on a topic of your choosing - To match the skills
+tested in the Extended Essay and to train critical thinking & lit
+search/review skills - find 3 papers on a topic of your choosing.
+Present a correct APA format reference list, summarise the papers each
+answering key questions (design, results, likes and dislikes), and wrap
+in an introduction/conclusion that incorporates a reflective "what do I
+think about this research and what does it mean to me"
+:::
+
+::: callout
+Portfolio of weekly activities - Each week readings, preparation,
+reflection or activities are assigned, and a portfolio of responses, or
+log is kept. We can allow for non-completion of x% but they are a
+combination of competency checks or practical activities. These can
+include reports on group work, reading log, contribution to forums, use
+of hypothesis to annotate a web page, learning log, data skills.
+:::
 
 ### Reading and Resource List
 
-We have a custom made textbook to support key study skills throughout
-your degree:
+We propose a custom made textbook remixed from Open Educational
+Resources to support key study skills throughout your degree - also
+shared CCBYSANC4.0
 
+Research Methods (Big picture) see:
+
+CrumpLab
+
+<https://crumplab.com/ResearchMethods/>
+
+<https://crumplab.com/statistics/>
+
+<https://crumplab.com/statisticsLab/> (Labs in R, Excel, SPSS and
+JAMOVI)
+
+plus <https://lakens.github.io/statistical_inferences/index.html>
+
+plus <https://openpress.usask.ca/introtoappliedstatsforpsych/>
+
+**Qual** Williams, D. D. (2018). *Qualitative Inquiry in Daily Life (1st
+ed.)*. EdTech Books. <https://edtechbooks.org/qualitativeinquiry>
+
+Qual content is sparse, thus ownable!
+
+R gold standard <https://learningstatisticswithr.com/>
+
+Data Sets,
+
+Versions with Jamovi, JASP, and SPSS

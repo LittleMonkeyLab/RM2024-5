@@ -1,54 +1,76 @@
 ---
 title: "Proposal for Psychology Department Research Methods 2024-5"
-# df-print: kable
+df-print: kable
 bibliography: "references.bib"
+editor_options: 
+  chunk_output_type: inline
 ---
 
 \raggedright
 
-# Overview
+# Goldsmiths Research and Data Skills
 
-## Statistics and Research Methods for Psychological and Behavioural Science
+Distinctive blend of research and training
+
+Showcase the departmental strengths
+
+Not available in school
+
+Intellectual virtues of critical thinking, creation of knowledge,
+communication
+
+Open Science
+
+General goals
+
+Alive, practical, digital literacy, transferable skills,
+
+## Weekly structure (all levels)
+
+### 2 hours lecture (1 hour reading) 
+
+### 2 hours lab (1 hour reading) 
+
+### 2 hours online Data Skills (with short weekly assessment)
+
+## Goldsmiths stuff
 
 Jin, C., & Wells, J. (2015). Developing open educational resources with
 students: A case study in an undergraduate course. MERLOT Journal of
 Online Learning and Teaching, 11(2), 197-213.
 
+------------------------------------------------------------------------
+
+## Executable code chunk
+
 Below is an example of an executed code chunk - in html format clicking
 on ![](images/image-1563023320.png){width="150" height="27"}would unfold
 the code that drives the plot and results summary. In pdf format, it's
-unfolded and printed.
+unfolded and printed - ideal for handouts etc.
+
+[Integrated Code Example]{.underline}
 
 ```{r}
-#| warning: false
 #| echo: true
 #| code-fold: true
 #| code-summary: "Show the code"
 
-library(ggplot2)                                # <1>
-ggplot(airquality, aes(Temp, Ozone)) +          # <2>
-  geom_point() + # <3>                               
-  geom_smooth(method = "loess", se = FALSE) # <3>
 
-library(psych) # <4>
-describe(airquality, na.rm = TRUE, skew = FALSE, ranges = FALSE) # <4>
+library(ggplot2)
+library(gridExtra)
 
+# x-axis as continuous
+p1 <- ggplot(mtcars, aes(x = cyl)) +
+        geom_bar() +
+        ggtitle("Fig. A: x-axis as a continuous variable")
+
+# x-axis as categorical
+p2 <- ggplot(mtcars, aes(x = factor(cyl))) +
+        geom_bar() +
+        ggtitle("Fig B: x-axis as a categorical (factor) variable")
+
+grid.arrange(p1, p2, ncol = 2)
 ```
-1. Load graphics package `ggplot`, and then
-2. ask for a plot of `airquality data` specifically columns `Temp` and `Ozone` as axes on the plot, 3. specify a scatterplot with a loess trend line
-4. finally describe the variables `Ozone` and `Temp` with `describe()` function from `psych` toolkit - i.e. fivenumber summary (n, mean, sd, median)
-
-```r
-library(tidyverse)
-library(palmerpenguins)
-penguins |>                                      # <1>
-  mutate(                                        # <2>
-    bill_ratio = bill_depth_mm / bill_length_mm, # <2>
-    bill_area  = bill_depth_mm * bill_length_mm  # <2>
-  )                                              # <2>
-```
-1. Take `penguins`, and then,
-2. add new columns for the bill ratio and bill area.
 
 The Psychology department at Goldsmiths has a number of differentiating
 features, upon which it must build in order to ensure it remains
@@ -74,6 +96,14 @@ school - 'Relevant & Applicable' above all else. Nothing is taught
 'because the BPS says we have to' or that doesn't have widespread use in
 a range of future endeavours - Demonstrate and model intellectual
 virtue, curiosity, empiricism, skepticism, humility and
+
+```{r}
+# Define the cars vector with 5 values
+cars <- c(1, 3, 6, 4, 9)
+
+# Graph the cars vector with all defaults
+plot(cars)
+```
 
 ::: callout-note
 ## Open Stuff

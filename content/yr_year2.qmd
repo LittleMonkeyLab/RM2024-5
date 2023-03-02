@@ -1,57 +1,59 @@
 ---
 title: Year 2 schedule
 df-print: kable
-format: 
-  pdf: default
-  html: default
 ---
 
-|  Week  | Schedule     |                                                                |              |                                                                |
-|:-------------:|:--------------|:--------------|:--------------|:--------------|
-| **1**  | **Lecture:** | ANOVA recap                                                    | **IndStud:** | There was a wee cooper who lived in fife and his hat was green |
-|        | **Lab:**     | There was a wee cooper who lived in fife and his hat was green | **Data:**    | There was a wee cooper who lived in fife and his hat was green |
-| **2**  | **Lecture:** | ANCOVA                                                         | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **3**  | **Lecture:** | Factorial ANOVA                                                | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **4**  | **Lecture:** | RM ANOVA                                                       | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **5**  | **Lecture:** | Mixed Designs                                                  | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-|        |              | Reading Week                                                   |              |                                                                |
-| **6**  | **Lecture:** | Non-parametrics and non-numeric data                           | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **7**  | **Lecture:** | Case studies, n=1 & Ethnography                                | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **8**  | **Lecture:** | Thematic Analysis & Grounded Theory                            | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **9**  | **Lecture:** | Focus Groups & Consumer Research                               | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **10** | **Lecture:** | Interpretative Phenomenological Analysis & Discourse Analysis  | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
+Year 2 Term 1
+
+|  Week   | Schedule     |                                            |                 |                                                     |
+|:----:|:-------|:----------------------|:----------|:----------------------------|
+|  **1**  | **Lecture:** | The year ahead and expectation setting     | **DataSkills:** | ANOVA refresher (designs and variables)             |
+|         | **Lab:**     | \--                                        | **Assignment:** | Reflection about the year ahead and self-management |
+| **2a**  | **Lecture:** | What is Science? Is Psychology a Science?  | **DataSkills:** | ANCOVA                                              |
+|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
+| **3a**  | **Lecture:** | Open Science and the Replication Crisis    | **DataSkills:** | Factorial ANOVA                                     |
+|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
+| **4a**  | **Lecture:** | Critical Thinking and Intellectual virtues | **DataSkills:** | Repeated Measures ANOVA                             |
+|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
+| **5b**  | **Lecture:** | Qual & Quant -                             | **DataSkills:** | Mixed ANOVA                                         |
+|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
+| **RW**  |              |                                            |                 |                                                     |
+| **6b**  | **Lecture:** | ANOVA recap                                | **DataSkills:** | \--                                                 |
+|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
+| **7b**  | **Lecture:** | ANOVA recap                                | **DataSkills:** | \--                                                 |
+|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
+| **8c**  | **Lecture:** | ANOVA recap                                | **DataSkills:** | \--                                                 |
+|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
+| **9c**  | **Lecture:** | ANOVA recap                                | **DataSkills:** | \--                                                 |
+|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
+| **10c** | **Lecture:** | ANOVA recap                                | **DataSkills:** | \--                                                 |
+|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
 
 \newpage
 
-|  Week  | Schedule     |                                                                |              |                                                                |
-|:-------------:|:--------------|:--------------|:--------------|:--------------|
-| **11** | **Lecture:** | Your final year project                                        | **IndStud:** | There was a wee cooper who lived in fife and his hat was green |
-|        | **Lab:**     | There was a wee cooper who lived in fife and his hat was green | **Data:**    | There was a wee cooper who lived in fife and his hat was green |
-| **12** | **Lecture:** | MANOVA                                                         | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **13** | **Lecture:** | FA (LVM, PCA, EFA, CFA)                                        | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **14** | **Lecture:** | Mediation & Moderation                                         | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **15** | **Lecture:** | Longitudinal Data                                              | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-|        |              | **Reading Week**                                               |              |                                                                |
-| **16** | **Lecture:** | Multi-Level Models                                             | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **17** | **Lecture:** | Categorical Data                                               | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **18** | **Lecture:** | Big Data                                                       | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **19** | **Lecture:** | Machine Learning                                               | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
-| **20** | **Lecture:** | Artificial Intelligence                                        | **IndStud:** |                                                                |
-|        | **Lab:**     |                                                                | **Data:**    |                                                                |
+Year 2 Term 2
+
+|  Week   | Schedule     |             |                 |     |
+|:-------:|--------------|-------------|-----------------|-----|
+| **11**  | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
+|         | **Lab:**     | \--         | **Assignment:** | \-- |
+| **12a** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
+|         | **Lab:**     | \--         | **Assignment:** | \-- |
+| **13a** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
+|         | **Lab:**     | \--         | **Assignment:** | \-- |
+| **14a** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
+|         | **Lab:**     | \--         | **Assignment:** | \-- |
+| **15b** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
+|         | **Lab:**     | \--         | **Assignment:** | \-- |
+| **RW**  | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
+|         | **Lab:**     | \--         | **Assignment:** | \-- |
+| **16b** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
+|         | **Lab:**     | \--         | **Assignment:** | \-- |
+| **17b** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
+|         | **Lab:**     | \--         | **Assignment:** | \-- |
+| **18c** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
+|         | **Lab:**     | \--         | **Assignment:** | \-- |
+| **19c** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
+|         | **Lab:**     | \--         | **Assignment:** | \-- |
+| **20c** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
+|         | **Lab:**     | \--         | **Assignment:** | \-- |
