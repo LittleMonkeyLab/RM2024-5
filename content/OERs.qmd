@@ -1,0 +1,117 @@
+---
+title: Open Educational Resources Texts
+---
+
+## Overarching goals
+
+### Accessibility for our students
+
+They don't buy textbooks, and jumping from webpage to webpage for stats
+support (for example) leads to more confusion than clarity. With the
+move to R, this means that our entire teaching of RM is 'Open source'
+and best of class. It's also cheaper for the student now and for ever,
+as it can be accessed through a browser, as a pdf, or as a number of
+different formats depending on taste.
+
+We can also make sure that it is Text-reader friendly, dyslexia
+friendly, colourblind accessible, appropriate in terms of terminology
+and examples (e.g. Gender/Sexuality) etc.
+
+### This is a marketing opportunity
+
+If we are able to encapsulate some of the Goldsmiths vibe, it is likely
+to be a very positive reflection of our programme. We can make a point
+to include elements that showcase our qualities, and advertise our
+culture/strengths. The University of Glasgow has won acclaim for their
+2017 exercise to move to R and to open teaching resources. Have a look
+at some of them here. They are pretty cool, but VERY dry - mostly data
+wrangling and very little actual Psychology...
+<https://psyteachr.github.io/>
+
+![](images/image-392831538.png)
+
+### Cost implication
+
+A range of free resources will be something that we can be proud to give
+to our students. If we are able to show that they are also
+high-quality... winner.
+
+## 
+
+## Process
+
+### Remix
+
+I propose a 'Goldsmiths Remix' of existing resources, assembled from the
+wide variety of Research Methods, Statistics and general Psychology
+texts available. With a relatively small amount of effort, an initial
+version can be produced in the time available.
+
+Remixing is a recognised and respectable enterprise. The only proviso is
+that if you choose to remix content, you have to 'share-alike' i.e.
+publish it in a similar open way. I do not see this as a problem.
+
+We shall make sure to only remix quality content.
+
+There is oodles of Quant and General Psych material to choose from.
+Qualitative work is a bit thinner on the ground. We have the opportunity
+to steal a march in this area potentially with an exciting 'methods
+neutral' toolkit.
+
+### Student participation
+
+Ideally we would have students involved in the production of the
+resources, and make sure that they integrate newer technologies to make
+them 'living documents'. Current best practice is to host texts in
+GitHub repositories, inviting comments or edits, but also to employ
+social annotation tools (such as Hypothes.is https://web.hypothes.is/) -
+which allows webpages to be annotated wither publicly or privately, and
+for communities to be built around what might be considered a static
+resource.
+
+### Walking the walk
+
+An ideal platform on which to build the book is Quarto, and indeed, due
+to the relative recency of the RMarkdown to Quarto shift, we will be
+amongst the first to develop a Psychology offering of this type. And
+since Quarto is proposed as a platform by which to support student
+writing, it shows expertise and commitment to what we are training.
+
+### If a job's worth doing...
+
+With a little love, humour and creativity we could make our texts (and
+resources - Lectures/Labs/Datasets etc) more engaging than many others
+available. Indeed, if we make a concerted effort, it might be that we
+could
+
+## Conceptual Text
+
+<https://crumplab.com/ResearchMethods/>
+
+## Statistical Text
+
+<https://crumplab.com/statistics/>
+
+## Tutorials & Activities
+
+<https://crumplab.com/statisticsLab/> (Labs in R, Excel, SPSS and
+JAMOVI)
+
+Lots of Data Science - e.g. Data Science in a box and MC-R Intro to
+Modern Statistics
+
+plus Visualisations etc
+
+plus <https://lakens.github.io/statistical_inferences/index.html>
+
+plus <https://openpress.usask.ca/introtoappliedstatsforpsych/>
+
+**Qual** Williams, D. D. (2018). *Qualitative Inquiry in Daily Life (1st
+ed.)*. EdTech Books. <https://edtechbooks.org/qualitativeinquiry>
+
+Qual content is sparse, thus ownable!
+
+Danielle Navarro - The GOAT - R stats gold standard
+<https://learningstatisticswithr.com/>
+
+Data Sets included Versions with Jamovi, JASP, and SPSS via Matt Crump.

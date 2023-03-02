@@ -22,69 +22,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -123,6 +60,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
 
 
 </head>
@@ -151,7 +94,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/LMLLOGO.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./images/inmotion.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Draft Proposal - Goldsmiths Research Methods in Psychology</a> 
@@ -192,12 +135,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/pedagogy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Pedagogical &amp; Delivery Overview</span></a>
+  <a href="./content/pedagogy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Assessment &amp; Delivery Overview</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/considerations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Considerations</span></a>
+  <a href="./content/OERs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Open Educational Resources Texts</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/considerations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Questions for discussion</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -208,16 +156,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./content/foundation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Foundations (Level 3)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./content/yr_foundation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Foundation Year schedule</span></a>
-  </div>
-</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./content/year1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Year 1 (Level 4)</span></a>
@@ -240,7 +178,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/diss.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Dissertation (Y3 &amp; MSc)</span></a>
+  <a href="./content/diss.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Dissertation (Y3)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -250,37 +188,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/year3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Year 3 RM module (NEW MODULE) (Level 6)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./content/yr_year3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Year 3 schedule (NEW MODULE)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./content/msc.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">MSc Module (NEW)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./content/yr_msc.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">MSc Module (NEW) schedule</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Guidelines</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./content/qaa.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">QAA</span></a>
+  <a href="./content/meetquarto.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Meet Quarto!</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -300,26 +208,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#goldsmiths-research-and-data-skills" id="toc-goldsmiths-research-and-data-skills" class="nav-link active" data-scroll-target="#goldsmiths-research-and-data-skills">Goldsmiths Research and Data Skills</a>
+  <li><a href="#research-skills" id="toc-research-skills" class="nav-link active" data-scroll-target="#research-skills">Research Skills</a>
   <ul class="collapse">
   <li><a href="#weekly-structure-all-levels" id="toc-weekly-structure-all-levels" class="nav-link" data-scroll-target="#weekly-structure-all-levels">Weekly structure (all levels)</a>
   <ul class="collapse">
-  <li><a href="#hours-lecture-1-hour-reading" id="toc-hours-lecture-1-hour-reading" class="nav-link" data-scroll-target="#hours-lecture-1-hour-reading">2 hours lecture (1 hour reading)</a></li>
-  <li><a href="#hours-lab-1-hour-reading" id="toc-hours-lab-1-hour-reading" class="nav-link" data-scroll-target="#hours-lab-1-hour-reading">2 hours lab (1 hour reading)</a></li>
-  <li><a href="#hours-online-data-skills-with-short-weekly-assessment" id="toc-hours-online-data-skills-with-short-weekly-assessment" class="nav-link" data-scroll-target="#hours-online-data-skills-with-short-weekly-assessment">2 hours online Data Skills (with short weekly assessment)</a></li>
-  </ul></li>
-  <li><a href="#goldsmiths-stuff" id="toc-goldsmiths-stuff" class="nav-link" data-scroll-target="#goldsmiths-stuff">Goldsmiths stuff</a></li>
-  <li><a href="#executable-code-chunk" id="toc-executable-code-chunk" class="nav-link" data-scroll-target="#executable-code-chunk">Executable code chunk</a>
-  <ul class="collapse">
-  <li><a href="#intended-learning-outcomes" id="toc-intended-learning-outcomes" class="nav-link" data-scroll-target="#intended-learning-outcomes">Intended Learning Outcomes</a></li>
-  <li><a href="#executive-summary-by-year" id="toc-executive-summary-by-year" class="nav-link" data-scroll-target="#executive-summary-by-year">Executive Summary by year</a></li>
-  <li><a href="#technical-overview" id="toc-technical-overview" class="nav-link" data-scroll-target="#technical-overview">Technical Overview</a></li>
+  <li><a href="#hours-lecture-1-hour-pre-reading" id="toc-hours-lecture-1-hour-pre-reading" class="nav-link" data-scroll-target="#hours-lecture-1-hour-pre-reading">2 hours lecture (+1 hour pre-reading)</a></li>
+  <li><a href="#hours-lab-1-hour-pre-reading" id="toc-hours-lab-1-hour-pre-reading" class="nav-link" data-scroll-target="#hours-lab-1-hour-pre-reading">2 hours lab (+1 hour pre-reading)</a></li>
+  <li><a href="#hours-interactive-data-skills-tutorials-with-short-weekly-assessment" id="toc-hours-interactive-data-skills-tutorials-with-short-weekly-assessment" class="nav-link" data-scroll-target="#hours-interactive-data-skills-tutorials-with-short-weekly-assessment">2 hours Interactive Data Skills Tutorials (with short weekly assessment)</a></li>
   <li><a href="#hours-specification-e.g.-years-1-2" id="toc-hours-specification-e.g.-years-1-2" class="nav-link" data-scroll-target="#hours-specification-e.g.-years-1-2">Hours specification (e.g.) Years 1 &amp; 2</a></li>
   </ul></li>
-  <li><a href="#programme-overview" id="toc-programme-overview" class="nav-link" data-scroll-target="#programme-overview">Programme Overview</a>
+  <li><a href="#still-thinking-about" id="toc-still-thinking-about" class="nav-link" data-scroll-target="#still-thinking-about">Still thinking about…</a>
   <ul class="collapse">
-  <li><a href="#pre-arrival-onwards-onboarding" id="toc-pre-arrival-onwards-onboarding" class="nav-link" data-scroll-target="#pre-arrival-onwards-onboarding">Pre-Arrival onwards / Onboarding</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#pre-arrival-onboarding" id="toc-pre-arrival-onboarding" class="nav-link" data-scroll-target="#pre-arrival-onboarding">Pre-Arrival / Onboarding</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -357,58 +257,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<section id="goldsmiths-research-and-data-skills" class="level1">
-<h1>Goldsmiths Research and Data Skills</h1>
-<p>Distinctive blend of research and training</p>
-<p>Showcase the departmental strengths</p>
-<p>Not available in school</p>
-<p>Intellectual virtues of critical thinking, creation of knowledge, communication</p>
-<p>Open Science</p>
-<p>General goals</p>
-<p>Alive, practical, digital literacy, transferable skills,</p>
-<section id="weekly-structure-all-levels" class="level2">
-<h2 class="anchored" data-anchor-id="weekly-structure-all-levels">Weekly structure (all levels)</h2>
-<section id="hours-lecture-1-hour-reading" class="level3">
-<h3 class="anchored" data-anchor-id="hours-lecture-1-hour-reading">2 hours lecture (1 hour reading)</h3>
-</section>
-<section id="hours-lab-1-hour-reading" class="level3">
-<h3 class="anchored" data-anchor-id="hours-lab-1-hour-reading">2 hours lab (1 hour reading)</h3>
-</section>
-<section id="hours-online-data-skills-with-short-weekly-assessment" class="level3">
-<h3 class="anchored" data-anchor-id="hours-online-data-skills-with-short-weekly-assessment">2 hours online Data Skills (with short weekly assessment)</h3>
-</section>
-</section>
-<section id="goldsmiths-stuff" class="level2">
-<h2 class="anchored" data-anchor-id="goldsmiths-stuff">Goldsmiths stuff</h2>
-<p>Jin, C., &amp; Wells, J. (2015). Developing open educational resources with students: A case study in an undergraduate course. MERLOT Journal of Online Learning and Teaching, 11(2), 197-213.</p>
-<hr>
-</section>
-<section id="executable-code-chunk" class="level2">
-<h2 class="anchored" data-anchor-id="executable-code-chunk">Executable code chunk</h2>
-<p>Below is an example of an executed code chunk - in html format clicking on <img src="images/image-1563023320.png" width="150" height="27">would unfold the code that drives the plot and results summary. In pdf format, it’s unfolded and printed - ideal for handouts etc.</p>
-<p><u>Integrated Code Example</u></p>
-<div class="cell">
-<details>
-<summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gridExtra)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># x-axis as continuous</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>p1 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(mtcars, <span class="fu">aes</span>(<span class="at">x =</span> cyl)) <span class="sc">+</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        <span class="fu">ggtitle</span>(<span class="st">"Fig. A: x-axis as a continuous variable"</span>)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># x-axis as categorical</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>p2 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(mtcars, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">factor</span>(cyl))) <span class="sc">+</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>        <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>        <span class="fu">ggtitle</span>(<span class="st">"Fig B: x-axis as a categorical (factor) variable"</span>)</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">grid.arrange</span>(p1, p2, <span class="at">ncol =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
+<section id="research-skills" class="level1">
+<h1>Research Skills</h1>
 <p>The Psychology department at Goldsmiths has a number of differentiating features, upon which it must build in order to ensure it remains attractive and distinctive.</p>
 <ul>
 <li>Alchemical, interdisciplinary research programmes and projects</li>
@@ -418,146 +268,85 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Research Methods has to be an adventure, “Alive” with enthusiasm, inspiring curiosity and intellectual problem-solving.</p>
 <p>We have to break the A-Level preconception that Research Methods is dry, maths-like or indeed difficult.</p>
 <p>This must be achieved by: - Practical First - The majority of lab sessions should be practical and ‘hands on’! - Only present research/methods/topics that are ‘ownable’ - where we have expertise, cachet and competitive advantage - and that could NOT be done at school - ‘Relevant &amp; Applicable’ above all else. Nothing is taught ‘because the BPS says we have to’ or that doesn’t have widespread use in a range of future endeavours - Demonstrate and model intellectual virtue, curiosity, empiricism, skepticism, humility and</p>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-captioned">
+<p>Psychology can be a stimulating and joyful endeavour, and learning it is best achieved in a safe, but challenging environment.</p>
+<div class="callout callout-style-default callout-important callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-caption-container flex-fill">
-Open Stuff
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Psychology is a diverse and highly interdisciplinary field of study that involves the varied application of systematic methods of inquiry to the exploration of behavior, mental processes, and social relationships.</p>
+<p>As a department we support students in discovering the core knowledge and skills of the field of psychology, extending a history and tradition of widening participation, respecting diverse viewpoints and methods and forging important connections with other disciplines and areas of practice.</p>
+<p>It is our mission to promote intellectual virtue and inspire curiosity, creativity, critical and analytic thinking in all our students.</p>
+<p>Across our exciting portfolio of programmes, we strive to create an open, supportive, challenging and dynamic learning environment. We share our passion for psychology through close and active mentorship and support in labs, lecture halls and beyond.</p>
+<p>We believe that the best way to train these virtues is by modelling them, and so we invest heavily in giving students access to our active research groups, we encourage and support students in finding a psychology that is relevant to them and gives them agency to solve whatever challenges they choose to address.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>At a departmental level we consider the following to be crucial</p>
+<p><strong>1)</strong> Demonstrate understanding and competence regarding the use of research methodology in psychology from across the range of Qualitative and Quantitative technique, and use them to collect high quality data.</p>
+<p><strong>2)</strong> Skillfully analyse and correctly interpret data using appropriate techniques and tools in a Open and Reproducible way.</p>
+<p><strong>3)</strong> Communicate complex ideas and empirical results clearly, succinctly, and in a range of relevant media and contexts.</p>
+<p><strong>4)</strong> To appreciate the broad and important application of Psychology.</p>
+<p><strong>5)</strong> Demonstrate a clear understanding of key concepts, theoretical approaches, empirical results, and historical debates in the field of Psychology.</p>
+<p><strong>6)</strong> Develop meta-learning, meta-cognitive and reflective skills suitable to support a life of learning.</p>
+<p><strong>7)</strong> Recognize, understand, respect and champion diversity, inclusivity and stuff.</p>
+<p><strong>8)</strong> Reflect on the ethical imperatives of Psychological practice and research, and be an agent for good.</p>
+</div>
+</div>
+<hr>
+<section id="weekly-structure-all-levels" class="level2">
+<h2 class="anchored" data-anchor-id="weekly-structure-all-levels">Weekly structure (all levels)</h2>
+<section id="hours-lecture-1-hour-pre-reading" class="level3">
+<h3 class="anchored" data-anchor-id="hours-lecture-1-hour-pre-reading">2 hours lecture (+1 hour pre-reading)</h3>
+<p>We moved to 1 hour (from 2) during the pandemic, and it has severely limited the amount that can be reasonably covered. In addition to doubling the lecture time (as is merited by credit weighting alone), we propose to introduce a weekly expectation that an hour is spent reading in preparation for the following session.</p>
+<p>This could be diverted to other preparatory activities, but the expectation will be clearly set that a MINIMUM of an hour of preparation is expected for every lecture.</p>
+<hr>
+</section>
+<section id="hours-lab-1-hour-pre-reading" class="level3">
+<h3 class="anchored" data-anchor-id="hours-lab-1-hour-pre-reading">2 hours lab (+1 hour pre-reading)</h3>
+<p>Labs are valuable practical sessions and a similar expectation exists that a student will have completed whatever preparation is expected. Of course, we understand if things don’t always go to plan, so if you can, please do turn up, but by being prepared, and understanding the activity being conducted, the learning outcomes are far more achievable.</p>
+<p>It will often be the case the the preparation is mostly ‘setting the scene’, or giving detailed instructions about what will be happening that are better delivered in writing, or clarifying what you will be expected to have done or produced by the end of the lab.</p>
+<p>In this module, it is easier to ‘keep up than catch up’.</p>
+<hr>
+</section>
+<section id="hours-interactive-data-skills-tutorials-with-short-weekly-assessment" class="level3">
+<h3 class="anchored" data-anchor-id="hours-interactive-data-skills-tutorials-with-short-weekly-assessment">2 hours Interactive Data Skills Tutorials (with short weekly assessment)</h3>
+<p>Think of this as focussed time students are dedicated to working on their computers, and so anything that sits within the browser is fair game here. It’s NOT just Stats. Library skills, literature searching, learning logs and portfolios, as well as collaborative writing or finding information.</p>
+<p>Since the programme will employ an Open Educational Resource Online Textbook as the central resource for Lectures and Labs, this means that the notional 4 hours of ‘screen time’ allocated to this module may often be closely aligned, but it will also be the case that a wide range of activity types will be trained and developed, including the Goldsmiths Library and their extensive online resources, also extensive use of Posit Cloud will be made, the hub where students will produce technical reports, blogs and webpages, conduct data analysis and collaborate on coding and writing exercises.</p>
+<hr>
+<p>Method-neutral and wide Open!</p>
+<div class="callout callout-style-default callout-caution no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Danger
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>We embrace an Open Science approach in our efforts to cultivate your critical evaluation skills, enhance your understanding of the significance - and power - of research, and equip you with the necessary graduate-level skills to collect, handle, and interpret data using programming software for statistical model development, visualisation and analysis.</p>
 </div>
 </div>
-<div class="callout callout-style-default callout-note callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Teaching and Assessment
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Through lectures, interactive group discussions, online skills development modules, and practical lab sessions, we will ignite your enthusiasm for Psychology and Behavioural Science research and help you develop the fundamental skills, knowledge - and confidence - required to become a Psychology literate, disruptive scientist of the future. Tada!</p>
-</div>
-</div>
-<p>AUTHENTIC ASSESSMENT - OPenAI</p>
-<p>“Authentic assessment” generally refers to assignments that reflect the skills students will use in their post-graduation careers and life experiences (Archbald, 1991; Gulikers et al., 2004). This is distinct from traditional assessments such as closed-book exams and academic essays (Macandrew &amp; Edwards, 2002). For psychology, authentic assessments may involve the development of scientific inquiry skills, such as a practical research report (Halonen et al., 2003). In clinical psychology, this can include formulation of case studies or mock practitioner dialogues (Villarroel et al., 2018). Other examples of authentic assessments include writing letters to non-psychology audiences (Cranney, 2013), critical evaluation of media materials (Halpern &amp; Butler, 2011), written reflections of volunteering (Hadlington; as cited in Taylor &amp; Hulme, 2015), and research project interviews (Turner &amp; Davila-Ross, 2015). All of these are designed to promote psychological literacy by encouraging communication with non-experts and application of psychology content (Hulme, 2014).</p>
-<p>Central to psychological literacy is the effective communication of psychology in practice (Trapp et al., 2011). To this end, blog writing may be an effective assessment for capturing and promoting students’ psychological literacy. Blogs are a web-based form of journal or writing platform, and are useful for disseminating information (Richardson, 2006). They are also increasingly popular for assessing written language skills (Kim, 2008; Lee, 2010; Raith, 2009; Williams &amp; Jacobs, 2004). Blog writing may help students take different perspectives, develop a critical appraisal of content, and become more self-reflective (Frye et al., 2010; Jimoyiannis &amp; Angelaina, 2012). It also empowers and engages students (Creme &amp; Hunt, 2002), a core goal of psychology education (Ishak &amp; Salter, 2017). It enhances academic language learning (Murray et al., 2007) and assesses different skills than traditional forms of assessment (Morris et al., 2013). Studies show that students report high levels of engagement with blog writing (Hindley, 2018).</p>
-<p>Blog writing may help students overcome the challenge of academic essay writing (Ishak &amp; Salter, 2017) since it is less rigidly governed by academic norms (Bennett et al., 2012) and involves more reflective, creative, and critical tone (Arslan &amp; Aysel, 2010; Novakovich &amp; Long, 2013). It also provides an opportunity to communicate psychology content to a wider audience (Gardiner et al., 2018; Schmidt, 2008; Relojo, 2017). It has been embedded successfully in many different subjects in higher education, such as pharmacy (Dunne &amp; Ryan, 2016), anthropology (Walker &amp; Chatzigavriil, 2017), professional development (Shanks, 2020), and English literature (Agarwal, 2017). The British Psychological Society, 2019 and the American Psychological Association (2013) stress the importance of critical evaluation and reflection, which is compatible with blog writing. Research shows that blog writing prompts critical thinking and reflection (Chretien et al., 2008; Novakovich, 2016). Challenges to implementing blog writing as an assessment include students having little to no previous experience (Kerawalla et al., 2009). Blog writing should be grounded effectively in course materials, have clear expectations, and be understood through a lens of psychological literacy (Cranney et al., 2008, 2012). We propose that blog writing may provide a useful opportunity to allow students to apply their psychology content in a critical, creative, and non-conventional way.</p>
-<ul>
-<li>OPENAIabove</li>
-</ul>
-<p>BPS Guidelines from OpenAI</p>
-<p>1. Ensure that students have a clear understanding of the research methods used in their field of study.</p>
-<ol start="2" type="1">
-<li><p>Provide opportunities for students to develop critical thinking skills in relation to the research methods used.</p></li>
-<li><p>Encourage students to practice the research methods in a safe and secure environment.</p></li>
-<li><p>Develop a range of teaching materials and resources that best support student learning.</p></li>
-<li><p>Encourage students to become independent learners by providing appropriate scaffolding and support.</p></li>
-<li><p>Encourage students to become active participants in their learning process.</p></li>
-<li><p>Facilitate meaningful discussions about research methods and the application of research methods in practice.</p></li>
-<li><p>Incorporate ethical considerations into the research methods teaching.</p></li>
-<li><p>Promote the use of technology to support the teaching of research methods.</p></li>
-<li><p>Monitor and evaluate students’ progress throughout the teaching period.</p></li>
-</ol>
-<p>Source: British Psychological Society (BPS). (2020). Guidance for the teaching of undergraduate research methods. Retrieved from https://www.bps.org.uk/publications/guidance-teaching-undergraduate-research-methods</p>
-<div class="callout callout-style-default callout-note callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-BPS website
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Research methods Research methods must be delivered at Level 5 or Level 6. Research methods are integral to Psychology and students obtain a sound knowledge of, and a proven ability to use, a range of methods appropriately. Knowledge and understanding of how to obtain and analyse evidence is best acquired and demonstrated through extensive and progressive empirical work in laboratory and naturalistic settings through all stages of a degree. [section 3.4 Subject Benchmark Statement] Psychology students learn the basic principles of sound data collection. Given the broad theoretical scope of Psychology, rigorous specialist training is required to engender a critical understanding of the role of experimental design, the choice of research methods employed, and the analytic approach taken, for testing psychological theories. [section 3.5 Subject Benchmark Statement] Programmes’ coverage of research methods should support students’ engagement with the sub-areas listed above, and should be directed towards supporting students’ attainment of the subject-specific skills highlighted in section 4.4 of the Subject Benchmark Statement. As they progress through the programme, students should be able to: • apply multiple perspectives to psychological issues, recognising that psychology involves a range of research methods, theories, evidence and applications; • integrate ideas and findings across the multiple perspectives in psychology and recognise distinctive psychological approaches to relevant issues; • identify and evaluate patterns in behaviour, psychological functioning and experience; • generate and explore hypotheses and research questions drawing on relevant theory and research; • carry out empirical studies involving a variety of methods of data collection, including experiments, observation, questionnaires, interviews and focus groups; • analyse, present and evaluate quantitative and qualitative data and evaluate research findings; • employ evidence-based reasoning and examine practical, theoretical and ethical issues associated with the range of methodologies; • use a variety of psychological tools, including specialist software, laboratory equipment and psychometric instruments; • apply psychological knowledge ethically and safely to real world problems; and • critically evaluate psychological theory and research.</p>
-</div>
-</div>
-<p>Communicate complex information effectively using appropriate written, oral, graphical and electronic means, taking into account diversity among individuals to whom the information is communicated.</p>
-<p>Explain the potential impact of psychological research and theory on a broad range of real world settings and situations (e.g., classrooms, industry, commerce, healthcare, as well as local and global communities).</p>
-<p>Problem-solve and reason scientifically. Specifically, graduates will be able to identify and pose research questions, consider alternative approaches to their solutions, and evaluate outcomes.</p>
-<p>Be sensitive to contextual and interpersonal factors. Graduates will be familiar with the complexity of the factors that shape behaviour and social interaction which, in turn, will make them more aware of the bases of problems and interpersonal conflicts.</p>
-<p>or Be a self-critical learner, showing sensitivity to contextual and interpersonal factors. Graduates will be familiar with the complexity of the factors that shape behaviour and social interaction which, in turn, will make them more aware of the bases of problems and interpersonal conflicts.</p>
-<p>Show an understanding of various research paradigms, methods, and evaluation procedures, including statistical analysis, as well as their constraints.</p>
-<p>Design, carry out, evaluate and interpret scientifically rigorous and ethically sound studies both independently and collaboratively, utilizing quantitative and qualitative methods, statistical analysis and modern digital software.</p>
-<p>Psychological literacy is the ability to understand and apply psychological principles and theories to everyday life. This includes the ability to understand how psychological processes and phenomena influence our behavior, emotions, thoughts, and relationships. It also includes the capacity to use psychological knowledge to make informed decisions and to better understand, explain, and predict the behavior of self and others.</p>
-<p>Psychology graduates are highly sought after by employers due to their ability to formulate and communicate well-reasoned, evidence-based, and statistically defensible arguments based on their expertise in the study of human behavior and its causes. On top of this, psychology graduates possess the skills to work independently or collaboratively, as well as strong numerical capabilities, verbal and written communication skills, and an up-to-date knowledge of digital technologies applicable to a wide range of occupational fields.</p>
-<section id="intended-learning-outcomes" class="level3">
-<h3 class="anchored" data-anchor-id="intended-learning-outcomes">Intended Learning Outcomes</h3>
-<p>Intended Learning Outcomes</p>
-<p>Create reproducible data analysis scripts and reports within the R statistical programming environment.</p>
-<p>QAA Benchmarks</p>
-<p>Subject Knowledge and Understanding</p>
-<p>6.3.4 demonstrate detailed knowledge of several specialised areas and/or applications, some of which are at the cutting edge of research in the discipline 6.3.5 demonstrate a systematic knowledge of a range of research paradigms, research methods and measurement techniques, including statistics and probability, and be aware of their limitations.</p>
-<p>Subject-specific skills</p>
-<p>PS510XX - RM1 - Introduction to Research Methods and Data Skills</p>
-<p>PS520XX - RM2 - Research Methods in Practice and Data Skills</p>
-<p>PS530XX - RM3 - Research Project Incubator</p>
-<p>*PS710XX - Practical Research Skills</p>
-<p>Lectures - Overview of key concepts/context and preview Lab practicals / Data Skills</p>
-<p>Labs - Practical or activity based (inc. Group Work)</p>
-</section>
-<section id="executive-summary-by-year" class="level3">
-<h3 class="anchored" data-anchor-id="executive-summary-by-year">Executive Summary by year</h3>
-<p>Y1 - showcase and active participation/skill development</p>
-<p>Y2 - Practical drive towards self-motivated research</p>
-<p>Y3 - Competent research</p>
-<p>Social Constructivist</p>
-<p>PeerMark</p>
-<p>Podcast/Webpage/Blog</p>
-<p>Integrate own interest/guided by stream/lab</p>
-</section>
-<section id="technical-overview" class="level3">
-<h3 class="anchored" data-anchor-id="technical-overview">Technical Overview</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/R_logo.png" class="img-fluid figure-img" width="65"></p>
-<p></p><figcaption class="figure-caption">R language</figcaption><p></p>
-</figure>
-</div>
-<p>R is primarily a computer programming language for statistical analysis. It is <em>free</em>, and <em>open-source</em> (many people contribute to developing it), and runs on most operating systems or through an internet browser, and so there are few obstacles to its use by the normal undergraduate population (compare to SPSS).</p>
-<p>It is a powerful language that can be used for all sorts of mathematical operations, data-processing, analysis, and graphical display of data - it is used more a more frequently in corporate settings, unlike ‘pay to play’ software such as SPSS.</p>
-<p>I even used R to write this lab manual. And, I use R all the time for my own research, because it makes data-analyis fast, efficient, transparent, reproducible, and exciting</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/posit_logo.png" class="img-fluid figure-img" width="50"></p>
-<p></p><figcaption class="figure-caption">Posit <br> (Formerly RStudio)</figcaption><p></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/quarto_logo.png" class="img-fluid figure-img" width="100"></p>
-<p></p><figcaption class="figure-caption">Quarto Publishing</figcaption><p></p>
-</figure>
-</div>
-<p>Quarto is an open-source scientific and technical publishing system built on <a href="https://pandoc.org/">Pandoc</a>. Quarto documents are authored using <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a>, an easy to write plain text format.</p>
-<p>In addition to the core capabilities of Pandoc, Quarto includes:</p>
-<ol type="1">
-<li><p>Embedding code and output from Python, R, Julia, and JavaScript via integration with <a href="https://jupyter.org/">Jupyter</a>, <a href="https://yihui.org/knitr/">Knitr</a>, and <a href="https://github.com/observablehq/">Observable</a>.</p></li>
-<li><p>A variety of extensions to Pandoc markdown useful for technical writing including cross-references, sub-figures, layout panels, hoverable citations and footnotes, callouts, and more.</p></li>
-<li><p>A project system for rendering groups of documents at once, sharing options across documents, and producing aggregate output like <a href="https://quarto.org/docs/websites/">websites</a> and <a href="https://quarto.org/docs/books/">books</a>.</p></li>
-<li><p>Authoring using a wide variety of editors and notebooks including <a href="https://quarto.org/docs/tools/jupyter-lab.html">JupyterLab</a>, <a href="https://quarto.org/docs/tools/rstudio.html">RStudio</a>, and <a href="https://quarto.org/docs/tools/vscode.html">VS Code</a>.</p></li>
-<li><p>A <a href="https://quarto.org/docs/visual-editor/">visual markdown editor</a> that provides a productive writing interface for composing long-form documents.</p></li>
-</ol>
-<p>Learn more about Quarto at <a href="https://quarto.org/">https://quarto.org</a>.</p>
-<p>R will be used. Gold standard statistical programming language</p>
-<p>For literate programming (The concept of <a href="https://en.wikipedia.org/wiki/Literate_programming"><strong>“literate programming”</strong></a> was originally introduced by <a href="http://www.literateprogramming.com/knuthweb.pdf">Donald Knuth</a> in 1984 )</p>
-<p>Formerly RStudio. The Interactive Development Enviornment for use of R.</p>
 </section>
 <section id="hours-specification-e.g.-years-1-2" class="level3">
 <h3 class="anchored" data-anchor-id="hours-specification-e.g.-years-1-2">Hours specification (e.g.) Years 1 &amp; 2</h3>
 <table class="table">
-<caption>Notional Hours</caption>
+<caption>Notional Hours = 300</caption>
 <thead>
 <tr class="header">
 <th>Activity</th>
@@ -600,25 +389,16 @@ BPS website
 </table>
 </section>
 </section>
-<section id="programme-overview" class="level2">
-<h2 class="anchored" data-anchor-id="programme-overview">Programme Overview</h2>
-<section id="pre-arrival-onwards-onboarding" class="level3">
-<h3 class="anchored" data-anchor-id="pre-arrival-onwards-onboarding">Pre-Arrival onwards / Onboarding</h3>
+<section id="still-thinking-about" class="level2">
+<h2 class="anchored" data-anchor-id="still-thinking-about">Still thinking about…</h2>
+<section id="pre-arrival-onboarding" class="level3">
+<h3 class="anchored" data-anchor-id="pre-arrival-onboarding">Pre-Arrival / Onboarding</h3>
 <p>Showcase in Induction week - Staff labs and research projects for the year.</p>
 <p>Year One students self-test</p>
 <p>MSc Students - ditto and ability to shop around for supervision</p>
 <p>Year 2 develop their pods? Show Y1 and Foundations what they did last year</p>
 <p>Year 3/MSc students - Research Bootcamp and refreshers/skills workshops</p>
 <p>Support PhD students and staff</p>
-</section>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"></h3>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/GitHub-Mark.png" class="img-fluid figure-img" width="35"></p>
-</figure>
-</div>
-<p><a href="http://creativecommons.org/licenses/by/4.0/" data-fig-alt="Creative Commons License"><img src="images/creative_commons.png" class="img-fluid"></a> This website/book is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.</a></p>
 
 
 </section>
@@ -850,14 +630,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./content/pedagogy.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Pedagogical &amp; Delivery Overview</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-title">Assessment &amp; Delivery Overview</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© CC-1.0</div>   
+    <div class="nav-footer-left">© CC-BY-SA-ND-4.0</div>   
     <div class="nav-footer-right">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>

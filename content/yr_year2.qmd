@@ -5,55 +5,67 @@ df-print: kable
 
 Year 2 Term 1
 
-|  Week   | Schedule     |                                            |                 |                                                     |
-|:-------:|:-------------|:-------------------------------------------|:----------------|:----------------------------------------------------|
-|  **1**  | **Lecture:** | The year ahead and expectation setting     | **DataSkills:** | ANOVA refresher (designs and variables)             |
-|         | **Lab:**     | \--                                        | **Assignment:** | Reflection about the year ahead and self-management |
-| **2a**  | **Lecture:** | What is Science? Is Psychology a Science?  | **DataSkills:** | ANCOVA                                              |
-|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
-| **3a**  | **Lecture:** | Open Science and the Replication Crisis    | **DataSkills:** | Factorial ANOVA                                     |
-|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
-| **4a**  | **Lecture:** | Critical Thinking and Intellectual virtues | **DataSkills:** | Repeated Measures ANOVA                             |
-|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
-| **5b**  | **Lecture:** | Qual & Quant -                             | **DataSkills:** | Mixed ANOVA                                         |
-|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
-| **RW**  |              |                                            |                 |                                                     |
-| **6b**  | **Lecture:** | ANOVA recap                                | **DataSkills:** | \--                                                 |
-|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
-| **7b**  | **Lecture:** | ANOVA recap                                | **DataSkills:** | \--                                                 |
-|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
-| **8c**  | **Lecture:** | ANOVA recap                                | **DataSkills:** | \--                                                 |
-|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
-| **9c**  | **Lecture:** | ANOVA recap                                | **DataSkills:** | \--                                                 |
-|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
-| **10c** | **Lecture:** | ANOVA recap                                | **DataSkills:** | \--                                                 |
-|         | **Lab:**     | \--                                        | **Assignment:** | \--                                                 |
+::: {.callout-important icon="false"}
+## Query
+
+Independent/group projects? Select from current module across methods?
+Same tempo?
+
+Sim data rather than collect data? Or select a live study and analyse a
+sample of real data ? Year ahead, so plenty of time.
+
+RPS?
+:::
+
+|  Week   | Schedule     |                                                       |                 |                                                     |
+|:----------:|:-----------|:----------------|:-----------|:--------------------|
+|  **1**  | **Lecture:** | The year ahead and expectation setting                | **DataSkills:** | ANOVA refresher (designs and variables)             |
+|         | **Lab:**     | \--                                                   | **Assignment:** | Reflection about the year ahead and self-management |
+| **2a**  | **Lecture:** | Ethics                                                | **DataSkills:** | ANCOVA                                              |
+|         | **Lab:**     | Lab Immersive                                         |                 |                                                     |
+| **3a**  | **Lecture:** | Open Science and the Replication Crisis               | **DataSkills:** | Factorial ANOVA                                     |
+|         | **Lab:**     | Experiment A Block                                    |                 |                                                     |
+| **4a**  | **Lecture:** | Critical Thinking and Intellectual virtues            | **DataSkills:** | Repeated Measures ANOVA                             |
+|         | **Lab:**     | \--                                                   |                 |                                                     |
+| **5b**  | **Lecture:** | Mixed Methods and participatory/emancipatory research | **DataSkills:** | Mixed ANOVA                                         |
+|         | **Lab:**     | \--                                                   |                 |                                                     |
+| **RW**  |              |                                                       |                 |                                                     |
+| **6b**  | **Lecture:** | \--                                                   | **DataSkills:** | \--                                                 |
+|         | **Lab:**     | Experiment B Block                                    |                 |                                                     |
+| **7b**  | **Lecture:** | \--                                                   | **DataSkills:** | \--                                                 |
+|         | **Lab:**     | \--                                                   | **Assignment:** | ASSESSMENT                                          |
+| **8c**  | **Lecture:** | \--                                                   | **DataSkills:** | \--                                                 |
+|         | **Lab:**     | \--                                                   |                 |                                                     |
+| **9c**  | **Lecture:** | Experiment C Block                                    | **DataSkills:** | \--                                                 |
+|         | **Lab:**     | \--                                                   |                 |                                                     |
+| **10c** | **Lecture:** | \--                                                   | **DataSkills:** | \--                                                 |
+|         | **Lab:**     | \--                                                   | **Assignment:** | ?                                                   |
 
 \newpage
 
 Year 2 Term 2
 
-|  Week   | Schedule     |             |                 |     |
-|:-------:|--------------|-------------|-----------------|-----|
-| **11**  | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
-|         | **Lab:**     | \--         | **Assignment:** | \-- |
-| **12a** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
-|         | **Lab:**     | \--         | **Assignment:** | \-- |
-| **13a** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
-|         | **Lab:**     | \--         | **Assignment:** | \-- |
-| **14a** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
-|         | **Lab:**     | \--         | **Assignment:** | \-- |
-| **15b** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
-|         | **Lab:**     | \--         | **Assignment:** | \-- |
-| **RW**  | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
-|         | **Lab:**     | \--         | **Assignment:** | \-- |
-| **16b** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
-|         | **Lab:**     | \--         | **Assignment:** | \-- |
-| **17b** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
-|         | **Lab:**     | \--         | **Assignment:** | \-- |
-| **18c** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
-|         | **Lab:**     | \--         | **Assignment:** | \-- |
-| **19c** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
-|         | **Lab:**     | \--         | **Assignment:** | \-- |
-| **20c** | **Lecture:** | ANOVA recap | **DataSkills:** | \-- |
-|         | **Lab:**     | \--         | **Assignment:** | \-- |
+|  Week   | Schedule     |                    |                 |            |
+|:-------:|--------------|--------------------|-----------------|------------|
+| **11**  | **Lecture:** | \--                | **DataSkills:** | \--        |
+|         | **Lab:**     | \--                | **Assignment:** | \--        |
+| **12a** | **Lecture:** | \--                | **DataSkills:** | \--        |
+|         | **Lab:**     | \--                | **Assignment:** | \--        |
+| **13a** | **Lecture:** | \--                | **DataSkills:** | \--        |
+|         | **Lab:**     | Experiment A Block | **Assignment:** | \--        |
+| **14a** | **Lecture:** | \--                | **DataSkills:** | \--        |
+|         | **Lab:**     | \--                | **Assignment:** | ASSESSMENT |
+| **15b** | **Lecture:** | \--                | **DataSkills:** | \--        |
+|         | **Lab:**     | \--                | **Assignment:** | \--        |
+| **RW**  | **Lecture:** | \--                | **DataSkills:** | \--        |
+|         | **Lab:**     | \--                | **Assignment:** | \--        |
+| **16b** | **Lecture:** | \--                | **DataSkills:** | \--        |
+|         | **Lab:**     | Experiment B Block | **Assignment:** | \--        |
+| **17b** | **Lecture:** | \--                | **DataSkills:** | \--        |
+|         | **Lab:**     | \--                | **Assignment:** | \--        |
+| **18c** | **Lecture:** | \--                | **DataSkills:** | \--        |
+|         | **Lab:**     | \--                | **Assignment:** | \--        |
+| **19c** | **Lecture:** | \--                | **DataSkills:** | \--        |
+|         | **Lab:**     | Experiment C Block | **Assignment:** | \--        |
+| **20c** | **Lecture:** | \--                | **DataSkills:** | \--        |
+|         | **Lab:**     | \--                | **Assignment:** | ASSESSMENT |

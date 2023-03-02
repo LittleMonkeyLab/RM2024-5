@@ -59,6 +59,12 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
 
 
 </head>
@@ -72,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/foundation.html">Years</a></li><li class="breadcrumb-item"><a href="../content/yr_year1.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Year 1 schedule</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/year1.html">Years</a></li><li class="breadcrumb-item"><a href="../content/yr_year1.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Year 1 schedule</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -87,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header sidebar-header-stacked">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="../images/LMLLOGO.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../images/inmotion.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="../">Draft Proposal - Goldsmiths Research Methods in Psychology</a> 
@@ -128,12 +134,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pedagogy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Pedagogical &amp; Delivery Overview</span></a>
+  <a href="../content/pedagogy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Assessment &amp; Delivery Overview</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/considerations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Considerations</span></a>
+  <a href="../content/OERs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Open Educational Resources Texts</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/considerations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Questions for discussion</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -144,16 +155,6 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/foundation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Foundations (Level 3)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/yr_foundation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Foundation Year schedule</span></a>
-  </div>
-</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/year1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Year 1 (Level 4)</span></a>
@@ -176,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/diss.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Dissertation (Y3 &amp; MSc)</span></a>
+  <a href="../content/diss.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Dissertation (Y3)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -186,37 +187,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/year3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Year 3 RM module (NEW MODULE) (Level 6)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/yr_year3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Year 3 schedule (NEW MODULE)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/msc.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">MSc Module (NEW)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/yr_msc.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">MSc Module (NEW) schedule</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Guidelines</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/qaa.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">QAA</span></a>
+  <a href="../content/meetquarto.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Meet Quarto!</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -257,15 +228,15 @@ ul.task-list li input[type="checkbox"] {
 <p>Year 1 Term 1</p>
 <table class="table">
 <colgroup>
+<col style="width: 6%">
+<col style="width: 15%">
+<col style="width: 27%">
 <col style="width: 13%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 32%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Week</th>
+<th style="text-align: center;">We ek</th>
 <th style="text-align: left;">Schedule</th>
 <th style="text-align: left;"></th>
 <th style="text-align: left;"></th>
@@ -281,26 +252,31 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><strong>1</strong></td>
+<td style="text-align: center;"><ul>
+<li>*1 **</li>
+</ul></td>
 <td style="text-align: left;"><strong>Le cture:</strong></td>
 <td style="text-align: left;">The year ahead and answering questions with data</td>
-<td style="text-align: left;"><strong>DataS kills:</strong></td>
-<td style="text-align: left;"><p>Intro to Posit Cloud &amp; R</p>
-<p>and a group question</p></td>
+<td style="text-align: left;"><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
+<td style="text-align: left;">Intro to Posit Cloud &amp; R and develop a group question</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><strong>Lab:</strong></td>
-<td style="text-align: left;">V isualisation and descriptives (Team Coding)</td>
+<td style="text-align: left;">Visualisation and descriptives (Team Coding)</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><strong>2a</strong></td>
+<td style="text-align: center;"><strong> 2a </strong></td>
 <td style="text-align: left;"><strong>Le cture:</strong></td>
 <td style="text-align: left;"><p>What is Science? Is Psychology a Science?</p>
-<p>Patterns and r elationships</p></td>
-<td style="text-align: left;"><strong>DataS kills:</strong></td>
+<p>Patterns and relationships</p></td>
+<td style="text-align: left;"><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td style="text-align: left;">Descriptive Stats and the Psych package</td>
 </tr>
 <tr class="odd">
@@ -311,11 +287,13 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><strong>3a</strong></td>
+<td style="text-align: center;"><strong> 3a </strong></td>
 <td style="text-align: left;"><strong>Le cture:</strong></td>
 <td style="text-align: left;"><p>Open Science and the Replication Crisis</p>
 <p>Critical Thinking and being Scientific</p></td>
-<td style="text-align: left;"><strong>DataS kills:</strong></td>
+<td style="text-align: left;"><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td style="text-align: left;">APA referencing and Lit Searching &amp; Zotero</td>
 </tr>
 <tr class="odd">
@@ -326,108 +304,130 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><strong>4a</strong></td>
+<td style="text-align: center;"><strong> 4a </strong></td>
 <td style="text-align: left;"><strong>Le cture:</strong></td>
-<td style="text-align: left;">Critical Thinking and Thinking Sc ientifically</td>
-<td style="text-align: left;"><strong>DataS kills:</strong></td>
+<td style="text-align: left;">Critical Thinking and Thinking Scientifically</td>
+<td style="text-align: left;"><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td style="text-align: left;">Critical Analysis &amp; Research Summary exercise</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><strong>Lab:</strong></td>
 <td style="text-align: left;">Literature review &amp; Critical Analysis</td>
-<td style="text-align: left;"><strong>Assig nment:</strong></td>
-<td style="text-align: left;">--</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><strong>5b</strong></td>
+<td style="text-align: center;"><strong> 5b </strong></td>
 <td style="text-align: left;"><strong>Le cture:</strong></td>
 <td style="text-align: left;">The research toolkit - Qual &amp; Quant -</td>
-<td style="text-align: left;"><strong>DataS kills:</strong></td>
+<td style="text-align: left;"><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td style="text-align: left;">Compare two papers Q&amp;Q</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><strong>Lab:</strong></td>
-<td style="text-align: left;">O bservational research</td>
-<td style="text-align: left;"><strong>Assig nment:</strong></td>
-<td style="text-align: left;">--</td>
+<td style="text-align: left;">Reporting Research</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><strong>RW</strong></td>
+<td style="text-align: center;"><strong> RW </strong></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">Field Trip</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>6b</strong></td>
+<td style="text-align: center;"><strong> 6b </strong></td>
 <td style="text-align: left;"><strong>Le cture:</strong></td>
-<td style="text-align: left;">Reporting</td>
-<td style="text-align: left;"><strong>DataS kills:</strong></td>
+<td style="text-align: left;">Observational Research</td>
+<td style="text-align: left;"><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td style="text-align: left;">Lab Report Structure</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><strong>Lab:</strong></td>
 <td style="text-align: left;">Block B Experiment</td>
-<td style="text-align: left;"><strong>Assig nment:</strong></td>
-<td style="text-align: left;">--</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>7b</strong></td>
+<td style="text-align: center;"><strong> 7b </strong></td>
 <td style="text-align: left;"><strong>Le cture:</strong></td>
-<td style="text-align: left;">ANOVA recap</td>
-<td style="text-align: left;"><strong>DataS kills:</strong></td>
+<td style="text-align: left;">Ethnography &amp; Case Study</td>
+<td style="text-align: left;"><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td style="text-align: left;">--</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><strong>Lab:</strong></td>
 <td style="text-align: left;">--</td>
-<td style="text-align: left;"><strong>Assig nment:</strong></td>
-<td style="text-align: left;">Lab Report 1 - Quant</td>
+<td style="text-align: left;"><ul>
+<li>*Assign ment:**</li>
+</ul></td>
+<td style="text-align: left;">Lab Report 1 - Q or Q</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>8c</strong></td>
+<td style="text-align: center;"><strong> 8c </strong></td>
 <td style="text-align: left;"><strong>Le cture:</strong></td>
-<td style="text-align: left;">ANOVA recap</td>
-<td style="text-align: left;"><strong>DataS kills:</strong></td>
+<td style="text-align: left;">Sampling &amp; Probability</td>
+<td style="text-align: left;"><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td style="text-align: left;">--</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><strong>Lab:</strong></td>
 <td style="text-align: left;">--</td>
-<td style="text-align: left;"><strong>Assig nment:</strong></td>
-<td style="text-align: left;">--</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>9c</strong></td>
+<td style="text-align: center;"><strong> 9c </strong></td>
 <td style="text-align: left;"><strong>Le cture:</strong></td>
-<td style="text-align: left;">ANOVA recap</td>
-<td style="text-align: left;"><strong>DataS kills:</strong></td>
+<td style="text-align: left;">Statistical Models</td>
+<td style="text-align: left;"><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td style="text-align: left;">--</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><strong>Lab:</strong></td>
 <td style="text-align: left;">Block C Experiment</td>
-<td style="text-align: left;"><strong>Assig nment:</strong></td>
-<td style="text-align: left;">B ibliography: Peer &amp; Formative assessment</td>
+<td style="text-align: left;"><ul>
+<li>*Assign ment:**</li>
+</ul></td>
+<td style="text-align: left;">Bibliography: Peer &amp; Formative assessment</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>10c</strong></td>
+<td style="text-align: center;"><ul>
+<li>*1 0c **</li>
+</ul></td>
 <td style="text-align: left;"><strong>Le cture:</strong></td>
-<td style="text-align: left;">ANOVA recap</td>
-<td style="text-align: left;"><strong>DataS kills:</strong></td>
+<td style="text-align: left;">Correlational Research</td>
+<td style="text-align: left;"><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td style="text-align: left;">Blog or Vlog</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><strong>Lab:</strong></td>
-<td style="text-align: left;">Bibliography P resentations</td>
-<td style="text-align: left;"><strong>Assig nment:</strong></td>
+<td style="text-align: left;">Bibliography Presentations</td>
+<td style="text-align: left;"><ul>
+<li>*Assign ment:**</li>
+</ul></td>
 <td style="text-align: left;">Summary Blog/Vlog</td>
 </tr>
 </tbody>
@@ -435,16 +435,16 @@ ul.task-list li input[type="checkbox"] {
 <p>Year 1 Term 2</p>
 <table class="table">
 <colgroup>
-<col style="width: 9%">
-<col style="width: 15%">
+<col style="width: 6%">
+<col style="width: 13%">
+<col style="width: 29%">
+<col style="width: 13%">
 <col style="width: 25%">
-<col style="width: 18%">
-<col style="width: 31%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Week</th>
-<th>Schedule</th>
+<th style="text-align: center;">We ek</th>
+<th>S chedule</th>
 <th></th>
 <th></th>
 <th></th>
@@ -452,157 +452,214 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><strong>11</strong></td>
-<td><strong>Le cture:</strong></td>
-<td>E mployability</td>
-<td><strong>DataS kills:</strong></td>
+<td style="text-align: center;"><strong> 11 </strong></td>
+<td><strong>Lec ture:</strong></td>
+<td>Employability</td>
+<td><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td>Employability</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
-<td><strong>Lab:</strong></td>
+<td><ul>
+<li>*Lab:**</li>
+</ul></td>
 <td>Careers / Pathways</td>
-<td><strong>Assig nment:</strong></td>
-<td>--</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>12a</strong></td>
-<td><strong>Le cture:</strong></td>
+<td style="text-align: center;"><ul>
+<li>*1 2a **</li>
+</ul></td>
+<td><strong>Lec ture:</strong></td>
 <td>Qual data collection</td>
-<td><strong>DataS kills:</strong></td>
+<td><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td>Transcript coding</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
-<td><strong>Lab:</strong></td>
+<td><ul>
+<li>*Lab:**</li>
+</ul></td>
 <td>Interviewing skills</td>
-<td><strong>Assig nment:</strong></td>
-<td>--</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>13a</strong></td>
-<td><strong>Le cture:</strong></td>
+<td style="text-align: center;"><ul>
+<li>*1 3a **</li>
+</ul></td>
+<td><strong>Lec ture:</strong></td>
 <td>Qual analysis &amp; writeup</td>
-<td><strong>DataS kills:</strong></td>
+<td><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td>Coding swap</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
-<td><strong>Lab:</strong></td>
+<td><ul>
+<li>*Lab:**</li>
+</ul></td>
 <td>Block A Experiment</td>
-<td><strong>Assig nment:</strong></td>
-<td>--</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>14a</strong></td>
-<td><strong>Le cture:</strong></td>
+<td style="text-align: center;"><ul>
+<li>*1 4a **</li>
+</ul></td>
+<td><strong>Lec ture:</strong></td>
 <td>Mixing methods</td>
-<td><strong>DataS kills:</strong></td>
+<td><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td>--</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
-<td><strong>Lab:</strong></td>
+<td><ul>
+<li>*Lab:**</li>
+</ul></td>
 <td>--</td>
-<td><strong>Assig nment:</strong></td>
+<td><ul>
+<li>*Assign ment:**</li>
+</ul></td>
 <td>Lab Report 2 QorQ</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>15b</strong></td>
-<td><strong>Le cture:</strong></td>
-<td>ANOVA recap</td>
-<td><strong>DataS kills:</strong></td>
+<td style="text-align: center;"><ul>
+<li>*1 5b **</li>
+</ul></td>
+<td><strong>Lec ture:</strong></td>
+<td>Multiple Regression</td>
+<td><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td>--</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
-<td><strong>Lab:</strong></td>
+<td><ul>
+<li>*Lab:**</li>
+</ul></td>
 <td>--</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>RW</strong></td>
-<td><strong>Le cture:</strong></td>
-<td>ANOVA recap</td>
-<td><strong>DataS kills:</strong></td>
-<td>--</td>
+<td style="text-align: center;"><strong> RW </strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"></td>
-<td><strong>Lab:</strong></td>
+<td style="text-align: center;"><ul>
+<li>*1 6b **</li>
+</ul></td>
+<td><strong>Lec ture:</strong></td>
+<td>Experimental Designs</td>
+<td><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td>--</td>
-<td></td>
-<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>16b</strong></td>
-<td><strong>Le cture:</strong></td>
-<td>ANOVA recap</td>
-<td><strong>DataS kills:</strong></td>
-<td>--</td>
-</tr>
-<tr class="even">
 <td style="text-align: center;"></td>
-<td><strong>Lab:</strong></td>
+<td><ul>
+<li>*Lab:**</li>
+</ul></td>
 <td>Block B Experiment</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;"><strong>17b</strong></td>
-<td><strong>Le cture:</strong></td>
-<td>ANOVA recap</td>
-<td><strong>DataS kills:</strong></td>
+<tr class="even">
+<td style="text-align: center;"><ul>
+<li>*1 7b **</li>
+</ul></td>
+<td><strong>Lec ture:</strong></td>
+<td>Comparing Means (1,2)</td>
+<td><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td>--</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;"></td>
-<td><strong>Lab:</strong></td>
+<td><ul>
+<li>*Lab:**</li>
+</ul></td>
 <td>--</td>
-<td><strong>Assig nment:</strong></td>
+<td><ul>
+<li>*Assign ment:**</li>
+</ul></td>
 <td>Lab Report 3 QorQ</td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;"><strong>18c</strong></td>
-<td><strong>Le cture:</strong></td>
-<td>ANOVA recap</td>
-<td><strong>DataS kills:</strong></td>
-<td>--</td>
-</tr>
 <tr class="even">
-<td style="text-align: center;"></td>
-<td><strong>Lab:</strong></td>
-<td>--</td>
-<td><strong>Assig nment:</strong></td>
+<td style="text-align: center;"><ul>
+<li>*1 8c **</li>
+</ul></td>
+<td><strong>Lec ture:</strong></td>
+<td>One way ANOVA</td>
+<td><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td>--</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>19c</strong></td>
-<td><strong>Le cture:</strong></td>
-<td>ANOVA recap</td>
-<td><strong>DataS kills:</strong></td>
+<td style="text-align: center;"></td>
+<td><ul>
+<li>*Lab:**</li>
+</ul></td>
 <td>--</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
+<td style="text-align: center;"><ul>
+<li>*1 9c **</li>
+</ul></td>
+<td><strong>Lec ture:</strong></td>
+<td>Two way ANOVA</td>
+<td><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
+<td>--</td>
+</tr>
+<tr class="odd">
 <td style="text-align: center;"></td>
-<td><strong>Lab:</strong></td>
+<td><ul>
+<li>*Lab:**</li>
+</ul></td>
 <td>Block C Experiment</td>
-<td><strong>Assig nment:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><ul>
+<li>*2 0c **</li>
+</ul></td>
+<td><strong>Lec ture:</strong></td>
+<td>Non-Parametrics</td>
+<td><ul>
+<li>*DataSk ills:**</li>
+</ul></td>
 <td>--</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><strong>20c</strong></td>
-<td><strong>Le cture:</strong></td>
-<td>ANOVA recap</td>
-<td><strong>DataS kills:</strong></td>
-<td>--</td>
-</tr>
-<tr class="even">
 <td style="text-align: center;"></td>
-<td><strong>Lab:</strong></td>
+<td><ul>
+<li>*Lab:**</li>
+</ul></td>
 <td>--</td>
-<td><strong>Assig nment:</strong></td>
+<td><ul>
+<li>*Assign ment:**</li>
+</ul></td>
 <td>Bibliography final submission</td>
 </tr>
 </tbody>
@@ -845,7 +902,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© CC-1.0</div>   
+    <div class="nav-footer-left">© CC-BY-SA-ND-4.0</div>   
     <div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/littlemonkeylab/RM2024-5/edit/main/content/yr_year1.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/littlemonkeylab/RM2024-5/blob/main/content/yr_year1.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/littlemonkeylab/RM2024-5/issues/new" class="toc-action">Report an issue</a></p></div></div></div><div class="nav-footer-right">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>

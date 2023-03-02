@@ -22,35 +22,27 @@ book:
   chapters:
     - index.qmd
     - content/pedagogy.qmd
+    - content/OERs.qmd
     - content/considerations.qmd
     - part: "Years"
       chapters:
-        - content/foundation.qmd
-        - content/yr_foundation.qmd
         - content/year1.qmd
         - content/yr_year1.qmd
         - content/year2.qmd
         - content/yr_year2.qmd
         - content/diss.qmd
         - content/yr_diss.qmd
-        - content/year3.qmd
-        - content/yr_year3.qmd
-        - content/msc.qmd
-        - content/yr_msc.qmd
-    - part: "Guidelines"
-      chapters:
-        - content/qaa.qmd
-        # - content/holding.qmd
+        - content/meetquarto.qmd
         - content/references.qmd
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-1.0"
+    left: "&copy; CC-BY-SA-ND-4.0"
     
   sidebar:
     contents: auto
     background: "#D9E3E4"
-    logo: "images/LMLLOGO.png"
-    favicon: "images/LMLLOGO.png"
+    logo: "images/inmotion.png"
+    favicon: "images/inmotion.png"
     pinned: true
     align: center
     tools:

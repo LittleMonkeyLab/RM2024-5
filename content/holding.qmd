@@ -2,6 +2,97 @@
 title: Holding content
 ---
 
+Dos, B., & Demir, S. (2013). The analysis of the blogs created in a
+blended course through reflective thinking perspective. *Educational
+Sciences: Theory & Practice, 13*(2), 1335- 1344.
+https://doi.org/10.1177/0956797613504966
+
+@siporin2013
+
+[@siporin2013]
+
+
+
+
+
+
+
+
+
+
+
+
+::: callout
+Psychology is a diverse and highly interdisciplinary field of study that
+involves the application of systematic methods of inquiry to the
+exploration of behavior, mental processes, and social relationships. The
+Center for Psychology has as its mission to educate students in the core
+knowledge and skills of the discipline of psychology, together with
+Goucher\'s unique perspective that reflects a history and tradition of
+respecting diverse viewpoints and methods and connections with other
+traditions and disciplines. This education contributes to the overall
+mission of the college as a liberal arts institution, \"to prepare
+students within a broad and humane perspective for a life of inquiry,
+creativity, and critical and analytical thinking.\"
+
+Across the varied perspectives represented in our program, we strive to
+create an open, supportive, challenging and vibrant learning culture. We
+value sharing our passion for the field of psychology through close and
+active mentoring inside and outside of the classroom. We encourage and
+model experiential learning in the form of community engagement, social
+justice, active involvement in research, collaborative construction of
+knowledge, and self-directed exploration. Students cultivate the skills,
+knowledge, and attitudes that will position them well to facilitate
+their own and others\' holistic development and well-being.
+
+The Center for Psychology has identified seven guiding principles for
+its undergraduate curriculum. Students who major in psychology will:
+
+**1)** Demonstrate understanding and competence regarding the use of
+research methodology in psychology.
+
+**2)** Communicate effectively as it pertains to the study and practice
+of psychology. **3)** Engage the world outside the classroom to inform
+and apply one\'s knowledge of psychology.
+
+**4)** Demonstrate understanding of the major concepts, theoretical
+perspectives, empirical findings, and historical trends in psychology.
+
+**5)** Develop critical consciousness and an appreciation of a variety
+of ways of knowing.
+
+**6)** Recognize, understand, and respect the complexity of
+sociocultural and international diversity as played out in psychology
+and related fields.
+
+**7)** Develop an ethical framework with regard to the study and
+practice of psychology.
+
+**Current Course Learning Objectives:**
+
+\(1\) Understand some of the important philosophical, historical, and
+political foundations of qualitative inquiry in psychology (Psychology
+Objective 5);
+
+\(2\) Experience the process of becoming an ethical qualitative
+psychological researcher, including developing greater tolerance for
+ambiguity (Psychology Objective 1, 5, and 7);
+
+\(3\) Develop skills in interview transcription for the purposes of
+qualitative analysis (Psychology Objective 1);
+
+\(4\) Develop skills in one form of inductive multilevel qualitative
+data analysis (Interpretative Phenomenological Analysis) (Psychology
+Objective 1);
+
+\(5\) Learn how to use Dedoose software to assist with qualitative data
+management and analysis (Psychology Objective 1);
+
+\(6\) Generate an APA style Results Write-Up and develop a complete APA
+style proposal for an original qualitative psychological study
+(Psychology Objective 1, 2, and 5)
+:::
+
 To get your Quarto webpage to show up with the url
 
     yourname.github.io/yourrepo
@@ -10,16 +101,21 @@ you have a few steps.
 
 ## Turn on GitHub Pages for your repo
 
--   Turn on GitHub Pages under Settings \> Pages . You will set pages to be made from the gh-pages branch and the root directory.
+-   Turn on GitHub Pages under Settings \> Pages . You will set pages to
+    be made from the gh-pages branch and the root directory.
 -   Turn on GitHub Actions under Settings \> Actions \> General
 
-The GitHub Action will automatically recreate your website when you push to GitHub **after** you do the initial `gh-pages` set-up
+The GitHub Action will automatically recreate your website when you push
+to GitHub **after** you do the initial `gh-pages` set-up
 
 ## Do your first publish to `gh-pages`
 
 The first time you publish to `gh-pages`, you need to do so locally.
 
--   On your local computer, open a terminal window and `cd` to your repo directory. Here is what that `cd` command looks like for me. You command will look different because your local repo will be somewhere else on your computer.
+-   On your local computer, open a terminal window and `cd` to your repo
+    directory. Here is what that `cd` command looks like for me. You
+    command will look different because your local repo will be
+    somewhere else on your computer.
 
 <!-- -->
 
@@ -31,11 +127,15 @@ The first time you publish to `gh-pages`, you need to do so locally.
 
     quarto publish gh-pages
 
-This is going to render your webpage and then push the `_site` contents to the `gh-pages` branch.
+This is going to render your webpage and then push the `_site` contents
+to the `gh-pages` branch.
 
 ## Don't like using `gh-pages`?
 
-In some cases, you don't want your website on the `gh-pages` branch. For example, if you are creating releases and you want the website pages archived in that release, then you won't want your website pages on the `gh-pages` branch.
+In some cases, you don't want your website on the `gh-pages` branch. For
+example, if you are creating releases and you want the website pages
+archived in that release, then you won't want your website pages on the
+`gh-pages` branch.
 
 Here are the changes you need to make if you to avoid `gh-pages` branch.
 
@@ -47,19 +147,24 @@ Here are the changes you need to make if you to avoid `gh-pages` branch.
       type: website
       output-dir: docs
 
--   On GitHub under Settings \> Pages set pages to be made from the `main` branch and the docs directory.
+-   On GitHub under Settings \> Pages set pages to be made from the
+    `main` branch and the docs directory.
 
 -   Make sure `docs` is not listed in `.gitignore`
 
--   Publish the site the first time locally using `quarto publish` from the terminal
+-   Publish the site the first time locally using `quarto publish` from
+    the terminal
 
--   Change the GitHub Action because you can't use `quarto publish gh-pages`. You'll need to push to the main branch yourself (in the GitHub Action)
+-   Change the GitHub Action because you can't use
+    `quarto publish gh-pages`. You'll need to push to the main branch
+    yourself (in the GitHub Action)
 
     on: push: branches: main
 
     name: Render and Publish
 
-    jobs: build-deploy: runs-on: ubuntu-latest env: GITHUB_PAT: \${{ secrets.GITHUB_TOKEN }}
+    jobs: build-deploy: runs-on: ubuntu-latest env: GITHUB_PAT: \${{
+    secrets.GITHUB_TOKEN }}
 
         steps:
           - name: Check out repository
@@ -191,4 +296,39 @@ tab_header(title = md("Teaching Schedule 2022-23"))  %>%
   )
 )
 
+```
+
+## Goldsmiths stuff
+
+------------------------------------------------------------------------
+
+## Executable code chunk
+
+Below is an example of an executed code chunk - in html format clicking
+on ![](images/image-1563023320.png){width="150" height="27"}would unfold
+the code that drives the plot and results summary. In pdf format, it's
+unfolded and printed - ideal for handouts etc.
+
+[Integrated Code Example]{.underline}
+
+```{r}
+#| echo: true
+#| code-fold: true
+#| code-summary: "Show the code"
+
+
+library(ggplot2)
+library(gridExtra)
+
+# x-axis as continuous
+p1 <- ggplot(mtcars, aes(x = cyl)) +
+        geom_bar() +
+        ggtitle("Fig. A: x-axis as a continuous variable")
+
+# x-axis as categorical
+p2 <- ggplot(mtcars, aes(x = factor(cyl))) +
+        geom_bar() +
+        ggtitle("Fig B: x-axis as a categorical (factor) variable")
+
+grid.arrange(p1, p2, ncol = 2)
 ```

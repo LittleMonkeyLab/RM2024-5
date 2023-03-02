@@ -1,10 +1,18 @@
----
+\-\--
 title: Considerations
----
+\-\--
 
-# Further considerations
+\raggedright
 
-### Preparation
+## Questions for discussion
+
+Mini-Dissertation needs to be considered.
+
+Independent projects in Y3 (needs to be considered)
+
+MSc provision? Any changes required/wanted?
+
+## Preparation for 24/5
 
 Need to begin preparation
 
@@ -14,72 +22,56 @@ Open Educational Resources Textbook for Research Methods CCBY4.0
 
 Lab Practicals x 40
 
-Open Educational Resources Textbook for Data Skills (Navarro) CCBY4.0
+Open Educational Resources Textbook for Data Skills (e.g. Navarro)
+CCBY4.0
 
-Recordings and worksheets for above x 40
+Recordings, videos, materials and worksheets for above x 40
 
 Y3/MSc Bootcamp
 
-### Infrastructure
+## Infrastructure
 
-#### Recording suite
+Recording suite
 
-#### Materials storage
+Materials storage
 
-### Estates and Facilities
+Estates and Facilities
 
-#### Removal of computer banks in labs to make them more useful for practicals?
+Removal of computer banks in labs to make them more useful for
+practicals? e.g. WB218 capacity = 32.
 
-#### Wall-mounted monitors
+Wall-mounted monitors at least?
 
-#### 
+## Technology
 
-### Technology
+Posit Cloud as Entry Level although we could make an argument for Ian to
+manage a server installation.
 
-#### Posit Cloud as Entry Level
+Portfolio options? Mahara?
 
-#### Student download for Y2 onwards
+Costs
 
-#### Possible Posit Server run by Ian
+Chromebooks on loan for labs maybe?
 
-### Costs
+## Risks
 
-#### Cost for Posit Cloud (Maybe)
+Technology obstacles (lower than SPSS)
 
-#### Chromebooks on loan
+Finite knowledge within staff
 
-### Risks
+Staff resistance
 
-#### Technology obstacles (lower than SPSS)
+Staffing and teaching allocation
 
-#### Finite knowledge within staff
+Recruit next TFs specifically to help build the infrastructure and
+programme
 
-#### Staff resistance
+## Timetabling
 
-### Staffing
+We need timetabling to help us optimise the week
 
-#### Recruit next TFs specifically to help build the infrastructure and programme
+Induction planning
 
-### Timetabling
+Pre-arrival comms
 
-#### HeartData week
-
-asdgasdfhg
-
-#### Induction planning
-
-#### Pre-arrival comms
-
-### Accessibility
-
-#### Homework club - Where staff are on hand every week
-
-### Student Support/Welfare
-
-#### Enhanced by access to resources
-
-### Employability
-
-#### R and Python are most versatile tools on the market
-
-# 
+## 

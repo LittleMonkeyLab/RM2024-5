@@ -2,8 +2,6 @@
 title: "Proposal for Psychology Department Research Methods 2024-5"
 df-print: kable
 bibliography: "references.bib"
-editor_options: 
-  chunk_output_type: inline
 ---
 
 \raggedright
@@ -38,7 +36,7 @@ virtue, curiosity, empiricism, skepticism, humility and
 Psychology can be a stimulating and joyful endeavour, and learning it is
 best achieved in a safe, but challenging environment.
 
-::: callout
+::: callout-important
 Psychology is a diverse and highly interdisciplinary field of study that
 involves the varied application of systematic methods of inquiry to the
 exploration of behavior, mental processes, and social relationships.
@@ -62,7 +60,9 @@ them, and so we invest heavily in giving students access to our active
 research groups, we encourage and support students in finding a
 psychology that is relevant to them and gives them agency to solve
 whatever challenges they choose to address.
+:::
 
+::: {.callout-warning icon="false"}
 At a departmental level we consider the following to be crucial
 
 **1)** Demonstrate understanding and competence regarding the use of
@@ -91,6 +91,8 @@ inclusivity and stuff.
 research, and be an agent for good.
 :::
 
+------------------------------------------------------------------------
+
 ## Weekly structure (all levels)
 
 ### 2 hours lecture (+1 hour pre-reading)
@@ -105,6 +107,8 @@ This could be diverted to other preparatory activities, but the
 expectation will be clearly set that a MINIMUM of an hour of preparation
 is expected for every lecture.
 
+------------------------------------------------------------------------
+
 ### 2 hours lab (+1 hour pre-reading)
 
 Labs are valuable practical sessions and a similar expectation exists
@@ -118,7 +122,9 @@ scene', or giving detailed instructions about what will be happening
 that are better delivered in writing, or clarifying what you will be
 expected to have done or produced by the end of the lab.
 
-In this module, it is easier to 'keep up than catch up' and so if
+In this module, it is easier to 'keep up than catch up'.
+
+------------------------------------------------------------------------
 
 ### 2 hours Interactive Data Skills Tutorials (with short weekly assessment)
 
@@ -138,9 +144,11 @@ Posit Cloud will be made, the hub where students will produce technical
 reports, blogs and webpages, conduct data analysis and collaborate on
 coding and writing exercises.
 
-Open Stuff
+------------------------------------------------------------------------
 
-::: callout-note
+Method-neutral and wide Open!
+
+::: {.callout-caution icon="false"}
 We embrace an Open Science approach in our efforts to cultivate your
 critical evaluation skills, enhance your understanding of the
 significance - and power - of research, and equip you with the necessary
@@ -148,171 +156,6 @@ graduate-level skills to collect, handle, and interpret data using
 programming software for statistical model development, visualisation
 and analysis.
 :::
-
-::: callout-note
-## Teaching and Assessment
-
-Through lectures, interactive group discussions, online skills
-development modules, and practical lab sessions, we will ignite your
-enthusiasm for Psychology and Behavioural Science research and help you
-develop the fundamental skills, knowledge - and confidence - required to
-become a Psychology literate, disruptive scientist of the future. Tada!
-:::
-
-## A few words on Assessment
-
-"Authentic assessment" generally refers to assignments that reflect the
-skills students will use in their post-graduation careers and life more
-generally. This is distinct from traditional assessments such as
-closed-book exams and academic essays.
-
-For psychology, authentic assessments may involve the development of
-traditional science communication skills, such as lab reports, however
-there is a broader portfolio to choose from! In clinical psychology,
-Authentic challenges could include formulation of case studies or mock
-practitioner dialogues. Common challneges for many professions include
-writing for non-expert audiences, critical evaluation of media materials
-or the production of media materials that are rigorous... Reflective
-accounts and portfolios are part of a number of later training roles and
-research interviews are a hugely powerful transferable skill! All of
-these are designed to promote psychological literacy by encouraging
-communication with non-experts and application of psychology content.
-
-blog writing may be an effective assessment for capturing and promoting
-students' psychological literacy. They are also increasingly popular for
-assessing writing ability and conceptual knowledge. Blog writing may
-help students take different perspectives, develop a critical appraisal
-of content, and become more reflective. Given the currency of blogging
-and the fact that it is a core channel for marketing and social media -
-it a rich target that assesses a distinctive set of skills. Students
-seem to enjoy it too.
-
-Blog writing may help students overcome the challenge of academic essay
-writing (Ishak & Salter, 2017) since it is less rigidly governed by
-academic norms (Bennett et al., 2012) and involves more reflective,
-creative, and critical tone (Arslan & Aysel, 2010; Novakovich & Long,
-2013). It also provides an opportunity to communicate psychology content
-to a wider audience (Gardiner et al., 2018; Schmidt, 2008; Relojo,
-2017). It has been embedded successfully in many different subjects in
-higher education, such as pharmacy (Dunne & Ryan, 2016), anthropology
-(Walker & Chatzigavriil, 2017), professional development (Shanks, 2020),
-and English literature (Agarwal, 2017). The British Psychological
-Society, 2019 and the American Psychological Association (2013) stress
-the importance of critical evaluation and reflection, which is
-compatible with blog writing. Research shows that blog writing prompts
-critical thinking and reflection (Chretien et al., 2008; Novakovich,
-2016). Challenges to implementing blog writing as an assessment include
-students having little to no previous experience (Kerawalla et al.,
-2009). Blog writing should be grounded effectively in course materials,
-have clear expectations, and be understood through a lens of
-psychological literacy (Cranney et al., 2008, 2012). We propose that
-blog writing may provide a useful opportunity to allow students to apply
-their psychology content in a critical, creative, and non-conventional
-way.
-
-## Year specific modules
-
-PS510XX - RS1 - Introduction to Research Skills
-
-PS520XX - RS2 - Intermediate Research Skills
-
-PS530XX - RS3 - Research Project 'Bootcamp'\*
-
--   potentially also relevant to MSc Research Project 'Bootcamp
-
-Lectures - Overview of key concepts/context and preview Lab practicals /
-Data Skills
-
-Labs - Practical or activity based (inc. Group Work)
-
-### Technical Overview
-
-![R language](images/R_logo.png){width="65"}
-
-R is primarily a computer programming language for statistical analysis.
-It is *free*, and *open-source* (many people contribute to developing
-it), and runs on most operating systems or through an internet browser,
-and so there are few obstacles to its use by the normal undergraduate
-population (compare to SPSS).
-
-It is a powerful language that can be used for all sorts of mathematical
-operations, data-processing, analysis, and graphical display of data -
-it is used more a more frequently in corporate settings, unlike 'pay to
-play' software such as SPSS.
-
-I even used R to write this lab manual. And, I use R all the time for my
-own research, because it makes data-analyis fast, efficient,
-transparent, reproducible, and exciting
-
-![Posit <br/> (Formerly RStudio)](images/posit_logo.png){width="50"}
-
-Posit is name of the Integrated Development Environment in which the R
-Language (and Python/Julia/Observable+) are run. It is Open Source and
-offers free access to everyone.
-
-Posit Cloud is a paid-for service that allows users to access the Posit
-environment without downloading anything - it's browser based, and you
-can run analysis and create publication-ready documents on your phone.
-
-Posit Cloud would likely be my suggestion as to the infrastructure we
-employ.
-
-Free accounts are available to all students for a processing duration of
-25 project hours per month, with free hosting of published content.
-Instructors pay a small amount, and it can be arranged that payment is
-made by student, instructor or organisation if a student were to exceed
-their Posit Cloud allowance.
-
-The point is important to make however, that energised users simply have
-to download and install the free software and they can use it as much as
-they want, thus the high-rate users usually, very quickly, wean
-themselves off the browser-based platform.
-
-The Posit Cloud has classroom functionality and is designed to deliver
-teaching, tutorials and content
-
-![](images/image-91903218.png)
-
-![Quarto Publishing](images/quarto_logo.png){width="100"}
-
-Quarto is an open-source scientific and technical publishing system
-built on [Pandoc](https://pandoc.org/). Quarto documents are authored
-using [markdown](https://en.wikipedia.org/wiki/Markdown), an easy to
-write plain text format.
-
-In addition to the core capabilities of Pandoc, Quarto includes:
-
-1.  Embedding code and output from Python, R, Julia, and JavaScript via
-    integration with [Jupyter](https://jupyter.org/),
-    [Knitr](https://yihui.org/knitr/), and
-    [Observable](https://github.com/observablehq/).
-
-2.  A variety of extensions to Pandoc markdown useful for technical
-    writing including cross-references, sub-figures, layout panels,
-    hoverable citations and footnotes, callouts, and more.
-
-3.  A project system for rendering groups of documents at once, sharing
-    options across documents, and producing aggregate output like
-    [websites](https://quarto.org/docs/websites/) and
-    [books](https://quarto.org/docs/books/).
-
-4.  Authoring using a wide variety of editors and notebooks including
-    [JupyterLab](https://quarto.org/docs/tools/jupyter-lab.html),
-    [RStudio](https://quarto.org/docs/tools/rstudio.html), and [VS
-    Code](https://quarto.org/docs/tools/vscode.html).
-
-5.  A [visual markdown editor](https://quarto.org/docs/visual-editor/)
-    that provides a productive writing interface for composing long-form
-    documents.
-
-Learn more about Quarto at [https://quarto.org](https://quarto.org/).
-
-![](images/image-155632023.png){width="100"}see also Hypothes.is
-
-![](images/image-1670419854.png){width="100"}GitHub (for Giscus
-commenting functionality)
-
-![](images/image-556950374.png){width="100"}Zotero for cloud libraries
 
 ### Hours specification (e.g.) Years 1 & 2
 
@@ -325,11 +168,11 @@ commenting functionality)
 | RPS                          | 20   | 1hr/week  |
 | Independent Study/Coursework | 120  | 6hr/week  |
 
-: Notional Hours
+: Notional Hours = 300
 
-## Programme Overview
+## Still thinking about...
 
-### Pre-Arrival onwards / Onboarding
+### Pre-Arrival / Onboarding
 
 Showcase in Induction week - Staff labs and research projects for the
 year.
@@ -344,11 +187,3 @@ year
 Year 3/MSc students - Research Bootcamp and refreshers/skills workshops
 
 Support PhD students and staff
-
-### 
-
-![](images/GitHub-Mark.png){fig-align="left" width="35"}
-
-[![](images/creative_commons.png)](http://creativecommons.org/licenses/by/4.0/){fig-alt="Creative Commons License"}
-This website/book is licensed under a [Creative Commons Attribution 4.0
-International License.](http://creativecommons.org/licenses/by/4.0/)

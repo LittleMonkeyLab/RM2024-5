@@ -1,10 +1,26 @@
 ---
-title: Dissertation (Y3 & MSc)
+title: Dissertation (Y3)
 ---
 
 ## Level 6 - topline summary
 
 ### Module Content
+
+5 week module to jumpstart the dissertation and to actively help find
+supervision.
+
+Obviously, this could be useful in terms of saving repetition for
+supervisors, and for bringing consistency.
+
+Could be useful to MSc students. They could access the entire Goldsmiths
+Research Skills archive and have that as a foundation to the research
+side of things/refresher for RM.
+
+Great for Conversion students and PANC/non-BPS/Psych
+
+Get people up and running earlier - starts in summer/WW.
+
+Off the shelf projects? Individual? Qual? Quant?
 
 ### Module Learning Outcomes
 
@@ -23,15 +39,15 @@ your degree:
 
 \newpage
 
-| Week |              Lecture               |       Practical        |
-|:----:|:----------------------------------:|:----------------------:|
-| Pre  | Preparing to become a Psychologist |                        |
-|  WW  |      Let's measure some stuff      |                        |
-|  1   |   Answering questions with data    | Doing stuff with stuff |
-|  2   | Finding patterns and relationships |                        |
-|  3   |      Correlations and models       |                        |
-|  4   |     Distributions and sampling     |                        |
-|  5   |     Probabilities and P-Values     |                        |
-|  RW  |                \--                 |          \--           |
+| Week | Lecture | Practical |
+|:----:|:-------:|:---------:|
+| Pre  |         |    \--    |
+|  WW  |   \--   |  \-\-\--  |
+|  1   |   \--   |    \--    |
+|  2   |   \--   |    \--    |
+|  3   |   \--   |    \--    |
+|  4   |   \--   |    \--    |
+|  5   |   \--   |    \--    |
+|  RW  |         |    \--    |
 
 : Y3 Term 1 Laydown

@@ -14,20 +14,6 @@ title: Year 1 (Level 4)
 
 2 hours Data Skills Interactive Online Tutorials with activities
 
-::: {layout-ncol="2"}
-Left column\
-{{< fa tasks >}} Assessment -\
-{{< fa laptop-code >}} Data Skills -\
-{{< fa laptop-code >}} Data Skills -\
-{{< fa laptop-code >}} Data Skills -
-
-Right column\
-Football\
-Fun\
-Sparkles\
-Dickery
-:::
-
 ### Module Content
 
 This module introduces and equips students with the conceptual and
@@ -78,7 +64,7 @@ The student should be able to:
 ### Assessment
 
 | Assessment Element                | Length           | \%       | F or S    | Group/Individual |
-|-----------------------------------|------------------|----------|-----------|------------------|
+|----------------------|-------------|-------------|-------------|-------------|
 | Visualisation/Dashboard           | NA               | 0        | Formative | Group            |
 | Lab Reports x 3                   | 1500             | 30%      | Summative | Individual       |
 | Annotated Bibliography            | 1000             | 20%      | Summative | Individual       |
@@ -156,29 +142,3 @@ of hypothesis to annotate a web page, learning log, data skills.
 We propose a custom made textbook remixed from Open Educational
 Resources to support key study skills throughout your degree - also
 shared CCBYSANC4.0
-
-Research Methods (Big picture) see:
-
-CrumpLab
-
-<https://crumplab.com/ResearchMethods/>
-
-<https://crumplab.com/statistics/>
-
-<https://crumplab.com/statisticsLab/> (Labs in R, Excel, SPSS and
-JAMOVI)
-
-plus <https://lakens.github.io/statistical_inferences/index.html>
-
-plus <https://openpress.usask.ca/introtoappliedstatsforpsych/>
-
-**Qual** Williams, D. D. (2018). *Qualitative Inquiry in Daily Life (1st
-ed.)*. EdTech Books. <https://edtechbooks.org/qualitativeinquiry>
-
-Qual content is sparse, thus ownable!
-
-R gold standard <https://learningstatisticswithr.com/>
-
-Data Sets,
-
-Versions with Jamovi, JASP, and SPSS

@@ -5,7 +5,8 @@ editor: visual
 
 ```{r}
 #| label: load-packages
-#| include: false
+#| echo: true
+#| include: true
 
 library(tidyverse)
 library(palmerpenguins)
@@ -48,3 +49,17 @@ ggplot(penguins,
   ) +
   theme_minimal()
 ```
+
+Presentation Slides
+
+Blogs
+
+Websites
+
+Books
+
+Interactive tables, charts and maps
+
+Html Widgets
+
+Databases
