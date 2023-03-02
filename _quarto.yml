@@ -1,5 +1,7 @@
 project:
   type: book
+  resources: 
+    - "/resources/*"
   preview:
     port: 4200
     browser: true
@@ -71,6 +73,9 @@ execute:
 
 format:
   html:
+    comments: 
+      hypothesis:
+        theme: clean
     theme: [cosmo, assets/theme.scss]
     number-sections: false
     sidebar:
@@ -86,6 +91,7 @@ format:
     style: "docked"
     search: true
     collapse-level: 2
+  
   pdf:
     fontsize: 11pt
     documentclass: scrbook

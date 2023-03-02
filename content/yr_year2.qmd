@@ -6,7 +6,7 @@ df-print: kable
 Year 2 Term 1
 
 |  Week   | Schedule     |                                            |                 |                                                     |
-|:----:|:-------|:----------------------|:----------|:----------------------------|
+|:-------:|:-------------|:-------------------------------------------|:----------------|:----------------------------------------------------|
 |  **1**  | **Lecture:** | The year ahead and expectation setting     | **DataSkills:** | ANOVA refresher (designs and variables)             |
 |         | **Lab:**     | \--                                        | **Assignment:** | Reflection about the year ahead and self-management |
 | **2a**  | **Lecture:** | What is Science? Is Psychology a Science?  | **DataSkills:** | ANCOVA                                              |

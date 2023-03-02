@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: c8e36325-45a5-4e79-9e37-81ded631e49f
+      url: 'https://littlemonkeylab.quarto.pub/goldrmproposal'

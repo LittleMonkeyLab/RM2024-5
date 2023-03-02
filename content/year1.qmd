@@ -14,6 +14,20 @@ title: Year 1 (Level 4)
 
 2 hours Data Skills Interactive Online Tutorials with activities
 
+::: {layout-ncol="2"}
+Left column\
+{{< fa tasks >}} Assessment -\
+{{< fa laptop-code >}} Data Skills -\
+{{< fa laptop-code >}} Data Skills -\
+{{< fa laptop-code >}} Data Skills -
+
+Right column\
+Football\
+Fun\
+Sparkles\
+Dickery
+:::
+
 ### Module Content
 
 This module introduces and equips students with the conceptual and
